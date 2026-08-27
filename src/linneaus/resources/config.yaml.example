@@ -1,0 +1,44 @@
+# Linneaus Configuration File
+# Created by `linneaus init`. Adjust settings below for your environment.
+
+# Application environment
+environment: development
+
+# === LLM Provider Configuration ===
+# Uses the OpenAI Python SDK, which supports any OpenAI-compatible API.
+# Set base_url to point at alternative providers:
+#   Claude (Anthropic):  https://api.anthropic.com/v1/
+#   Ollama (local):      http://localhost:11434/v1
+#   Together AI:         https://api.together.xyz/v1
+#   Fireworks AI:        https://api.fireworks.ai/inference/v1
+#   Groq:                https://api.groq.com/openai/v1
+#   vLLM (self-hosted):  http://your-server:8000/v1
+openai:
+  # API key: set via LLM_API_KEY or OPENAI_API_KEY environment variable
+  # base_url: null        # Uncomment and set for non-OpenAI providers
+  default_model: "gpt-4o-mini"
+  temperature: 0.0001
+  batch_size: 10
+  max_concurrent_fine_tunes: 3
+  daily_fine_tune_limit: 10
+
+# Data Management
+data:
+  data_dir: "./data"
+  raw_data_dir: "./data/raw_data"
+  processed_data_dir: "./data/processed_data"
+  labeled_data_dir: "./data/labeled_data"
+  cache_expiry_hours: 24
+
+# External APIs
+apis:
+  # IPinfo token should be set via IPINFO_TOKEN environment variable
+  asrank_url: "https://api.asrank.caida.org/v2/graphql"
+  peeringdb_base_url: "https://publicdata.caida.org/datasets/peeringdb"
+  apnic_aspop_url: "https://stats.labs.apnic.net/cgi-bin/aspop"
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  # file_path: "./logs/linneaus.log"  # Uncomment to enable file logging

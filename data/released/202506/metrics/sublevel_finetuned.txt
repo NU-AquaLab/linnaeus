@@ -1,0 +1,56 @@
+===== SUMMARY METRICS =====
+accuracy: 0.5945945945945946
+macro_precision: 0.7932303043928385
+macro_recall: 0.7135723391621217
+macro_f1: 0.7322891249023552
+macro_jaccard: 0.6090394990728728
+mean_pr_auc: None
+
+===== LABEL METRICS (DataFrame) =====
+                                 Label  Accuracy  Precision   Recall  F1 Score  Jaccard Score PR AUC
+                        Transit_Global  0.974662   0.380952 0.800000  0.516129       0.347826   None
+                 Government_Regulators  0.978041   0.400000 0.600000  0.480000       0.315789   None
+                 Enterprise_Technology  0.940878   0.466667 0.205882  0.285714       0.166667   None
+                      Transit_Regional  0.981419   0.500000 0.181818  0.266667       0.153846   None
+               ContentProvider_Hosting  0.945946   0.538462 0.411765  0.466667       0.304348   None
+              Enterprise_Entertainment  0.984797   0.555556 0.500000  0.526316       0.357143   None
+                      Transit_Domestic  0.984797   0.571429 0.400000  0.470588       0.307692   None
+                       Access_LargeISP  0.966216   0.605263 0.821429  0.696970       0.534884   None
+     Government_CityCountyMunicipality  0.974662   0.636364 0.666667  0.651163       0.482759   None
+                  Government_Executive  0.875000   0.653061 0.806723  0.721805       0.564706   None
+  EducationalResearch_AcademicBackbone  0.989865   0.666667 0.800000  0.727273       0.571429   None
+                    Financial_Entities  0.988176   0.666667 0.600000  0.631579       0.461538   None
+                       Access_SmallISP  0.929054   0.681159 0.701493  0.691176       0.528090   None
+                      EnergyAndUtility  0.979730   0.684211 0.684211  0.684211       0.520000   None
+                                Mobile  0.972973   0.727273 0.774194  0.750000       0.600000   None
+              TvRadioCulturalAmenities  0.988176   0.750000 0.692308  0.720000       0.562500   None
+        EducationalResearch_University  0.988176   0.761905 0.888889  0.820513       0.695652   None
+                             DNS_ccTLD  0.991554   0.777778 0.700000  0.736842       0.583333   None
+                   Government_National  0.912162   0.788136 0.775000  0.781513       0.641379   None
+              Government_StateProvince  0.978041   0.800000 0.774194  0.786885       0.648649   None
+                   ContentProvider_CDN  0.991554   0.800000 0.727273  0.761905       0.615385   None
+EducationalResearch_ResearchInstitutes  0.986486   0.800000 0.800000  0.800000       0.666667   None
+                   Government_Agencies  0.972973   0.807692 0.656250  0.724138       0.567568   None
+               Transportation_Airports  0.991554   0.833333 0.769231  0.800000       0.666667   None
+       Transportation_TransitAuthority  0.996622   0.833333 0.833333  0.833333       0.714286   None
+                          Cooperatives  0.993243   0.846154 0.846154  0.846154       0.733333   None
+                Financial_CentralBanks  0.996622   0.857143 0.857143  0.857143       0.750000   None
+                        LawEnforcement  0.989865   0.857143 0.750000  0.800000       0.666667   None
+                 ContentProvider_Cloud  0.993243   0.875000 0.700000  0.777778       0.636364   None
+                              Personal  0.994932   0.875000 0.777778  0.823529       0.700000   None
+                             Satellite  0.991554   0.888889 0.666667  0.761905       0.615385   None
+                      Health_Hospitals  0.998311   0.888889 1.000000  0.941176       0.888889   None
+              Financial_StockExchanges  0.996622   0.900000 0.900000  0.900000       0.818182   None
+                        Financial_Bank  0.993243   0.925926 0.925926  0.925926       0.862069   None
+           EducationalResearch_Schools  0.984797   0.941176 0.666667  0.780488       0.640000   None
+                                   IXP  0.984797   0.947368 0.837209  0.888889       0.800000   None
+                Government_Legislative  0.996622   1.000000 0.750000  0.857143       0.750000   None
+                               DNS_ANS  0.988176   1.000000 0.125000  0.222222       0.125000   None
+                             DNS_Roots  1.000000   1.000000 1.000000  1.000000       1.000000   None
+                  Government_Judiciary  0.991554   1.000000 0.736842  0.848485       0.736842   None
+                 Enterprise_E_commerce  0.993243   1.000000 0.428571  0.600000       0.428571   None
+   Enterprise_Industrial_Manufacturing  0.993243   1.000000 0.428571  0.600000       0.428571   None
+                 Financial_CreditUnion  1.000000   1.000000 1.000000  1.000000       1.000000   None
+                     Health_Insurances  1.000000   1.000000 1.000000  1.000000       1.000000   None
+                  Transportation_Ships  0.998311   1.000000 0.857143  0.923077       0.857143   None
+                 Transportation_Trains  1.000000   1.000000 1.000000  1.000000       1.000000   None

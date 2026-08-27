@@ -1,0 +1,391 @@
+# Linneaus Configuration File
+# This file contains default configuration values that can be overridden
+# by environment variables defined in .env
+
+# Application environment
+environment: development
+
+# === LLM Provider Configuration ===
+# Uses the OpenAI Python SDK, which supports any OpenAI-compatible API.
+# Set base_url to point at alternative providers:
+#   Claude (Anthropic):  https://api.anthropic.com/v1/
+#   Ollama (local):      http://localhost:11434/v1
+#   Together AI:         https://api.together.xyz/v1
+#   Fireworks AI:        https://api.fireworks.ai/inference/v1
+#   Groq:                https://api.groq.com/openai/v1
+#   vLLM (self-hosted):  http://your-server:8000/v1
+openai:
+  # API key: set via LLM_API_KEY or OPENAI_API_KEY environment variable
+  # base_url: null        # Uncomment and set for non-OpenAI providers
+  default_model: "gpt-4o-mini"
+  temperature: 0.0001
+  batch_size: 10
+  max_concurrent_fine_tunes: 3
+  daily_fine_tune_limit: 10
+
+# Data Management
+data:
+  data_dir: "./data"
+  raw_data_dir: "./data/raw_data"
+  processed_data_dir: "./data/processed_data"
+  labeled_data_dir: "./data/labeled_data"
+  cache_expiry_hours: 24
+
+# External APIs
+apis:
+  # IPinfo token should be set via IPINFO_TOKEN environment variable if using premium features
+  asrank_url: "https://api.asrank.caida.org/v2/graphql"
+  peeringdb_base_url: "https://publicdata.caida.org/datasets/peeringdb"
+  apnic_aspop_url: "https://stats.labs.apnic.net/cgi-bin/aspop"
+  ipinfo_base_url: "https://ipinfo.io"
+  ipinfo_rate_limit: 50000  # monthly limit for free tier
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  # file_path: "./logs/linneaus.log"  # Uncomment to enable file logging
+
+# Classification Settings
+classification:
+  # Tag categories to use (can be reduced for specific use cases)
+  tags:
+    - "Access"
+    - "Transit"
+    - "Mobile"
+    - "Satellite"
+    - "Content Provider"
+    - "Educational Research"
+    - "Government"
+    - "Internet Exchange Point"
+    - "DNS"
+    - "Energy & Utility"
+    - "Enterprise"
+    - "Finance"
+    - "Law Enforcement"
+    - "Health"
+    - "Cooperatives"
+    - "TV/Radio and Cultural Amenities"
+    - "Transportation"
+    - "Virtual Private Networks"
+    - "Personal"
+    - "Community"
+
+# LLM Fine-tuning and Inference Configuration
+llm:
+  # Model settings
+  models:
+    base_model: "gpt-4o-mini-2024-07-18"
+    default_approach: "hierarchical"
+    temperature: 0.0001
+    max_tokens: null
+    top_p: 1.0
+
+  # Fine-tuning configuration
+  fine_tuning:
+    # Data splitting
+    train_split: 0.7
+    validation_split: 0.15
+    test_split: 0.15
+    random_state: 42
+
+    # Job management
+    max_concurrent_jobs: 3
+    daily_limit: 10
+
+    # Training parameters
+    hyperparameters:
+      n_epochs: "auto"
+      batch_size: "auto"
+      learning_rate_multiplier: "auto"
+
+    # File management
+    cleanup_uploaded_files: true
+    job_storage_file: "fine_tuning_jobs.json"
+
+  # Inference configuration
+  inference:
+    batch_size: 10
+    max_retries: 3
+    retry_delay_seconds: 1
+    extract_probabilities: false
+    progressive_save: true
+
+  # Prompts configuration
+  prompts:
+    system:
+      hierarchical: |
+        You are an expert in classifying Internet infrastructure organizations based on their Autonomous System (AS) information.
+
+        Your task is to classify organizations using a detailed hierarchical taxonomy. You must analyze the organization's role in the Internet ecosystem and assign appropriate categories with subcategories.
+
+        Classification Guidelines:
+        - Multiple classifications can be assigned if an organization serves multiple functions
+        - Be specific and use the most detailed applicable subcategory
+        - Consider the organization's primary business model and services
+        - Focus on their role in Internet infrastructure
+
+        Available hierarchical categories:
+
+        Access (Internet Service Providers):
+        - LargeISP: Large national or international ISPs
+        - SmallISP: Regional or local ISPs
+
+        Transit (Transit service providers):
+        - Global: Global tier-1 transit providers
+        - Regional: Regional transit providers
+        - Domestic: Domestic transit providers
+
+        Mobile: Mobile network operators (no subcategories)
+
+        Satellite: Satellite internet providers (no subcategories)
+
+        ContentProvider (Cloud, hosting, CDN providers):
+        - Cloud: Cloud computing platforms (AWS, Azure, etc.)
+        - Hosting: Web hosting companies
+        - CDN: Content delivery networks
+
+        EducationalResearch (Universities, research institutions):
+        - University: Universities and colleges
+        - AcademicBackbone: Academic network backbones (GEANT, Internet2)
+        - Schools: K-12 schools and school districts
+        - ResearchInstitutes: Research institutions and labs
+
+        Government (Government organizations):
+        - Executive, Legislative, Judiciary: Government branches
+        - FederalNational, StateProvince, CityCountyMunicipality: Government levels
+        - Regulators: Regulatory agencies and commissions
+        - Agencies: Specialized government agencies
+        - AgenciesSpace: Space agencies (NASA, ESA)
+        - AgenciesCentralBanks: Central banks
+        - PoliticalParties: Political parties and organizations
+
+        IXP: Internet Exchange Points (no subcategories)
+
+        DNS (DNS infrastructure):
+        - Roots: Root DNS servers
+        - ccTLD: Country code top-level domain registries
+        - ANS: Authoritative name servers
+
+        EnergyAndUtility: Energy and utility companies (no subcategories)
+
+        Enterprise (Commercial organizations):
+        - Ecommerce: E-commerce platforms and online retailers
+        - Entertainment: Entertainment and media companies
+        - IndustrialManufacturing: Industrial and manufacturing companies
+        - Technology: Technology companies with own networks
+
+        Finance (Financial institutions):
+        - Bank: Commercial and investment banks
+        - CentralBanks: Central banks
+        - CreditUnion: Credit unions and community banks
+        - Entities: Other financial institutions
+        - StockExchanges: Stock exchanges and trading platforms
+
+        LawEnforcement: Police, military, intelligence agencies (no subcategories)
+
+        Health (Healthcare organizations):
+        - Insurances: Health insurance companies
+        - Hospitals: Hospitals and healthcare providers
+
+        Cooperatives: Cooperative organizations (no subcategories)
+
+        TvRadioCulturalAmenities: Media and cultural organizations (no subcategories)
+
+        Transportation (Transport infrastructure):
+        - Trains: Railway companies
+        - Ships: Shipping and maritime companies
+        - Buses: Bus companies and transit systems
+        - TransitAuthority: Public transit authorities
+        - Airports: Airport authorities
+
+        VPNs: VPN service providers (no subcategories)
+
+        Personal: Individual networks (no subcategories)
+
+        Community: Community networks (no subcategories)
+
+        Respond with a JSON object containing a list of responses, each with a classifications array containing objects with "category" and "subcategory" fields.
+
+    examples:
+      hierarchical_format: |
+        Example input:
+        ASN: 7922
+        Organization Name: Comcast Cable Communications
+        Description: Cable internet and TV provider serving residential customers across the US
+
+        Example output (hierarchical):
+        {"responses": [{"classifications": [{"category": "Access", "subcategory": "LargeISP"}, {"category": "ContentProvider", "subcategory": "Hosting"}]}]}
+
+
+    message_templates:
+      basic: |
+        Classify this Autonomous System:
+        ASN: {asn}
+        Organization Name: {name}
+        Description: {description}
+
+      detailed: |
+        Please classify this Internet organization:
+
+        Autonomous System Number: {asn}
+        Organization Name: {name}
+        Description: {description}
+        Country: {country}
+        Website: {website}
+
+        Additional context: {metadata}
+
+      minimal: |
+        Classify ASN {asn}: {name}
+
+# Two-Stage Hierarchical Pipeline Configuration
+two_stage_pipeline:
+  # Stage 1: Top-level assembled classifier (LLM + SVM)
+  stage1:
+    svm_weight: 0.4
+    llm_weight: 0.6
+    meta_learner: "LogisticRegression"
+    parallel_batch_size: 10
+    confidence_weight: 0.6  # Weight in overall confidence calculation
+
+    # SVM Configuration
+    svm:
+      kernel: "rbf"
+      C: 1.0
+      probability: true
+      feature_selection: true
+      n_features: 50
+
+    # Meta-learner Configuration
+    meta_learner_params:
+      max_iter: 1000
+      random_state: 42
+      cv_folds: 3
+
+  # Stage 2: Sublevel LLM-only classifier
+  stage2:
+    confidence_weight: 0.4  # Weight in overall confidence calculation
+    batch_size: 10
+    temperature: 0.0001
+    max_retries: 3
+
+    # Category-specific fine-tuned models
+    # Replace with actual fine-tuned model IDs or any model supported by your provider
+    category_models:
+      Government: "gpt-4o-mini"
+      Access: "gpt-4o-mini"
+      EducationalResearch: "gpt-4o-mini"
+      Finance: "gpt-4o-mini"
+      Enterprise: "gpt-4o-mini"
+      ContentProvider: "gpt-4o-mini"
+      Transit: "gpt-4o-mini"
+      Mobile: "gpt-4o-mini"
+      DNS: "gpt-4o-mini"
+      IXP: "gpt-4o-mini"
+      Transportation: "gpt-4o-mini"
+      Health: "gpt-4o-mini"
+      LawEnforcement: "gpt-4o-mini"
+      EnergyAndUtility: "gpt-4o-mini"
+      Cooperatives: "gpt-4o-mini"
+      TvRadioCulturalAmenities: "gpt-4o-mini"
+      VPNs: "gpt-4o-mini"
+      Satellite: "gpt-4o-mini"
+      Personal: "gpt-4o-mini"
+      Community: "gpt-4o-mini"
+
+  # General pipeline settings
+  general:
+    max_workers: 4
+    enable_monitoring: true
+    graceful_degradation: true
+    cache_predictions: false
+
+  # Two-stage prompts
+  prompts:
+    stage1_system: |
+      You are an expert in classifying Internet infrastructure organizations based on their Autonomous System (AS) information.
+
+      Your task is to classify organizations into top-level categories only. Focus on the organization's primary role in the Internet ecosystem.
+
+      Classification Guidelines:
+      - Assign one or more top-level categories that best describe the organization
+      - Focus on the primary business model and Internet infrastructure role
+      - Multiple categories can be assigned if the organization serves multiple functions
+
+      Available top-level categories:
+      - Access: Internet Service Providers providing connectivity to end users
+      - Transit: Organizations providing transit services to other networks
+      - Mobile: Mobile network operators and wireless providers
+      - Satellite: Satellite internet and communication providers
+      - ContentProvider: Cloud services, hosting, CDN providers
+      - EducationalResearch: Universities, research institutions, academic networks
+      - Government: Government organizations at all levels
+      - IXP: Internet exchange points and peering facilities
+      - DNS: DNS root servers, registries, authoritative DNS providers
+      - EnergyAndUtility: Energy companies and utility providers with network infrastructure
+      - Enterprise: Commercial organizations with their own networks
+      - Finance: Banks, financial institutions, stock exchanges
+      - LawEnforcement: Police, military, intelligence agencies
+      - Health: Healthcare providers, hospitals, medical networks
+      - Cooperatives: Cooperative organizations and community networks
+      - TvRadioCulturalAmenities: Media, broadcasting, cultural organizations
+      - Transportation: Airlines, shipping, transit authorities
+      - VPNs: VPN service providers
+      - Personal: Individual or personal networks
+      - Community: Community networks and non-profit organizations
+
+      Respond with a JSON object containing a list of responses, each with a classifications array containing objects with "category" field only.
+
+    stage2_system_templates:
+      Government: |
+        You are an expert in classifying government organizations based on their Autonomous System information.
+
+        Your task is to classify government organizations into specific subcategories within the Government category.
+
+        Available Government subcategories:
+        - Executive: Executive branch agencies and departments
+        - Legislative: Legislative bodies and assemblies
+        - Judiciary: Courts and judicial systems
+        - FederalNational: Federal or national level government
+        - StateProvince: State or provincial government
+        - CityCountyMunicipality: Local government (cities, counties, municipalities)
+        - Regulators: Regulatory agencies and commissions
+        - Agencies: General government agencies
+        - AgenciesSpace: Space agencies (NASA, ESA, etc.)
+        - AgenciesCentralBanks: Central banks operating as government entities
+        - PoliticalParties: Political parties and political organizations
+
+        Respond with a JSON object containing a list of responses, each with a classifications array containing objects with "category" (always "Government") and "subcategory" fields.
+
+      Access: |
+        You are an expert in classifying Internet Service Provider organizations.
+
+        Your task is to classify ISP organizations into specific subcategories within the Access category.
+
+        Available Access subcategories:
+        - LargeISP: Large national or international ISPs with extensive infrastructure
+        - SmallISP: Regional, local, or smaller ISPs serving specific areas
+
+        Consider factors like geographic coverage, customer base size, and infrastructure scale.
+
+        Respond with a JSON object containing a list of responses, each with a classifications array containing objects with "category" (always "Access") and "subcategory" fields.
+
+      # Additional category templates can be added as needed
+
+# Data Download Configuration
+download:
+  # Number of retries for failed downloads
+  max_retries: 3
+  # Timeout for HTTP requests (seconds)
+  timeout: 30
+  # User agent for HTTP requests
+  user_agent: "Linneaus/0.1.0 (https://github.com/linneaus-project/linneaus)"
+  # Maximum concurrent downloads
+  max_concurrent: 5
+  # Rate limiting delays (seconds)
+  rate_limits:
+    ipinfo: 1.0  # 1 second between requests for free tier
+    asrank: 0.5  # GraphQL API can handle faster requests
+    peeringdb: 2.0  # Be respectful to CAIDA servers
+    aspop: 1.0  # APNIC rate limiting

@@ -1,0 +1,28 @@
+===== SUMMARY METRICS =====
+accuracy: 0.6755407653910149
+macro_precision: 0.810385043784264
+macro_recall: 0.7787598828130046
+macro_f1: 0.7916274424423638
+macro_jaccard: 0.66483237876355
+mean_pr_auc: None
+
+===== LABEL METRICS (DataFrame) =====
+                   Label  Accuracy  Precision   Recall  F1 Score  Jaccard Score PR AUC
+              Enterprise  0.930116   0.658537 0.490909  0.562500       0.391304   None
+        EnergyAndUtility  0.980033   0.684211 0.684211  0.684211       0.520000   None
+                  Mobile  0.970050   0.685714 0.774194  0.727273       0.571429   None
+                 Transit  0.971714   0.705882 0.774194  0.738462       0.585366   None
+         ContentProvider  0.948419   0.733333 0.634615  0.680412       0.515625   None
+TvRadioCulturalAmenities  0.988353   0.750000 0.692308  0.720000       0.562500   None
+                  Access  0.941764   0.767857 0.905263  0.830918       0.710744   None
+                Personal  0.993344   0.777778 0.777778  0.777778       0.636364   None
+              Government  0.898502   0.824561 0.819767  0.822157       0.698020   None
+            Cooperatives  0.993344   0.846154 0.846154  0.846154       0.733333   None
+          LawEnforcement  0.990017   0.857143 0.750000  0.800000       0.666667   None
+                     DNS  0.976705   0.868421 0.785714  0.825000       0.702128   None
+          Transportation  0.985025   0.875000 0.848485  0.861538       0.756757   None
+               Satellite  0.991681   0.888889 0.666667  0.761905       0.615385   None
+                     IXP  0.981697   0.900000 0.837209  0.867470       0.765957   None
+               Financial  0.980033   0.901639 0.901639  0.901639       0.820896   None
+     EducationalResearch  0.971714   0.920635 0.828571  0.872180       0.773333   None
+                  Health  0.998336   0.941176 1.000000  0.969697       0.941176   None

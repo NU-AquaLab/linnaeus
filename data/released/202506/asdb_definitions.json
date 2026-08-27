@@ -1,0 +1,19 @@
+{
+  "communityGroupsAndNonprofits": "Community groups, non-profit organizations, and charitable entities.",
+  "computerAndInformationTechnology": "Organizations in computing, IT services, software, and internet infrastructure.",
+  "educationAndResearch": "Educational institutions and research organizations.",
+  "financeAndInsurance": "Financial institutions, banks, insurance companies, and investment firms.",
+  "governmentAndPublicAdministration": "Government agencies, public administration bodies, and regulatory authorities.",
+  "healthCareServices": "Healthcare providers, hospitals, clinics, and medical service organizations.",
+  "other": "Organizations that do not fit into any other defined category.",
+  "media,Publishing,AndBroadcasting": "Media companies, publishers, broadcasters, and news organizations.",
+  "service": "General service-oriented organizations, including professional and business services.",
+  "agriculture,Mining,AndRefineries(farming,Greenhouses,Mining,Forestry,AndAnimalFarming)": "Agriculture, mining, forestry, animal farming, refineries, and natural resource extraction.",
+  "constructionAndRealEstate": "Construction companies and real estate firms.",
+  "museums,Libraries,AndEntertainment": "Museums, libraries, entertainment venues, cultural institutions, and recreational facilities.",
+  "utilities(excludingInternetService)": "Utility providers for electricity, gas, water, and other non-internet services.",
+  "travelAndAccommodation": "Travel agencies, hotels, airlines, and hospitality services.",
+  "freight,Shipment,AndPostalServices": "Freight companies, shipping services, logistics, and postal organizations.",
+  "retailStores,Wholesale,AndE_commerceSites": "Retail stores, wholesale distributors, and e-commerce platforms.",
+  "manufacturing": "Manufacturing companies producing physical goods and products."
+}

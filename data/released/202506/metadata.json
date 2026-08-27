@@ -1,0 +1,157 @@
+{
+  "schema_version": "aligned_v1",
+  "canonical_toplevel": [
+    "Access",
+    "Transit",
+    "Mobile",
+    "Satellite",
+    "ContentProvider",
+    "EducationalResearch",
+    "Government",
+    "IXP",
+    "DNS",
+    "EnergyAndUtility",
+    "Enterprise",
+    "Finance",
+    "LawEnforcement",
+    "Health",
+    "Cooperatives",
+    "TvRadioCulturalAmenities",
+    "Transportation",
+    "VPNs",
+    "Personal",
+    "Community"
+  ],
+  "canonical_sublevel": [
+    "Access_LargeISP",
+    "Access_SmallISP",
+    "Transit_Global",
+    "Transit_Regional",
+    "Transit_Domestic",
+    "Mobile",
+    "Satellite",
+    "ContentProvider_Cloud",
+    "ContentProvider_Hosting",
+    "ContentProvider_CDN",
+    "EducationalResearch_University",
+    "EducationalResearch_AcademicBackbone",
+    "EducationalResearch_Schools",
+    "EducationalResearch_ResearchInstitutes",
+    "Government_Executive",
+    "Government_Legislative",
+    "Government_Judiciary",
+    "Government_FederalNational",
+    "Government_StateProvince",
+    "Government_CityCountyMunicipality",
+    "Government_Regulators",
+    "Government_Agencies",
+    "IXP",
+    "DNS_Roots",
+    "DNS_ccTLD",
+    "DNS_ANS",
+    "EnergyAndUtility",
+    "Enterprise_Ecommerce",
+    "Enterprise_Entertainment",
+    "Enterprise_IndustrialManufacturing",
+    "Enterprise_Technology",
+    "Finance_Bank",
+    "Finance_CentralBanks",
+    "Finance_CreditUnion",
+    "Finance_Entities",
+    "Finance_StockExchanges",
+    "LawEnforcement",
+    "Health_Insurances",
+    "Health_Hospitals",
+    "Cooperatives",
+    "TvRadioCulturalAmenities",
+    "Transportation_Trains",
+    "Transportation_Ships",
+    "Transportation_TransitAuthority",
+    "Transportation_Airports",
+    "VPNs",
+    "Personal",
+    "Community"
+  ],
+  "toplevel_count": 20,
+  "sublevel_count": 48,
+  "migration_date": "2026-03-15T19:09:54.825106",
+  "file_counts": {
+    "features/ipinfo": {
+      "rows": 119748,
+      "cols": 3
+    },
+    "features/llm_input": {
+      "rows": 119809,
+      "cols": 4
+    },
+    "features/peeringdb": {
+      "rows": 19290,
+      "cols": 6
+    },
+    "labels/hierarchical": {
+      "rows": 3256,
+      "cols": 4
+    },
+    "labels/sublevel": {
+      "rows": 1978,
+      "cols": 49
+    },
+    "labels/toplevel": {
+      "rows": 1978,
+      "cols": 21
+    },
+    "predictions/sublevel/baseline": {
+      "rows": 592,
+      "cols": 49
+    },
+    "predictions/sublevel/complete": {
+      "rows": 119809,
+      "cols": 49
+    },
+    "predictions/sublevel/finetuned": {
+      "rows": 592,
+      "cols": 49
+    },
+    "predictions/toplevel/baseline": {
+      "rows": 601,
+      "cols": 21
+    },
+    "predictions/toplevel/complete": {
+      "rows": 119809,
+      "cols": 21
+    },
+    "predictions/toplevel/finetuned": {
+      "rows": 601,
+      "cols": 21
+    },
+    "predictions/toplevel/svc": {
+      "rows": 592,
+      "cols": 21
+    },
+    "splits/assignments": {
+      "rows": 2006,
+      "cols": 2
+    },
+    "labels/asdb": {
+      "rows": 1978,
+      "cols": 18
+    },
+    "labels/isic": {
+      "rows": 2063,
+      "cols": 21
+    }
+  },
+  "benchmark_taxonomies": {
+    "asdb": {
+      "categories": 17,
+      "labeled_asns": 1978,
+      "definitions_file": "asdb_definitions.json"
+    },
+    "isic": {
+      "categories": 20,
+      "labeled_asns": 2063,
+      "definitions_file": "isic_definitions.json"
+    }
+  },
+  "benchmark_release_date": "2026-08-09T03:16:10.962980"
+}

@@ -1,0 +1,76 @@
+version: '3.8'
+
+services:
+  linneaus:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: linneaus-app
+    environment:
+      - ENVIRONMENT=production
+      - LOG_LEVEL=INFO
+    volumes:
+      - ./data:/app/data
+      - ./config.yaml:/app/config.yaml
+      - ./logs:/app/logs
+    env_file:
+      - .env
+    restart: unless-stopped
+    command: ["linneaus", "data", "status"]
+
+  # Development service with source code mounted
+  linneaus-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: builder
+    container_name: linneaus-dev
+    environment:
+      - ENVIRONMENT=development
+      - LOG_LEVEL=DEBUG
+    volumes:
+      - .:/app
+      - ./data:/app/data
+      - ./config.yaml:/app/config.yaml
+      - ./logs:/app/logs
+    env_file:
+      - .env
+    working_dir: /app
+    command: ["tail", "-f", "/dev/null"]  # Keep container running
+    profiles:
+      - dev
+
+  # Jupyter service for development
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: builder
+    container_name: linneaus-jupyter
+    environment:
+      - ENVIRONMENT=development
+    volumes:
+      - .:/app
+      - ./data:/app/data
+      - ./notebooks:/app/notebooks
+    env_file:
+      - .env
+    ports:
+      - "8888:8888"
+    working_dir: /app
+    command: [
+      "jupyter", "lab",
+      "--ip=0.0.0.0",
+      "--port=8888",
+      "--no-browser",
+      "--allow-root",
+      "--notebook-dir=/app"
+    ]
+    profiles:
+      - dev
+
+volumes:
+  data:
+    driver: local
+  logs:
+    driver: local

@@ -1,0 +1,22 @@
+{
+  "agriculture_forestry_and_fishing": "Section A: Crop and animal production, hunting, forestry and logging, fishing and aquaculture.",
+  "mining_and_quarrying": "Section B: Mining of coal, crude petroleum, metal ores, and other mining and quarrying activities.",
+  "manufacturing": "Section C: Processing of food, textiles, chemicals, metals, electronics, machinery, and other manufactured goods.",
+  "utilities_and_waste_management": "Sections D/E: Electricity, gas, steam, air conditioning supply, water supply, sewerage, waste management and remediation.",
+  "construction": "Section F: Construction of buildings, civil engineering, and specialized construction activities.",
+  "trade_and_repair_of_vehicles": "Section G: Wholesale and retail trade, repair of motor vehicles and motorcycles.",
+  "transportation_and_storage": "Section H: Land, water, and air transport, warehousing, postal and courier activities.",
+  "accommodation_and_food_service": "Section I: Short-term accommodation, restaurants, catering, and food service activities.",
+  "information_and_communication": "Section J: Publishing, audiovisual, telecommunications, IT services, and information service activities.",
+  "financial_and_insurance_activities": "Section K: Financial service activities, insurance, reinsurance, pension funding, and auxiliary services.",
+  "real_estate_activities": "Section L: Real estate activities including buying, selling, renting, and operating of real estate.",
+  "professional_scientific_and_technical_activities": "Section M: Legal, accounting, management consulting, architectural, engineering, scientific research, advertising, and other professional activities.",
+  "administrative_and_support_service_activities": "Section N: Rental, employment, travel agencies, security, cleaning, and other administrative support activities.",
+  "public_administration_and_defense": "Section O: Public administration, defense, and compulsory social security.",
+  "education": "Section P: Pre-primary, primary, secondary, higher, and other education services.",
+  "human_health_and_social_work": "Section Q: Human health activities, residential care, and social work activities.",
+  "arts_entertainment_and_recreation": "Section R: Creative arts, libraries, museums, gambling, sports, and recreation activities.",
+  "other_service_activities": "Section S: Activities of membership organizations, repair of personal goods, and other personal service activities.",
+  "household_activities": "Section T: Activities of households as employers and undifferentiated goods- and services-producing activities for own use.",
+  "extraterritorial_organizations_and_bodies": "Section U: Activities of international organizations and bodies such as the United Nations and its agencies."
+}

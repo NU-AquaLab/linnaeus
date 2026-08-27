@@ -1,0 +1,69 @@
+{
+  "Access": {
+    "Large ISP": "Internet Service Providers (ISPs) that offer connectivity to end-users at a large scale.",
+    "Small ISP": "Local or regional Internet Service Providers that deliver connectivity to end-users."
+  },
+  "Transit": {
+    "Global": "Companies operating transit Autonomous Systems on a global scale (more than one continent) providing connectivity between autonomous systems",
+    "Regional": "Companies operating transit Autonomous Systems on a regional scale (more than one country) providing connectivity between autonomous systems",
+    "Domestic": "Companies operating transit Autonomous Systems within a single country, providing connectivity between autonomous systems"
+  },
+  "Mobile": "Telecommunications companies providing wireless internet and mobile communication via cellular networks.",
+  "Satellite": "Companies delivering internet connectivity through satellites.",
+  "ContentProvider": {
+    "Cloud": "Companies providing cloud services, including storage and computing.",
+    "Hosting": "Companies providing services for hosting websites and applications.",
+    "CDN": "Companies providing content delivery networks (CDNs) for efficient data distribution."
+  },
+  "EducationalResearch": {
+    "University": "Universities and colleges providing education.",
+    "Academic Backbone": "Networks supporting academic institutions and research.",
+    "Schools": "Primary and secondary schools providing education.",
+    "Research Institutes": "Institutions focused on research."
+  },
+  "Government": {
+    "executive": "Executive branches of government, including presidents and prime ministers.",
+    "legislative": "Law-making bodies such as parliaments, congresses, assemblies.",
+    "judiciary": "Courts and tribunals that interpret and apply the law.",
+    "national": "National governments entities",
+    "state_province": "State or provincial government entities.",
+    "municipal": "Local government entities.",
+    "agency": "Government agencies responsible for various functions."
+  },
+  "IXP": "Physical locations where multiple networks interconnect to efficiently exchange internet traffic (Internet Exchange Points).",
+  "DNS": {
+    "Roots": "Entities managing root DNS servers.",
+    "ccTLD": "Entities managing country code top-level domains.",
+    "ANS": "Entities managing authoritative name servers."
+  },
+  "EnergyAndUtility": "Organizations involved in the production, distribution, and management of essential utilities, including oil and gas, electricity, and water. This includes companies focused on energy exploration, refining, power generation, grid infrastructure, water supply, and treatment services.",
+  "Enterprise": {
+    "E-commerce": "Companies involved in online retail and e-commerce.",
+    "Entertainment": "Companies involved in entertainment, including streaming services and media production.",
+    "Industrial Manufacturing": "Companies involved in industrial manufacturing and production.",
+    "Technology": "Companies involved in technology, including software and hardware development."
+  },
+  "Finance": {
+    "CentralBanks": "Central banks responsible for monetary policy and financial stability.",
+    "Bank": "Financial institutions providing banking services, including savings and checking accounts, loans, and mortgages.",
+    "CreditUnion": "Member-owned financial cooperatives that provide banking services, often with a focus on community-oriented benefits and lower fees.",
+    "Entities": "Institutions and entities engaged in managing money, investments, and financial markets, including stock exchanges and other non-banking financial operations.",
+    "StockExchanges": "Organizations facilitating the buying and selling of stocks."
+  },
+  "LawEnforcement": "Agencies responsible for public safety, such as police, coast guard, and border protection.",
+  "Health": {
+    "Insurances": "Organizations providing health insurance services.",
+    "Hospitals": "Organizations providing healthcare services, including hospitals and clinics."
+  },
+  "Cooperatives": "Member-owned organizations where members share ownership, control, and profits.",
+  "TvRadioCulturalAmenities": "Entities involved in broadcasting television and radio, as well as cultural institutions like libraries, museums, and sports venues.",
+  "Transportation": {
+    "Trains": "Organizations managing train systems, mainly railroads.",
+    "Ships": "Organizations managing shipping and maritime transport.",
+    "Transit Authority": "Authority organizations managing transit systems",
+    "Airports": "Organizations managing airports and air travel."
+  },
+  "VPNs": "Companies providing virtual private network (VPN) services for privacy, anonymity, and secure remote access.",
+  "Personal": "Individuals or entities using services for personal or small-scale, non-commercial purposes.",
+  "Community": "Community-driven networks and non-profit organizations providing connectivity or services to local communities."
+}

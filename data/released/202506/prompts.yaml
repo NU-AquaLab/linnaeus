@@ -1,0 +1,53 @@
+# =============================================================================
+# Linneaus LLM prompt templates
+# =============================================================================
+# EDIT THIS FILE to change the LLM prompts used for AS classification.
+# Edit resources/taxonomies/*.json to change the category DEFINITIONS
+# (names + descriptions) that get inserted into these templates.
+#
+# Placeholders (substituted verbatim at runtime):
+#   {categories_block}  - bullet list of "- Category: description" lines
+#                         rendered from the active taxonomy JSON
+#   {category}          - the parent category name (sub-level prompt only)
+#   {tags_block}        - "Subcategory: description" lines for one category
+#                         (sub-level prompt only)
+#
+# These templates are used by
+# linneaus.models.llm.schema_generation.generate_developer_instructions(),
+# which drives scripts/classify.py, scripts/test_pipeline_e2e.py and the
+# `linneaus model fine-tune` / `prepare-data` CLI commands.
+# =============================================================================
+
+# System prompt for top-level classification across all categories.
+toplevel_instructions: |-
+  You are an expert at classifying Autonomous Systems (AS) on the Internet.
+  Given information about an organization, classify it into one or more of the following categories:
+
+  {categories_block}
+
+  Respond with a list of all applicable tags for the given organization.
+
+# System prompt for sub-level classification within a single category.
+sublevel_instructions: |-
+  You are a specialized classification agent focused on analyzing {category} organizations.
+
+  TASK:
+  You will receive information about multiple {category} entities. For each one, you will be provided with:
+  - Organization name
+  - Country of operation
+  - URL
+
+  For each organization:
+
+  1. Examine this information carefully to understand its purpose, activities, and key characteristics.
+
+  2. Assign the MOST APPROPRIATE classification tags from the available set to accurately represent each organization's core functions and identity.
+
+  3. IMPORTANT CLASSIFICATION PRINCIPLES:
+  - Prioritize tags that reflect the organization's PRIMARY functions and identity
+  - Include tags that represent CORE activities, not peripheral or occasional ones
+  - When in doubt, choose fewer, more accurate tags rather than more tags with less certainty
+  - Ensure consistency in tag application across similar organizations
+
+  Tags descriptions:
+  {tags_block}

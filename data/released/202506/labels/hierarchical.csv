@@ -1,0 +1,3257 @@
+asn,as_name,top_level_category,sub_category
+7922,Comcast,Access,LargeISP
+7922,Comcast,Transit,Domestic
+7922,Comcast,Mobile,
+7922,Comcast,ContentProvider,CDN
+20115,Charter Communications,Access,LargeISP
+7018,AT&T US,Access,LargeISP
+7018,AT&T US,Transit,Domestic
+7018,AT&T US,Mobile,
+701,Verizon,Access,LargeISP
+701,Verizon,Transit,Domestic
+701,Verizon,Mobile,
+209,"CenturyLink Communications, LLC",Access,LargeISP
+209,"CenturyLink Communications, LLC",Transit,Global
+204285,OPTIMUM Telecommunications LLC,Access,SmallISP
+3352,TELEFONICA DE ESPANA S.A.U.,Access,LargeISP
+3352,TELEFONICA DE ESPANA S.A.U.,Mobile,
+8151,UNINET,Access,LargeISP
+8151,UNINET,Transit,Regional
+8151,UNINET,Mobile,
+3215,Orange S.A.	,Access,LargeISP
+3215,Orange S.A.	,Transit,Domestic
+3215,Orange S.A.	,Mobile,
+3209,Vodafone GmbH,Access,LargeISP
+3209,Vodafone GmbH,Mobile,
+7303,Telecom Argentina S.A.,Access,LargeISP
+2856,British Telecommunications PLC,Access,LargeISP
+2856,British Telecommunications PLC,Transit,Domestic
+2856,British Telecommunications PLC,Mobile,
+5607,Sky UK Limited	,Access,LargeISP
+3320,Deutsche Telekom,Access,LargeISP
+3320,Deutsche Telekom,Transit,Global
+3320,Deutsche Telekom,Mobile,
+17306,"JAB Wireless, INC.",Access,SmallISP
+12083,WideOpenWest Finance LLC,Access,LargeISP
+133590,Wow Solutions and Systems Pvt Ltd,Access,SmallISP
+23033,Wowrack,Access,SmallISP
+23033,Wowrack,ContentProvider,Hosting
+30036,Mediacom Communications Corp,Access,LargeISP
+5650,"Frontier Communications of America, Inc.",Access,LargeISP
+5650,"Frontier Communications of America, Inc.",Transit,Domestic
+7311,Frontier Networks,Access,SmallISP
+7311,Frontier Networks,Transit,Domestic
+395354,"Starry, Inc.",Access,SmallISP
+16591,Google Fiber Inc.,Access,LargeISP
+16591,Google Fiber Inc.,Enterprise,Technology
+5742,Consolidated Communications - IL,Access,SmallISP
+5742,Consolidated Communications - IL,Transit,Domestic
+20055,Wholesail networks LLC,Access,LargeISP
+3356,Lumen AS3356,Transit,Global
+174,"Cogent Communications, Inc.",Transit,Global
+2914,NTT Global IP Network,Transit,Global
+1299,Arelion,Transit,Global
+3257,GTT Communications,Transit,Global
+6762,Telecom Italia Sparkle,Transit,Global
+6453,TATA Communications Ltd,Transit,Global
+4134,China Telecom,Access,LargeISP
+4134,China Telecom,Transit,Global
+4134,China Telecom,Mobile,
+4134,China Telecom,Government,Executive
+4134,China Telecom,Government,FederalNational
+5511,Orange,Transit,Global
+1221,Telstra Limited	,Access,LargeISP
+1221,Telstra Limited	,Transit,Domestic
+1221,Telstra Limited	,Mobile,
+12956,Telxius Cable,Transit,Global
+262589,Megatelecom Telecomunicacoes Ltda,Transit,Regional
+262589,Megatelecom Telecomunicacoes Ltda,Government,Executive
+262589,Megatelecom Telecomunicacoes Ltda,Government,FederalNational
+52320,"GlobeNet Cabos Submarinos Colombia, S.A.S.",Transit,Regional
+7049,Silica Networks Argentina S.A.,Transit,Regional
+13786,"Seabras 1 USA, LLC",Transit,Global
+16735,ALGAR TELECOM S/A,Access,SmallISP
+16735,ALGAR TELECOM S/A,Transit,Global
+16735,ALGAR TELECOM S/A,Mobile,
+9002,RETN,Transit,Global
+10021,"KVH Co.,Ltd",Transit,Domestic
+31167,AXIONE S.A.S. ,Access,SmallISP
+31167,AXIONE S.A.S. ,Transit,Regional
+55259,Neutrona Networks International LLC,Enterprise,Technology
+52361,ARSAT - Empresa Argentina de Soluciones Satelitales S.A.,Access,LargeISP
+52361,ARSAT - Empresa Argentina de Soluciones Satelitales S.A.,Transit,Domestic
+52361,ARSAT - Empresa Argentina de Soluciones Satelitales S.A.,Satellite,
+52361,ARSAT - Empresa Argentina de Soluciones Satelitales S.A.,Government,Executive
+52361,ARSAT - Empresa Argentina de Soluciones Satelitales S.A.,Government,FederalNational
+9829,Bharat Sanchar Nigam Ltd,Transit,Domestic
+9829,Bharat Sanchar Nigam Ltd,Government,Executive
+9829,Bharat Sanchar Nigam Ltd,Government,FederalNational
+17557,Pakistan Telecom Company Limited,Transit,Global
+17557,Pakistan Telecom Company Limited,Government,Executive
+17557,Pakistan Telecom Company Limited,Government,FederalNational
+20485,Joint Stock Company TransTeleCom,Transit,Global
+20485,Joint Stock Company TransTeleCom,Government,Executive
+20485,Joint Stock Company TransTeleCom,Government,FederalNational
+4230,CLARO S.A.,Access,LargeISP
+4230,CLARO S.A.,Transit,Domestic
+4230,CLARO S.A.,Mobile,
+4755,Tata Communications Limited,Transit,Domestic
+36873,Airtel Networks Limited,Access,LargeISP
+36873,Airtel Networks Limited,Transit,Domestic
+36873,Airtel Networks Limited,Mobile,
+12389,PJSC Rostelecom,Access,LargeISP
+12389,PJSC Rostelecom,Transit,Regional
+12389,PJSC Rostelecom,Mobile,
+12389,PJSC Rostelecom,Government,Executive
+12389,PJSC Rostelecom,Government,FederalNational
+19429,Empresa de Telecomunicaciones de Bogota SA ESP,Access,LargeISP
+19429,Empresa de Telecomunicaciones de Bogota SA ESP,Mobile,
+6471,ENTEL CHILE S.A.,Access,SmallISP
+6471,ENTEL CHILE S.A.,Mobile,
+55836,Reliance Jio Infocomm Limited	,Access,LargeISP
+55836,Reliance Jio Infocomm Limited	,Mobile,
+22047,VTR BANDA ANCHA S.A.,Access,LargeISP
+22047,VTR BANDA ANCHA S.A.,Mobile,
+9808,China Mobile,Access,LargeISP
+9808,China Mobile,Mobile,
+9808,China Mobile,Government,Executive
+9808,China Mobile,Government,FederalNational
+28573,Claro NXT Telecomunicacoes Ltda,Access,LargeISP
+28573,Claro NXT Telecomunicacoes Ltda,Mobile,
+26615,TIM S/A,Access,LargeISP
+26615,TIM S/A,Mobile,
+11315,Telefónica Móviles Argentina S.A. (Movistar Arg),Access,LargeISP
+11315,Telefónica Móviles Argentina S.A. (Movistar Arg),Mobile,
+19422,Telefonica Moviles del Uruguay SA,Access,SmallISP
+19422,Telefonica Moviles del Uruguay SA,Mobile,
+14593,SpaceX Starlink,Access,LargeISP
+14593,SpaceX Starlink,Satellite,
+7155,ViaSat,Access,SmallISP
+7155,ViaSat,Satellite,
+34444,Eutelsat,Access,LargeISP
+34444,Eutelsat,Satellite,
+60725,SES Networks,Access,SmallISP
+60725,SES Networks,Satellite,
+31515,INMARSAT GLOBAL,Access,SmallISP
+31515,INMARSAT GLOBAL,Satellite,
+12440,Hughes Network Systems,Access,LargeISP
+12440,Hughes Network Systems,Satellite,
+22351,INTELSAT,Access,SmallISP
+22351,INTELSAT,Satellite,
+29286,SKYLOGIC S.P.A.,Access,SmallISP
+29286,SKYLOGIC S.P.A.,Satellite,
+39356,Avanti Broadband Ltd,Access,SmallISP
+39356,Avanti Broadband Ltd,Satellite,
+197991,HISPASAT,Access,SmallISP
+197991,HISPASAT,Satellite,
+53859,Atherton Fiber,Access,SmallISP
+16509,AWS,ContentProvider,Cloud
+16509,AWS,DNS,ANS
+16509,AWS,Enterprise,Entertainment
+396982,GCP,ContentProvider,Cloud
+396982,GCP,DNS,ANS
+396982,GCP,Enterprise,Technology
+136907,HUAWEI INTERNATIONAL PTE. LTD.,ContentProvider,Cloud
+137280,Kingsoft cloud corporation limited,ContentProvider,Cloud
+138456,OceanBlue Cloud Technology Limited,ContentProvider,Cloud
+7160,Oracle Corporation,ContentProvider,Cloud
+6169,"Kentik Technologies, Inc.",ContentProvider,Cloud
+63199,"CDS Global Cloud Co., Ltd",ContentProvider,Cloud
+42473,Anexia,ContentProvider,Cloud
+26496,GoDaddy,ContentProvider,Hosting
+329166,Absolute Hosting (Pty) Ltd,ContentProvider,Hosting
+132425,Exabytes Network (Singapore) Pte. Ltd.,ContentProvider,Hosting
+31981,BlueTower Hosting LLC,ContentProvider,Hosting
+197795,ColdHosting SL,ContentProvider,Hosting
+63051,Critical Hosting Solutions LLC,ContentProvider,Hosting
+196745,Datacenta Hosting Ltd,ContentProvider,Hosting
+10747,,ContentProvider,Hosting
+200052,,ContentProvider,Hosting
+215680,,ContentProvider,Hosting
+47583,,ContentProvider,Hosting
+20940,Akamai Technologies,ContentProvider,Cloud
+20940,Akamai Technologies,ContentProvider,CDN
+13335,Cloudflare,ContentProvider,Cloud
+13335,Cloudflare,ContentProvider,CDN
+13335,Cloudflare,DNS,ANS
+54113,"Fastly, Inc.",ContentProvider,CDN
+6185,,ContentProvider,CDN
+9609,,ContentProvider,CDN
+49911,,ContentProvider,CDN
+272713,,ContentProvider,CDN
+58127,CDN Telekom,Access,SmallISP
+149640,,ContentProvider,CDN
+328126,Orange Tunisie,ContentProvider,CDN
+328126,Orange Tunisie,Government,Executive
+328126,Orange Tunisie,Government,FederalNational
+16276,OVHcloud,ContentProvider,Hosting
+16276,OVHcloud,ContentProvider,CDN
+3,MIT,EducationalResearch,University
+111,Boston University,EducationalResearch,University
+6112,,EducationalResearch,University
+14,,EducationalResearch,University
+133498,De La Salle University,EducationalResearch,University
+11,,EducationalResearch,University
+7386,,EducationalResearch,University
+87,,EducationalResearch,University
+23140,,EducationalResearch,University
+11164,Internet2 I2PX,EducationalResearch,AcademicBackbone
+11164,Internet2 I2PX,Government,FederalNational
+21320,GEANT Vereniging,EducationalResearch,AcademicBackbone
+27750,RedCLARA ,EducationalResearch,AcademicBackbone
+766,RedIRIS - Spanish NREN,EducationalResearch,AcademicBackbone
+766,RedIRIS - Spanish NREN,Government,FederalNational
+6509,CANARIE - Canada NREN,EducationalResearch,AcademicBackbone
+6509,CANARIE - Canada NREN,Government,FederalNational
+11340,REUNA - Chilean NREN,EducationalResearch,AcademicBackbone
+11340,REUNA - Chilean NREN,Government,FederalNational
+18592,CUDI - Mexican NREN,EducationalResearch,AcademicBackbone
+18592,CUDI - Mexican NREN,Government,FederalNational
+680,German National Research and Education Network,EducationalResearch,AcademicBackbone
+680,German National Research and Education Network,Government,FederalNational
+559,SWITCH - Swiss NREN,EducationalResearch,AcademicBackbone
+559,SWITCH - Swiss NREN,Government,FederalNational
+559,SWITCH - Swiss NREN,DNS,ccTLD
+786,"Jisc United Kingdom NREN, operator of the Janet network",EducationalResearch,AcademicBackbone
+786,"Jisc United Kingdom NREN, operator of the Janet network",Government,FederalNational
+7575,Australian NREN,EducationalResearch,AcademicBackbone
+7575,Australian NREN,Government,FederalNational
+1416,,EducationalResearch,Schools
+20344,,EducationalResearch,Schools
+14241,,EducationalResearch,Schools
+36112,,EducationalResearch,Schools
+35998,,EducationalResearch,Schools
+394271,,EducationalResearch,Schools
+36289,,EducationalResearch,Schools
+3677,University of Iowa,EducationalResearch,University
+28027,,EducationalResearch,Schools
+21924,,EducationalResearch,Schools
+7502,,EducationalResearch,ResearchInstitutes
+395664,,EducationalResearch,ResearchInstitutes
+3338,,EducationalResearch,ResearchInstitutes
+2003,,EducationalResearch,ResearchInstitutes
+10411,,EducationalResearch,ResearchInstitutes
+18422,,EducationalResearch,ResearchInstitutes
+47623,,EducationalResearch,ResearchInstitutes
+6095,"Novartis Institutes for BioMedical Research, Inc.",Enterprise,IndustrialManufacturing
+63796,"Next Network Research Laboratory, Graduate School of Science and Engineering, Hosei",EducationalResearch,ResearchInstitutes
+17579,,EducationalResearch,ResearchInstitutes
+721,DoD Network Information Center,Government,Executive
+721,DoD Network Information Center,Government,FederalNational
+7417,Ministry of Economy,Government,Executive
+7417,Ministry of Economy,Government,FederalNational
+132825,MYTEK TRADING PTY LTD,ContentProvider,Hosting
+818,Department of Communications,Government,Executive
+818,Department of Communications,Government,FederalNational
+56105,Department of Education and Training,Government,Executive
+56105,Department of Education and Training,Government,FederalNational
+55815,Department of Premier and Cabinet MaPS IS,Government,Executive
+55815,Department of Premier and Cabinet MaPS IS,Government,FederalNational
+24313,NSW Department of Education,Government,Executive
+24313,NSW Department of Education,Government,FederalNational
+10954,SERVICO FEDERAL DE PROCESSAMENTO DE DADOS,Government,Executive
+10954,SERVICO FEDERAL DE PROCESSAMENTO DE DADOS,Government,FederalNational
+27961,Jefatura de Gabinete de Ministros (Argentina),Government,Executive
+27961,Jefatura de Gabinete de Ministros (Argentina),Government,FederalNational
+35503,Ministry of Education Youth and Science,Government,Executive
+35503,Ministry of Education Youth and Science,Government,FederalNational
+27967,Gobernacion de la Provincia de Buenos Aires,Government,Executive
+27967,Gobernacion de la Provincia de Buenos Aires,Government,StateProvince
+26854,New York State,Government,Executive
+26854,New York State,Government,StateProvince
+61448,MINISTERIO DE EDUCACION GOBIERNO DE SAN JUAN,Government,Executive
+61448,MINISTERIO DE EDUCACION GOBIERNO DE SAN JUAN,Government,StateProvince
+269801,MINISTERIO DE HACIENDA Y FINANZAS DE LA PROVINCIA DE JUJUY,Government,Executive
+269801,MINISTERIO DE HACIENDA Y FINANZAS DE LA PROVINCIA DE JUJUY,Government,StateProvince
+265651,MINISTERIO DE HACIENDA Y FINANZAS DE LA PROVINCIA DE SALTA,Government,Executive
+265651,MINISTERIO DE HACIENDA Y FINANZAS DE LA PROVINCIA DE SALTA,Government,StateProvince
+271047,Ministerio Publico do Amazonas,Government,Executive
+271047,Ministerio Publico do Amazonas,Government,StateProvince
+264313,MINISTÉRIO PÚBLICO DO ESTADO DE RORAIMA,Government,Executive
+264313,MINISTÉRIO PÚBLICO DO ESTADO DE RORAIMA,Government,StateProvince
+273758,PROCURADORIA GERAL DE JUSTIÇA,Government,Executive
+273758,PROCURADORIA GERAL DE JUSTIÇA,Government,StateProvince
+11109,State of Alabama,Government,Executive
+11109,State of Alabama,Government,StateProvince
+62712,State of Hawaii,Government,Executive
+62712,State of Hawaii,Government,StateProvince
+1798,State of Oregon,Government,Executive
+1798,State of Oregon,Government,StateProvince
+14977,State of Wyoming,Government,Executive
+14977,State of Wyoming,Government,StateProvince
+3498,California State Senate,Government,Legislative
+3498,California State Senate,Government,StateProvince
+52255,Grupo Servicios Junin,EnergyAndUtility,
+264695,MUNICIPALIDAD DE JUNIN,Government,Executive
+264695,MUNICIPALIDAD DE JUNIN,Government,CityCountyMunicipality
+263241,MUNICIPALIDAD DE LA COSTA,Government,Executive
+263241,MUNICIPALIDAD DE LA COSTA,Government,CityCountyMunicipality
+28020,Municipalidad de Rosario,Government,Executive
+28020,Municipalidad de Rosario,Government,CityCountyMunicipality
+267801,MUNICIPALIDAD DE SAN SALVADOR DE JUJUY,Government,Executive
+267801,MUNICIPALIDAD DE SAN SALVADOR DE JUJUY,Government,CityCountyMunicipality
+265640,MUNICIPALIDAD DE TANDIL,Government,Executive
+265640,MUNICIPALIDAD DE TANDIL,Government,CityCountyMunicipality
+209608,Municipality of Athens,Government,Executive
+209608,Municipality of Athens,Government,CityCountyMunicipality
+12102,City of Portland,Government,Executive
+12102,City of Portland,Government,CityCountyMunicipality
+16569,City of Calgary,Government,Executive
+16569,City of Calgary,Government,CityCountyMunicipality
+19827,City of Carson City,Government,Executive
+19827,City of Carson City,Government,CityCountyMunicipality
+266700,HONORABLE CAMARA DE DIPUTADOS DE LA NACION,Government,Legislative
+266700,HONORABLE CAMARA DE DIPUTADOS DE LA NACION,Government,FederalNational
+269086,Assembleia Legislativa do Estado do RS,Government,Legislative
+269086,Assembleia Legislativa do Estado do RS,Government,StateProvince
+398290,House of Commons,Government,Legislative
+398290,House of Commons,Government,FederalNational
+45442,Department of Parliamentary Services,Government,Legislative
+45442,Department of Parliamentary Services,Government,FederalNational
+141195,Bangladesh Parlament Secretariat,Government,Legislative
+141195,Bangladesh Parlament Secretariat,Government,FederalNational
+29214,THE HOUSE OF COMMONS,Government,Legislative
+29214,THE HOUSE OF COMMONS,Government,FederalNational
+40721,Pennsylvania House of Representatives BMC,Government,Legislative
+40721,Pennsylvania House of Representatives BMC,Government,StateProvince
+40412,PA House of Representatives - Democratic Caucus,Government,Legislative
+40412,PA House of Representatives - Democratic Caucus,Government,StateProvince
+29860,Florida House of Representatives,Government,Legislative
+29860,Florida House of Representatives,Government,StateProvince
+271800,PODER JUDICIAL DE LA NACION,Government,Judiciary
+271800,PODER JUDICIAL DE LA NACION,Government,FederalNational
+151645,Ministry of Justice (New Zealand),Government,Judiciary
+151645,Ministry of Justice (New Zealand),Government,FederalNational
+58185,Ministry of Justice of Georgia,Government,Judiciary
+58185,Ministry of Justice of Georgia,Government,FederalNational
+38438,Department of Communities and Justice (DCJ),Government,Judiciary
+38438,Department of Communities and Justice (DCJ),Government,FederalNational
+23585,Ministry of Justice of South Korea,Government,Judiciary
+23585,Ministry of Justice of South Korea,Government,FederalNational
+206629,Ministry of Justice UK,Government,Judiciary
+206629,Ministry of Justice UK,Government,FederalNational
+15130,United States Department of Justice,Government,Judiciary
+15130,United States Department of Justice,Government,FederalNational
+52997,PARANÁ TRIBUNAL DE JUSTIÇA,Government,Judiciary
+52997,PARANÁ TRIBUNAL DE JUSTIÇA,Government,StateProvince
+263889,Estado do Maranhao-Tribunal de Justica do Mara...,Government,Judiciary
+263889,Estado do Maranhao-Tribunal de Justica do Mara...,Government,StateProvince
+263639,AMAZONAS TRIBUNAL DE JUSTICA,Government,Judiciary
+263639,AMAZONAS TRIBUNAL DE JUSTICA,Government,StateProvince
+265450,Justica Federal de Primeiro Grau no Parana,Government,Judiciary
+265450,Justica Federal de Primeiro Grau no Parana,Government,StateProvince
+265375,Justica Federal de Primeiro Grau no RS,Government,Judiciary
+265375,Justica Federal de Primeiro Grau no RS,Government,StateProvince
+64274,Oregon Judicial Department,Government,Judiciary
+64274,Oregon Judicial Department,Government,StateProvince
+3719,State of Connecticut Judicial Branch,Government,Judiciary
+3719,State of Connecticut Judicial Branch,Government,StateProvince
+27894,PODER JUDICIAL DE MENDOZA,Government,Judiciary
+27894,PODER JUDICIAL DE MENDOZA,Government,StateProvince
+398757,Federal Trade Commission,Government,Executive
+398757,Federal Trade Commission,Government,FederalNational
+398757,Federal Trade Commission,Government,Regulators
+327836,Office Tchadien de regulatoin des telecommunic (Chad),Government,Executive
+327836,Office Tchadien de regulatoin des telecommunic (Chad),Government,FederalNational
+327836,Office Tchadien de regulatoin des telecommunic (Chad),Government,Regulators
+35160,Communications and Media Commission (CMC),Government,Executive
+35160,Communications and Media Commission (CMC),Government,FederalNational
+35160,Communications and Media Commission (CMC),Government,Regulators
+1761,General Services Commission,Government,Executive
+1761,General Services Commission,Government,FederalNational
+1761,General Services Commission,Government,Regulators
+2536,Texas Commission on Alcohol & Drug Abuse,Government,Executive
+2536,Texas Commission on Alcohol & Drug Abuse,Government,StateProvince
+2536,Texas Commission on Alcohol & Drug Abuse,Government,Regulators
+203348,Hellenic Telecommunications and Post Commision,Government,Executive
+203348,Hellenic Telecommunications and Post Commision,Government,FederalNational
+203348,Hellenic Telecommunications and Post Commision,Government,Regulators
+63094,Office of Utilities Regulation of Jamaica,Government,Executive
+63094,Office of Utilities Regulation of Jamaica,Government,FederalNational
+63094,Office of Utilities Regulation of Jamaica,Government,Regulators
+328277,Autorité Malienne de Regulation des Télécommin. (Mali),Government,Executive
+328277,Autorité Malienne de Regulation des Télécommin. (Mali),Government,FederalNational
+328277,Autorité Malienne de Regulation des Télécommin. (Mali),Government,Regulators
+16701,AFIP,Government,Executive
+16701,AFIP,Government,FederalNational
+16701,AFIP,Government,Agencies
+37582,ANINF,Government,Executive
+37582,ANINF,Government,FederalNational
+37582,ANINF,Government,Agencies
+61656,AGENCIA NACIONAL DE TELECOMUNICACOES - ANATEL (Brazil),Government,Executive
+61656,AGENCIA NACIONAL DE TELECOMUNICACOES - ANATEL (Brazil),Government,FederalNational
+61656,AGENCIA NACIONAL DE TELECOMUNICACOES - ANATEL (Brazil),Government,Regulators
+267892,COMISION NACIONAL DE TELECOMUNICACIONES CONATEL (NICVE) (Venezuela),Government,Executive
+267892,COMISION NACIONAL DE TELECOMUNICACIONES CONATEL (NICVE) (Venezuela),Government,FederalNational
+267892,COMISION NACIONAL DE TELECOMUNICACIONES CONATEL (NICVE) (Venezuela),Government,Regulators
+5438,Agence Tunisienne d'Internet,Government,Executive
+5438,Agence Tunisienne d'Internet,Government,FederalNational
+5438,Agence Tunisienne d'Internet,Government,Agencies
+52318,ASIGCBA CABA,Government,Executive
+52318,ASIGCBA CABA,Government,CityCountyMunicipality
+52318,ASIGCBA CABA,Government,Agencies
+25373,National Agency for Network and Electronic,Government,Executive
+25373,National Agency for Network and Electronic,Government,StateProvince
+25373,National Agency for Network and Electronic,Government,Agencies
+266637,AGENCIA DE TECNOLOGIA DA INFORMACAO,Government,Executive
+266637,AGENCIA DE TECNOLOGIA DA INFORMACAO,Government,StateProvince
+266637,AGENCIA DE TECNOLOGIA DA INFORMACAO,Government,Agencies
+267882,"AGENCIA DE CIENCIA, TECNOLOGIA Y SOCIEDAD",Government,Executive
+267882,"AGENCIA DE CIENCIA, TECNOLOGIA Y SOCIEDAD",Government,StateProvince
+267882,"AGENCIA DE CIENCIA, TECNOLOGIA Y SOCIEDAD",Government,Agencies
+3499,State of California Department of Motor Vehicles,Government,Executive
+3499,State of California Department of Motor Vehicles,Government,StateProvince
+3499,State of California Department of Motor Vehicles,Government,Agencies
+269850,AGENCIA NACIONAL DE HIDROCARBUROS,Government,Executive
+269850,AGENCIA NACIONAL DE HIDROCARBUROS,Government,FederalNational
+269850,AGENCIA NACIONAL DE HIDROCARBUROS,Government,Agencies
+24,National Aeronautics and Space Administration,Government,Executive
+24,National Aeronautics and Space Administration,Government,FederalNational
+24,National Aeronautics and Space Administration,Government,Agencies
+264789,Agencia Boliviana Espacial (Bolivia),Government,Executive
+264789,Agencia Boliviana Espacial (Bolivia),Government,FederalNational
+264789,Agencia Boliviana Espacial (Bolivia),Government,Agencies
+288,European Space Agency (ESA),Government,Executive
+288,European Space Agency (ESA),Government,FederalNational
+288,European Space Agency (ESA),Government,Agencies
+10671,Comision Nacional de Actividades Espaciales,Government,Executive
+10671,Comision Nacional de Actividades Espaciales,Government,FederalNational
+10671,Comision Nacional de Actividades Espaciales,Government,Agencies
+8519,European Space Agency (ESA),Government,Executive
+8519,European Space Agency (ESA),Government,FederalNational
+8519,European Space Agency (ESA),Government,Agencies
+35542,Swedish Space Corporation,Government,Executive
+35542,Swedish Space Corporation,Government,FederalNational
+35542,Swedish Space Corporation,Government,Agencies
+804,nstitute for Space and Terrestrial Science,Government,Executive
+804,nstitute for Space and Terrestrial Science,Government,FederalNational
+804,nstitute for Space and Terrestrial Science,Government,Agencies
+9606,Institute of Space and Astronautical Science (Japan),Government,Executive
+9606,Institute of Space and Astronautical Science (Japan),Government,FederalNational
+9606,Institute of Space and Astronautical Science (Japan),Government,Agencies
+28089,BANCO CENTRAL DE VENEZUELA,Government,FederalNational
+28089,BANCO CENTRAL DE VENEZUELA,Finance,CentralBanks
+27952,Banco Central de Chile,Government,FederalNational
+27952,Banco Central de Chile,Finance,CentralBanks
+266775,BANCO CENTRAL DE LA REPUBLICA ARGENTINA,Government,FederalNational
+266775,BANCO CENTRAL DE LA REPUBLICA ARGENTINA,Finance,CentralBanks
+22055,Banco Central do Brasil,Government,FederalNational
+22055,Banco Central do Brasil,Finance,CentralBanks
+61314,Central Bank of Ireland,Government,FederalNational
+61314,Central Bank of Ireland,Finance,CentralBanks
+59194,Central Bank of India,Government,FederalNational
+59194,Central Bank of India,Finance,CentralBanks
+56561,Central Bank of the Republic of Armenia,Government,FederalNational
+56561,Central Bank of the Republic of Armenia,Finance,CentralBanks
+51228,CENTRAL BANK CYPRUS LTD,Government,FederalNational
+51228,CENTRAL BANK CYPRUS LTD,Finance,CentralBanks
+397382,Eastern Caribbean Central Bank,Government,FederalNational
+397382,Eastern Caribbean Central Bank,Finance,CentralBanks
+37617,Central Bank of Lesotho,Government,FederalNational
+37617,Central Bank of Lesotho,Finance,CentralBanks
+37452,Central Bank of Nigeria,Government,FederalNational
+37452,Central Bank of Nigeria,Finance,CentralBanks
+37206,Central Bank of Uganda,Government,FederalNational
+37206,Central Bank of Uganda,Finance,CentralBanks
+36929,Central Bank of Egypt,Government,FederalNational
+36929,Central Bank of Egypt,Finance,CentralBanks
+328592,Central Bank of kenya,Government,FederalNational
+328592,Central Bank of kenya,Finance,CentralBanks
+31614,European Central Bank,Government,FederalNational
+31614,European Central Bank,Finance,CentralBanks
+215954,Qatar Central Bank,Government,FederalNational
+215954,Qatar Central Bank,Finance,CentralBanks
+209374,The Central Bank of the Republic of Azerbaijan,Government,FederalNational
+209374,The Central Bank of the Republic of Azerbaijan,Finance,CentralBanks
+10420,Banco de Mexico,Government,FederalNational
+10420,Banco de Mexico,Finance,CentralBanks
+139616,The Central Bank of Bangladesh,Government,FederalNational
+139616,The Central Bank of Bangladesh,Finance,CentralBanks
+11058,Cámara Argentina de Internet (CABASE) - Buenos Aires Routers and Route Servers,IXP,
+263044,,IXP,
+8714,,IXP,
+1200,,IXP,
+6695,,IXP,
+9304,,IXP,
+4635,,IXP,
+31034,,IXP,
+64275,,IXP,
+27919,IXP Ecuador,IXP,
+3557,,DNS,Roots
+394353,,DNS,Roots
+7342,,DNS,Roots
+62119,,DNS,Roots
+5577,,DNS,Roots
+27678,NIC Chile,DNS,ccTLD
+28468,NIC México,DNS,ccTLD
+197440,,DNS,ccTLD
+45285,,DNS,ccTLD
+38064,,DNS,ccTLD
+1030,,DNS,ccTLD
+2597,REGISTRO .IT,DNS,ccTLD
+61455,LACTLD Anycast Cloud,DNS,ccTLD
+9735,,DNS,ccTLD
+44273,GODADDY-DNS,DNS,ANS
+16686,,DNS,ANS
+22612,,DNS,ANS
+6341,WEC Business Services LLC,EnergyAndUtility,
+265685,USINA POPULAR Y MUNICIPAL DE TANDIL SEM,EnergyAndUtility,
+268713,ButanoNET,Access,SmallISP
+57924,"Utility enterprise ""Company ""Donbass Water""",EnergyAndUtility,
+399263,PowerBill Utility Billing Solutions Inc.,EnergyAndUtility,
+36673,"Vectren Utility Holdings, Inc.",EnergyAndUtility,
+9857,KOREA GAS CORPORATION,Government,Executive
+9857,KOREA GAS CORPORATION,Government,FederalNational
+9857,KOREA GAS CORPORATION,EnergyAndUtility,
+59654,Fars Province Gas Co.,Government,Executive
+59654,Fars Province Gas Co.,Government,StateProvince
+59654,Fars Province Gas Co.,EnergyAndUtility,
+4985,PHILADELPHIA GAS WORKS,Government,Executive
+4985,PHILADELPHIA GAS WORKS,Government,StateProvince
+4985,PHILADELPHIA GAS WORKS,EnergyAndUtility,
+206035,2i Rete Gas S.p.A.,EnergyAndUtility,
+45102,Alibaba,ContentProvider,Cloud
+45102,Alibaba,Enterprise,Ecommerce
+62955,eBay,Enterprise,Ecommerce
+53387,MercadoLibre Inc.,Enterprise,Ecommerce
+17374,"Wal-Mart Stores, Inc. ",Enterprise,Ecommerce
+54058,Rakuten,Enterprise,Ecommerce
+9752,Flipkart Internet Pvt Ltd,Enterprise,Ecommerce
+137753,Beijing Jingdong Shangke Information Technology Co. Ltd,Enterprise,Ecommerce
+201026,Zalando,Enterprise,Ecommerce
+2906,Netflix,Enterprise,Entertainment
+8403,Spotify AB,Enterprise,Entertainment
+5662,Warner Bros Discovery,Enterprise,Entertainment
+43500,Warner Bros. Discovery,Enterprise,Entertainment
+23344,"Disney Worldwide Services, Inc.",Enterprise,Entertainment
+23286,Hulu,Enterprise,Entertainment
+46489,,Enterprise,Entertainment
+23258,,Enterprise,Entertainment
+49142,,Enterprise,Entertainment
+2022,Siemens Power Corp,Enterprise,IndustrialManufacturing
+266836,COOPERATIVA DE PROVISION DE ELECTRICIDAD Y SERVICIOS PUBLICOS GENERAL CABRERA LIMITADA,EnergyAndUtility,
+266836,COOPERATIVA DE PROVISION DE ELECTRICIDAD Y SERVICIOS PUBLICOS GENERAL CABRERA LIMITADA,Cooperatives,
+14381,"Caterpillar, Inc.",Enterprise,IndustrialManufacturing
+52756,,Enterprise,IndustrialManufacturing
+7792,,Enterprise,IndustrialManufacturing
+125,,Enterprise,IndustrialManufacturing
+20868,,Enterprise,IndustrialManufacturing
+138654,,Enterprise,IndustrialManufacturing
+58894,,Enterprise,IndustrialManufacturing
+3337,,Enterprise,IndustrialManufacturing
+8315,Accenture B. V,Enterprise,Technology
+17390,IBM,Enterprise,Technology
+8075,Microsoft Corporation,ContentProvider,Cloud
+8075,Microsoft Corporation,DNS,ANS
+8075,Microsoft Corporation,Enterprise,Technology
+15169,Google LLC,ContentProvider,Cloud
+15169,Google LLC,Enterprise,Technology
+109,,Enterprise,Technology
+4666,,Enterprise,Technology
+3614,,Enterprise,Technology
+4983,Intel Corporation,Enterprise,Technology
+54680,,Enterprise,Technology
+38191,,Enterprise,Technology
+5080,,EnergyAndUtility,
+27655,YPF S.A.,Government,Executive
+27655,YPF S.A.,Government,FederalNational
+27655,YPF S.A.,EnergyAndUtility,
+60185,,EnergyAndUtility,
+61721,PETROLEO BRASILEIRO / Petrobras (Brazil) ,EnergyAndUtility,
+23074,PETROLEO BRASILEIRO / Petrobras (Brazil) ,EnergyAndUtility,
+7862,Chevron,EnergyAndUtility,
+26356,CRUSOE ENERGY SYSTEMS LLC,ContentProvider,Hosting
+26356,CRUSOE ENERGY SYSTEMS LLC,EnergyAndUtility,
+265792,,EnergyAndUtility,
+21598,,EnergyAndUtility,
+135655,,EnergyAndUtility,
+59195,,EnergyAndUtility,
+9463,,EnergyAndUtility,
+52357,,EnergyAndUtility,
+13474,Banco de Galicia y Buenos Aires (Argentina),Finance,Bank
+22975,,Finance,Bank
+265670,,Finance,Bank
+27730,BBVA Banco Frances SA,Finance,Bank
+23128,,Finance,Bank
+15256,,Finance,Bank
+35135,,Finance,Bank
+6674,NATIONAL BANK OF GREECE S.A. (Greece),Government,FederalNational
+6674,NATIONAL BANK OF GREECE S.A. (Greece),Finance,Bank
+328922,,Finance,Bank
+399409,,Finance,Bank
+8179,,Finance,CreditUnion
+8104,,Finance,CreditUnion
+7820,,Finance,CreditUnion
+63484,,Finance,CreditUnion
+58828,,Finance,CreditUnion
+55878,,Finance,CreditUnion
+54442,,Finance,CreditUnion
+54368,Coast Capital Savings Credit Union (Canada),Finance,CreditUnion
+43410,,Finance,CreditUnion
+7743,JPMorgan Chase,Finance,Bank
+7743,JPMorgan Chase,Finance,Entities
+2559,Visa International,Finance,Entities
+6307,American Express,Finance,Entities
+20331,Ocwen Financial Corporation,Finance,Entities
+4243,,Finance,Entities
+17012,PayPal Inc,Finance,Entities
+50079,,Finance,Entities
+31747,,Finance,Entities
+395615,,Finance,Entities
+6973,,Finance,Entities
+9959,,Finance,StockExchanges
+9590,,Finance,StockExchanges
+21168,,Finance,StockExchanges
+63147,United States Capitol Police,LawEnforcement,
+264312,Departamento de Policia Rodoviaria Federal (Brazil),LawEnforcement,
+58681,New South Wales Police (Australia),LawEnforcement,
+198759,European Police Office (EuroPol) (Netherlands),LawEnforcement,
+140878,Philippine National Police (Philippines),LawEnforcement,
+263719,POLICIA NACIONAL DE COLOMBIA (Colombia),LawEnforcement,
+22515,DEPARTAMENTO DE POLICIA FEDERAL (Brazil),LawEnforcement,
+53615,Saskatoon Police Service (Canada),LawEnforcement,
+4756,Korea National Police University (Republic of Korea),LawEnforcement,
+41888,State Institution Service Center for the Departments of the National Police of Ukraine (Ukraine),LawEnforcement,
+24561,WA Police (Australia),LawEnforcement,
+33138,New York City Police Department (United States),LawEnforcement,
+399722,,Health,Insurances
+52459,Instituto Social para Jubilados y Pensionados (I.N.S.S.J.P),Government,FederalNational
+52459,Instituto Social para Jubilados y Pensionados (I.N.S.S.J.P),Health,Insurances
+30345,CountryWide Insurance Company,Health,Insurances
+54289,Euclid Insurance Agencies,Health,Insurances
+45375,Firstfire Marine Insurance,Health,Insurances
+22678,,Health,Insurances
+7163,,Health,Insurances
+57116,,Health,Insurances
+205622,,Health,Insurances
+137422,,Health,Insurances
+26723,,Health,Hospitals
+395750,,Health,Hospitals
+14790,,Health,Hospitals
+393550,,Health,Hospitals
+46483,,Health,Hospitals
+61880,,Health,Hospitals
+55010,,Health,Hospitals
+328011,,Health,Hospitals
+328776,,Health,Hospitals
+32858,,Health,Hospitals
+132093,,Health,Hospitals
+61510,Cooperativa Telefonica de Calafate Ltda. (Argentina),Cooperatives,
+9638,,Cooperatives,
+7382,,Cooperatives,
+395658,,Cooperatives,
+53949,,Cooperatives,
+51679,,Cooperatives,
+61881,,Cooperatives,
+61499,,Cooperatives,
+400939,,Cooperatives,
+28079,,Cooperatives,
+28052,Arte Radio Televisivo Argentino,TvRadioCulturalAmenities,
+271780,,TvRadioCulturalAmenities,
+62826,,TvRadioCulturalAmenities,
+32612,,TvRadioCulturalAmenities,
+61785,,TvRadioCulturalAmenities,
+47708,Sveriges Radio AB,Government,Executive
+47708,Sveriges Radio AB,Government,FederalNational
+47708,Sveriges Radio AB,TvRadioCulturalAmenities,
+6794,,TvRadioCulturalAmenities,
+63704,,TvRadioCulturalAmenities,
+61509,,TvRadioCulturalAmenities,
+57584,,TvRadioCulturalAmenities,
+16684,,Transportation,Trains
+46630,,Transportation,Trains
+29325,,Transportation,Trains
+49511,,Transportation,Trains
+205173,,Transportation,Trains
+150686,,Transportation,Trains
+14502,,Transportation,Trains
+23978,,Transportation,Trains
+53353,Alaska Railroad Corporation,Transportation,Trains
+10405,Union Pacific Railroad Company,Transportation,Trains
+10055,Korean National Railroad Administration,Government,Executive
+10055,Korean National Railroad Administration,Government,FederalNational
+10055,Korean National Railroad Administration,Transportation,Trains
+57720,,Transportation,Ships
+50863,,Transportation,Ships
+26956,,Transportation,Ships
+198647,,Transportation,Ships
+397115,,Transportation,Ships
+34344,,Transportation,Ships
+395290,,Transportation,Ships
+32027,,Transportation,Ships
+329432,,Transportation,Ships
+38866,,Transportation,Ships
+12187,Metropolitan Transportation Authority - New York City Transit,Transportation,TransitAuthority
+55542,,Transportation,TransitAuthority
+45999,Korea Transportation Safety Authority,Transportation,TransitAuthority
+151334,,Transportation,TransitAuthority
+196778,,Transportation,TransitAuthority
+152302,,Transportation,TransitAuthority
+135403,,Transportation,TransitAuthority
+46383,,Transportation,TransitAuthority
+211060,,Transportation,TransitAuthority
+55656,Ministry of Transportation Republic of Indonesia,Government,Executive
+55656,Ministry of Transportation Republic of Indonesia,Government,FederalNational
+55656,Ministry of Transportation Republic of Indonesia,Transportation,TransitAuthority
+267255,FRAPORT BRASIL S.A. AEROPORTO DE PORTO ALEGRE,Transportation,Airports
+135647,Airports Fiji Limited,Transportation,Airports
+55304,Australia Pacific Airports,Transportation,Airports
+202949,Fraport Regional Airports of Greece Management Company S.A,Transportation,Airports
+131924,Kansai Airports,Transportation,Airports
+135294,Queensland Airports Limited,Transportation,Airports
+137562,Sydney Airport Corporation Limited,Transportation,Airports
+396320,Metropolitan Airports Commission,Transportation,Airports
+196847,OJSC SHEREMETYEVO INTERNATIONAL AIRPORT,Transportation,Airports
+59645,,Personal,
+58280,,Personal,
+206924,,Personal,
+42615,,Personal,
+210312,,Personal,
+44421,,Personal,
+202418,,Personal,
+49933,,Personal,
+57782,,Personal,
+204543,,Personal,
+23987,NETPLUZ HOLDINGS PRIVATE LIMITED,Enterprise,Technology
+216454,James Wall,Personal,
+55174,,Enterprise,Technology
+41751,,Enterprise,Ecommerce
+41751,,Enterprise,IndustrialManufacturing
+63103,,Health,Hospitals
+206063,CompuGroup Medical Deutschland AG,Enterprise,Technology
+206063,CompuGroup Medical Deutschland AG,Health,Hospitals
+132221,,Enterprise,IndustrialManufacturing
+132221,,Enterprise,Technology
+133386,,Finance,Entities
+133386,,Health,Insurances
+61069,,Enterprise,Technology
+204901,,Personal,
+394704,,Enterprise,Ecommerce
+394704,,Enterprise,Technology
+394704,,Finance,Entities
+37184,Powertel Communications,Government,Executive
+37184,Powertel Communications,Government,FederalNational
+37184,Powertel Communications,EnergyAndUtility,
+37184,Powertel Communications,Enterprise,Technology
+394132,,Enterprise,IndustrialManufacturing
+394132,,Enterprise,Technology
+28048,Internet Para Todos - Gobierno de La Rioja,Access,SmallISP
+28048,Internet Para Todos - Gobierno de La Rioja,Government,StateProvince
+267854,NACION SERVICIOS S.A.,Government,Executive
+267854,NACION SERVICIOS S.A.,Government,FederalNational
+267854,NACION SERVICIOS S.A.,Finance,Entities
+20491,,Enterprise,Technology
+20491,,Finance,Entities
+20491,,Health,Hospitals
+56036,,Access,SmallISP
+56036,,Mobile,
+16532,,Access,SmallISP
+16532,,ContentProvider,Hosting
+17516,,ContentProvider,Hosting
+17516,,Enterprise,Technology
+197733,LLC ATK Telecom,Access,SmallISP
+5642,,ContentProvider,Hosting
+5642,,Enterprise,Technology
+213364,,Personal,
+397481,,Enterprise,IndustrialManufacturing
+20650,IP NEXIA N.V.,Access,SmallISP
+20650,IP NEXIA N.V.,Mobile,
+20650,IP NEXIA N.V.,ContentProvider,Hosting
+20650,IP NEXIA N.V.,Enterprise,Technology
+13302,Linkey Ltd,ContentProvider,Hosting
+54583,,EducationalResearch,University
+54583,,EducationalResearch,ResearchInstitutes
+54583,,Health,Hospitals
+24389,grameenphone limited,Access,LargeISP
+24389,grameenphone limited,Mobile,
+24389,grameenphone limited,Government,Executive
+24389,grameenphone limited,Government,FederalNational
+20595,,Finance,Bank
+395537,,EducationalResearch,ResearchInstitutes
+197565,NHK Solutions s.r.o.,Access,SmallISP
+197565,NHK Solutions s.r.o.,Enterprise,Technology
+7670,,Access,SmallISP
+55001,,Access,SmallISP
+211058,,Enterprise,Technology
+905,Waterloo Regional Police Service (Canada),LawEnforcement,
+58446,Police Bank Limited (Australia),LawEnforcement,
+40863,Bossier Parish Police Jury (United States),LawEnforcement,
+401194,Queen Creek Police Department (United States),LawEnforcement,
+400085,Regina Police Service (Canada),LawEnforcement,
+397711,Halton Regional Police Service (Canada),LawEnforcement,
+395317,Rhode Island State Police (United States),LawEnforcement,
+393998,Elk Grove Village Police Department (United States),LawEnforcement,
+393995,Police and Fire Federal Credit Union (United States),LawEnforcement,
+36553,Baltimore City Police Department (United States),LawEnforcement,
+25992,Las Vegas Metropolitan Police Department (United States),LawEnforcement,
+201904,Grupa Azoty Zaklady Chemiczne 'Police' S.A. (Poland),LawEnforcement,
+201524,Albania State Police (Albania),LawEnforcement,
+15205,Nassau County Police Department (United States),LawEnforcement,
+151973,WA Police Force (Australia),LawEnforcement,
+139237,Nepal Police (Nepal),LawEnforcement,
+138215,Royal Thai Police (Thailand),LawEnforcement,
+135835,Sardar Vallabhbhai Patel National Police Academy (India),LawEnforcement,
+133477,Bangladesh Police (Bangladesh),LawEnforcement,
+132619,POLICE DEPARTMENT (VIC) (Australia),LawEnforcement,
+1070,Peel Regional Police (Canada),LawEnforcement,
+263718,PREFECTURA NAVAL ARGENTINA (Argentina),LawEnforcement,
+212377,Direccion General de la Guardia Civil (Spain),LawEnforcement,
+48782,European Border and Coast Guard Agency (Poland),LawEnforcement,
+27030,United States Coast Guard (United States),LawEnforcement,
+137415,Bangladesh Coast Guard Force (Bangladesh),LawEnforcement,
+8291,The Federal Guard Service of the Russian Federation (Russian Federation),Government,Executive
+8291,The Federal Guard Service of the Russian Federation (Russian Federation),Government,FederalNational
+8291,The Federal Guard Service of the Russian Federation (Russian Federation),LawEnforcement,
+43797,The Federal Guard Service of the Russian Federation (Russian Federation),Government,Executive
+43797,The Federal Guard Service of the Russian Federation (Russian Federation),Government,FederalNational
+43797,The Federal Guard Service of the Russian Federation (Russian Federation),LawEnforcement,
+42121,The Federal Guard Service of the Russian Federation (Russian Federation),Government,Executive
+42121,The Federal Guard Service of the Russian Federation (Russian Federation),Government,FederalNational
+42121,The Federal Guard Service of the Russian Federation (Russian Federation),LawEnforcement,
+17147,Ministerio del Interior y de Seguridad Publica - Gobierno de Chile (Chile),Government,Executive
+17147,Ministerio del Interior y de Seguridad Publica - Gobierno de Chile (Chile),Government,FederalNational
+52240,"Ministerio de Trabajo, Empleo y Seguridad Social (Argentina)",Government,Executive
+52240,"Ministerio de Trabajo, Empleo y Seguridad Social (Argentina)",Government,FederalNational
+27949,ANSES - Administración Nacional de la Seguridad Social (Argentina),Government,Executive
+27949,ANSES - Administración Nacional de la Seguridad Social (Argentina),Government,FederalNational
+262249,Secretaria Legal y Tecnica (Argentina),Government,Executive
+262249,Secretaria Legal y Tecnica (Argentina),Government,FederalNational
+61585,MINISTÉRIO DA SAÚDE - INSTITUTO NACIONAL DE CÂNCER (Brazil),Government,Executive
+61585,MINISTÉRIO DA SAÚDE - INSTITUTO NACIONAL DE CÂNCER (Brazil),Government,FederalNational
+52315,Servicios de Administracion Previsional S.A. (Chile),Government,Executive
+52315,Servicios de Administracion Previsional S.A. (Chile),Government,FederalNational
+52315,Servicios de Administracion Previsional S.A. (Chile),Government,Agencies
+33248,"City of Evanston, Illinois (United States)",Government,Executive
+33248,"City of Evanston, Illinois (United States)",Government,CityCountyMunicipality
+61471,CONSEJO NACIONAL ELECTORAL ((Country Not Specified)),Government,Legislative
+61471,CONSEJO NACIONAL ELECTORAL ((Country Not Specified)),Government,FederalNational
+39940,Police and Fire Federal Credit Union (United States),Finance,CreditUnion
+61496,UNIVERSIDAD NACIONAL DEL CENTRO DE LA PROVINCIA DE BUENOS AIRES (Argentina),EducationalResearch,University
+61486,Universidad Nacional de Quilmes (Argentina),EducationalResearch,University
+61476,Universidad Nacional de La Pampa (Argentina),EducationalResearch,University
+52314,Universidad Nacional del Noroeste de Buenos Aires (UNNOBA) (Argentina),EducationalResearch,University
+52364,"COOP DE TELECOM.,DE SERVICIOS MULTIPLES,VIVIENDA,PROVISION Y CONSUMO DE FUNES LTDA. (Argentina)",Access,SmallISP
+52364,"COOP DE TELECOM.,DE SERVICIOS MULTIPLES,VIVIENDA,PROVISION Y CONSUMO DE FUNES LTDA. (Argentina)",Cooperatives,
+52350,"Cooperativa de Electricidad, Obras y Servicios Públicos Suipacha JJ Almeira Ltda. (Argentina)",Cooperatives,
+52303,COOP.DE OB.Y SERVICIOS PUB. DE MARCOS JUAREZ (Argentina),Cooperatives,
+52295,"COOPERATIVA ELECTRICA, PROVISION DE SERVICIOS PUBLICOS Y VIVIENDA DE JUAN N. FERNANDEZ LIMITADA (Argentina)",Cooperatives,
+52271,Coop. Energía Elect. y Otros Servicios Las Varillas (Argentina),Cooperatives,
+64117,COOPERATIVA DE PROVISION DE ELECTRICIDAD Y SERVICIOS PUBLICOS DE ROBERTS LTDA (Argentina),Cooperatives,
+61487,COOPERATIVA ELECTRICA DE SALADILLO (Argentina),Cooperatives,
+61481,COOPERATIVA DE O. S. P. S. V. EL BOLSON (Argentina),Access,SmallISP
+61481,COOPERATIVA DE O. S. P. S. V. EL BOLSON (Argentina),Cooperatives,
+61456,COOPERATIVA TRES LIMITES LTDA (Argentina),Cooperatives,
+52496,COOPERATIVA DE SERVICIOS MULTIPLES REG (Argentina),Cooperatives,
+52491,Cooperativa de Servicios Públicos de Fátima Ltda. (Argentina),Cooperatives,
+52490,COOPERATIVA DE ELECTRICIDAD DE PEDRO LURO (Argentina),Cooperatives,
+52486,Cooperativa Electrica de Galvez Ltda. (Argentina),Cooperatives,
+52474,Cooperativa de Obras y Servicios Públicos de Eduardo Castex Ltda. (Argentina),Cooperatives,
+52473,Cooperativa Telefónica de Abasto (Argentina),Cooperatives,
+52447,Cooperativa Telefonica y Otros Servicios de Santa Clara del Mar Limitada (Cootelser Ltda.) (Argentina),Cooperatives,
+52432,Cooperativa de Usuarios de Electricidad y de Consumo de Castelli Ltda. (Argentina),Cooperatives,
+52387,COOPERATIVA ELECTRICA DE MONTE LTDA (Argentina),Cooperatives,
+52383,Cooperativa Eléctrica de Azul Ltda. (Argentina),Cooperatives,
+52381,Sociedad Cooperativa Popular Limitada de Comodoro (Argentina),Cooperatives,
+52372,COOPERATIVA ELECTRICA DE GENERAL DEHEZA LTDA. (Argentina),Cooperatives,
+52348,Cooperativa Eléctrica Antonio Carboni Ltda (Argentina),Cooperatives,
+52323,Colsecor Cooperativa Limitada (Argentina),Cooperatives,
+27797,IBM Argentina S.R.L. (Argentina),ContentProvider,Hosting
+28581,Banco Santander (Brasil) S.A. (Brazil),Finance,Bank
+266960,Banco Santander (Brasil) S.A. (Brazil),Finance,Bank
+44044,Santander Consumer Bank S.A. (Poland),Finance,Bank
+41567,Santander Consumer Bank S.A. (Poland),Finance,Bank
+39133,Santander Consumer Bank S.A. (Poland),Finance,Bank
+16780,Banco Santander (Spain),Finance,Bank
+19688,"Banco Santander (Mexico) S.A., Institucion de Banca Multiple, Grupo Financiero (Mexico)",Finance,Bank
+10794,BANKAMERICA (United States),Finance,Bank
+9960,"The Daegu Bank, Ltd (Korea, Republic of)",Finance,Bank
+9776,"KOOKMIN BANK (Korea, Republic of)",Finance,Bank
+9772,"Jeonbuk Bank (Korea, Republic of)",Finance,Bank
+9703,"Shinhan Bank (Korea, Republic of)",Finance,Bank
+9702,"Shinhan Bank (Korea, Republic of)",Finance,Bank
+9641,"Korea Development Bank (Korea, Republic of)",Finance,Bank
+9570,"Jeonbuk Bank (Korea, Republic of)",Finance,Bank
+9520,DBS Bank (Hong Kong) Limited (Hong Kong),Finance,Bank
+9276,"JT Chinae Savings Bank (Korea, Republic of)",Finance,Bank
+9261,Commonwealth Bank of Australia (Australia),Government,Executive
+9261,Commonwealth Bank of Australia (Australia),Government,FederalNational
+9261,Commonwealth Bank of Australia (Australia),Finance,Bank
+9128,Alpha Bank SA (Greece),Finance,Bank
+9016,Krakowski Bank Spoldzielczy (Poland),Finance,Bank
+8904,Bank of Russia (Russian Federation),Government,FederalNational
+8904,Bank of Russia (Russian Federation),Finance,CentralBanks
+8373,Deutsche Bank AG (Germany),Finance,Bank
+8012,The Bank of New York Mellon Corporation (United States),Finance,Bank
+7734,Toronto Dominion Bank (Canada),Finance,Bank
+7646,Bank of America N.A. (Hong Kong),Finance,Bank
+7466,Federal Reserve Bank (United States),Government,FederalNational
+7466,Federal Reserve Bank (United States),Finance,CentralBanks
+7306,Asian Development Bank (United States),Finance,Bank
+6817,ING Bank N.V. (Netherlands),Finance,Bank
+6816,ING Bank N.V. (Netherlands),Finance,Bank
+6815,ING Bank N.V. (Netherlands),Finance,Bank
+64065,NRB Global Bank Ltd. (Bangladesh),Finance,Bank
+64046,Pubali Bank Limited (Bangladesh),Finance,Bank
+22798,RED LINK S.A. (Argentina),Finance,Bank
+265806,BANCO DE LA PROVINCIA DE BUENOS AIRES (Argentina),Finance,Bank
+33000,JMF IXP FARM,IXP,
+212330,IRAQ-IXP,IXP,
+211100,IRAQ-IXP Route Server,IXP,
+49459,IXP Route Servers,IXP,
+328398,IXP-GUINEE Management,IXP,
+57127,Internet Exchange Association of Georgia,IXP,
+210580,Internet Exchange Association of Georgia,IXP,
+271885,IXPGT - Guatemala - Route Servers,IXP,
+56507,IXP.mk Route Servers,IXP,
+33519,Baxter Credit Union,Finance,CreditUnion
+397736,Beacon Federal Credit Union,Finance,CreditUnion
+15101,Central 1 Credit Union,Finance,CreditUnion
+21764,Clearview Federal Credit Union,Finance,CreditUnion
+11894,Service Credit Union,Finance,CreditUnion
+13475,UNIFY Financial Credit Union,Finance,CreditUnion
+395410,USAlliance Federal Credit Union,Finance,CreditUnion
+22769,Valley Strong Credit Union,Finance,CreditUnion
+36456,Velocity Credit Union,Finance,CreditUnion
+49205,Kuwait Petroleum Corporation,Government,Executive
+49205,Kuwait Petroleum Corporation,Government,FederalNational
+49205,Kuwait Petroleum Corporation,EnergyAndUtility,
+63457,Empire District Industries (Liberty Connect),EnergyAndUtility,
+328497,Ibadan Electricity Distribution Company,EnergyAndUtility,
+6150,National Cancer Institute ,EducationalResearch,ResearchInstitutes
+6150,National Cancer Institute ,Government,Executive
+6150,National Cancer Institute ,Government,FederalNational
+16,Lawrence Berkeley National Laboratory,EducationalResearch,University
+16,Lawrence Berkeley National Laboratory,EducationalResearch,ResearchInstitutes
+16,Lawrence Berkeley National Laboratory,Government,Executive
+16,Lawrence Berkeley National Laboratory,Government,FederalNational
+16411,National Renewable Energy Laboratory,EducationalResearch,ResearchInstitutes
+16411,National Renewable Energy Laboratory,Government,Executive
+16411,National Renewable Energy Laboratory,Government,FederalNational
+16411,National Renewable Energy Laboratory,EnergyAndUtility,
+43,Brookhaven National Laboratory,EducationalResearch,ResearchInstitutes
+43,Brookhaven National Laboratory,Government,Executive
+43,Brookhaven National Laboratory,Government,FederalNational
+8240,Information System Authority (Estonian State Network),Government,Executive
+8240,Information System Authority (Estonian State Network),Government,FederalNational
+8240,Information System Authority (Estonian State Network),Government,Agencies
+8240,Information System Authority (Estonian State Network),IXP,
+8240,Information System Authority (Estonian State Network),DNS,Roots
+8240,Information System Authority (Estonian State Network),DNS,ANS
+49,National Institute of Standards and Technology,EducationalResearch,ResearchInstitutes
+49,National Institute of Standards and Technology,Government,Executive
+49,National Institute of Standards and Technology,Government,FederalNational
+49,National Institute of Standards and Technology,Government,Agencies
+50,Oak Ridge National Laboratory,EducationalResearch,ResearchInstitutes
+50,Oak Ridge National Laboratory,Government,Executive
+50,Oak Ridge National Laboratory,Government,FederalNational
+50,Oak Ridge National Laboratory,EnergyAndUtility,
+262201,BANCO HIPOTECARIO SOCIEDAD ANONIMA,Finance,Bank
+68,Los Alamos National Laboratory,EducationalResearch,ResearchInstitutes
+68,Los Alamos National Laboratory,Government,Executive
+68,Los Alamos National Laboratory,Government,FederalNational
+70,National Library of Medicine,Government,FederalNational
+70,National Library of Medicine,Health,Hospitals
+102,U.S. National Science Foundation,EducationalResearch,AcademicBackbone
+102,U.S. National Science Foundation,Government,FederalNational
+102,U.S. National Science Foundation,Government,Agencies
+127,Jet Propulsion Laboratory (NASA),EducationalResearch,ResearchInstitutes
+127,Jet Propulsion Laboratory (NASA),Government,Executive
+127,Jet Propulsion Laboratory (NASA),Government,FederalNational
+127,Jet Propulsion Laboratory (NASA),Government,Agencies
+26810,U.S. Dept. of Health and Human Services,Government,Executive
+26810,U.S. Dept. of Health and Human Services,Government,FederalNational
+26810,U.S. Dept. of Health and Human Services,Government,Agencies
+26810,U.S. Dept. of Health and Human Services,Health,Hospitals
+32982,U.S. Department of Energy,Government,Executive
+32982,U.S. Department of Energy,Government,FederalNational
+32982,U.S. Department of Energy,Government,Agencies
+32982,U.S. Department of Energy,EnergyAndUtility,
+291,ESnet (Department of Energy's dedicated science network),EducationalResearch,AcademicBackbone
+291,ESnet (Department of Energy's dedicated science network),Government,FederalNational
+291,ESnet (Department of Energy's dedicated science network),Government,Agencies
+291,ESnet (Department of Energy's dedicated science network),EnergyAndUtility,
+292,ESNET-WEST,EducationalResearch,AcademicBackbone
+292,ESNET-WEST,Government,FederalNational
+292,ESNET-WEST,Government,Agencies
+292,ESNET-WEST,EnergyAndUtility,
+293,ESNET,EducationalResearch,AcademicBackbone
+293,ESNET,Government,FederalNational
+293,ESNET,Government,Agencies
+293,ESNET,EnergyAndUtility,
+297,NASA,EducationalResearch,ResearchInstitutes
+297,NASA,Government,Executive
+297,NASA,Government,FederalNational
+297,NASA,Government,Agencies
+61738,Sec. de Estado de Plan. e Orcamento do DF,Government,Executive
+61738,Sec. de Estado de Plan. e Orcamento do DF,Government,FederalNational
+8517,ULAKNET - National Academic Network and Information Center,EducationalResearch,AcademicBackbone
+8517,ULAKNET - National Academic Network and Information Center,EducationalResearch,ResearchInstitutes
+8517,ULAKNET - National Academic Network and Information Center,Government,FederalNational
+377,Sandia National Laboratories (US),EducationalResearch,ResearchInstitutes
+377,Sandia National Laboratories (US),Government,Executive
+377,Sandia National Laboratories (US),Government,FederalNational
+377,Sandia National Laboratories (US),Government,Agencies
+377,Sandia National Laboratories (US),LawEnforcement,
+27016,United States Nuclear Regulatory Commission,Government,Executive
+27016,United States Nuclear Regulatory Commission,Government,FederalNational
+27016,United States Nuclear Regulatory Commission,Government,Regulators
+27016,United States Nuclear Regulatory Commission,EnergyAndUtility,
+47524,Turksat Uydu Haberlesme ve Kablo TV Isletme A.S,Access,LargeISP
+47524,Turksat Uydu Haberlesme ve Kablo TV Isletme A.S,Satellite,
+47524,Turksat Uydu Haberlesme ve Kablo TV Isletme A.S,ContentProvider,Hosting
+47524,Turksat Uydu Haberlesme ve Kablo TV Isletme A.S,Government,Executive
+47524,Turksat Uydu Haberlesme ve Kablo TV Isletme A.S,Government,FederalNational
+47524,Turksat Uydu Haberlesme ve Kablo TV Isletme A.S,TvRadioCulturalAmenities,
+6629,National Oceanic and Atmospheric Administration,EducationalResearch,ResearchInstitutes
+6629,National Oceanic and Atmospheric Administration,Government,Executive
+6629,National Oceanic and Atmospheric Administration,Government,FederalNational
+6629,National Oceanic and Atmospheric Administration,Government,Regulators
+55824,NKN Core Network,EducationalResearch,AcademicBackbone
+55824,NKN Core Network,EducationalResearch,ResearchInstitutes
+55824,NKN Core Network,Government,FederalNational
+55824,NKN Core Network,Government,Agencies
+2576,U. S. Department of Transportation,Government,Executive
+2576,U. S. Department of Transportation,Government,FederalNational
+2576,U. S. Department of Transportation,Government,Agencies
+2576,U. S. Department of Transportation,Transportation,TransitAuthority
+33343,"U.S. Department of Commerce, HQ and ITA",Government,Executive
+33343,"U.S. Department of Commerce, HQ and ITA",Government,FederalNational
+33343,"U.S. Department of Commerce, HQ and ITA",Government,Agencies
+41548,Medway Council,Government,Legislative
+41548,Medway Council,Government,CityCountyMunicipality
+2648,National Oceanic and Atmospheric Administration,EducationalResearch,ResearchInstitutes
+2648,National Oceanic and Atmospheric Administration,Government,Executive
+2648,National Oceanic and Atmospheric Administration,Government,FederalNational
+2648,National Oceanic and Atmospheric Administration,Government,Regulators
+12891,Genel Kurmay Baskanligi,Government,Executive
+12891,Genel Kurmay Baskanligi,Government,FederalNational
+12891,Genel Kurmay Baskanligi,LawEnforcement,
+4758,National Informatics Centre,ContentProvider,Hosting
+4758,National Informatics Centre,Government,Executive
+4758,National Informatics Centre,Government,FederalNational
+4758,National Informatics Centre,DNS,ccTLD
+8867,Government ICT Authority - Israel,ContentProvider,Hosting
+8867,Government ICT Authority - Israel,Government,Executive
+8867,Government ICT Authority - Israel,Government,FederalNational
+8867,Government ICT Authority - Israel,Government,Agencies
+688,U.S. Department of Interior Bureau of Reclamation,Government,Executive
+688,U.S. Department of Interior Bureau of Reclamation,Government,FederalNational
+688,U.S. Department of Interior Bureau of Reclamation,Government,Agencies
+688,U.S. Department of Interior Bureau of Reclamation,EnergyAndUtility,
+45773,"PERN AS Content Servie Provider, Islamabad, Pakistan",EducationalResearch,AcademicBackbone
+45773,"PERN AS Content Servie Provider, Islamabad, Pakistan",Government,FederalNational
+2799,Polismyndigheten,Government,Executive
+2799,Polismyndigheten,Government,FederalNational
+2799,Polismyndigheten,Government,Agencies
+2799,Polismyndigheten,LawEnforcement,
+15147,DEPARTMENT OF HOMELAND SECURITY,Government,Executive
+15147,DEPARTMENT OF HOMELAND SECURITY,Government,FederalNational
+15147,DEPARTMENT OF HOMELAND SECURITY,Government,Agencies
+15147,DEPARTMENT OF HOMELAND SECURITY,LawEnforcement,
+396098,U.S. Department of Energy - Hanford,Government,Executive
+396098,U.S. Department of Energy - Hanford,Government,FederalNational
+396098,U.S. Department of Energy - Hanford,Government,Agencies
+396098,U.S. Department of Energy - Hanford,EnergyAndUtility,
+58282,Statens IT,Government,Executive
+58282,Statens IT,Government,FederalNational
+58282,Statens IT,Government,Agencies
+58282,Statens IT,Enterprise,Technology
+134099,CASS - NZ Central Government,Government,Executive
+134099,CASS - NZ Central Government,Government,FederalNational
+134099,CASS - NZ Central Government,Government,Agencies
+27674,SERVICIO METEOROLOGICO NACIONAL,Government,Executive
+27674,SERVICIO METEOROLOGICO NACIONAL,Government,FederalNational
+27674,SERVICIO METEOROLOGICO NACIONAL,Government,Agencies
+3152,Fermi National Accelerator Laboratory (Fermilab),EducationalResearch,ResearchInstitutes
+3152,Fermi National Accelerator Laboratory (Fermilab),Government,Executive
+3152,Fermi National Accelerator Laboratory (Fermilab),Government,FederalNational
+3152,Fermi National Accelerator Laboratory (Fermilab),Government,Agencies
+138424,Federal Board of Revenue,Government,Executive
+138424,Federal Board of Revenue,Government,FederalNational
+138424,Federal Board of Revenue,Government,Regulators
+13506,US-DEPARTMENT-OF-THE-TREASURY,Government,FederalNational
+13506,US-DEPARTMENT-OF-THE-TREASURY,Government,Regulators
+13506,US-DEPARTMENT-OF-THE-TREASURY,Finance,CentralBanks
+25829,Smithsonian Institution,ContentProvider,Hosting
+25829,Smithsonian Institution,EducationalResearch,ResearchInstitutes
+25829,Smithsonian Institution,Government,Executive
+25829,Smithsonian Institution,Government,FederalNational
+54521,THE-NATIONAL-GALLERY-OF-ART,Government,FederalNational
+29992,U.S. Department of Veterans Affairs,Government,Executive
+29992,U.S. Department of Veterans Affairs,Government,FederalNational
+29992,U.S. Department of Veterans Affairs,Government,Agencies
+13611,U.S. Center For Disease Control and Prevention,Government,Executive
+13611,U.S. Center For Disease Control and Prevention,Government,FederalNational
+13611,U.S. Center For Disease Control and Prevention,Government,Agencies
+13611,U.S. Center For Disease Control and Prevention,Health,Hospitals
+23888,National Telecommunication Corporation HQ (PK),Access,SmallISP
+23888,National Telecommunication Corporation HQ (PK),Government,Executive
+23888,National Telecommunication Corporation HQ (PK),Government,FederalNational
+23888,National Telecommunication Corporation HQ (PK),Government,Agencies
+3428,ESNET-AS,EducationalResearch,AcademicBackbone
+3428,ESNET-AS,Government,FederalNational
+3428,ESNET-AS,Government,Agencies
+3428,ESNET-AS,EnergyAndUtility,
+25996,FBI Criminal Justice Information Services,Government,Executive
+25996,FBI Criminal Justice Information Services,Government,FederalNational
+25996,FBI Criminal Justice Information Services,Government,Regulators
+25996,FBI Criminal Justice Information Services,LawEnforcement,
+3477,National Oceanic and Atmospheric Administration,EducationalResearch,ResearchInstitutes
+3477,National Oceanic and Atmospheric Administration,Government,Executive
+3477,National Oceanic and Atmospheric Administration,Government,FederalNational
+3477,National Oceanic and Atmospheric Administration,Government,Regulators
+7590,Commission on Science and Technology for,EducationalResearch,ResearchInstitutes
+7590,Commission on Science and Technology for,Government,Executive
+7590,Commission on Science and Technology for,Government,FederalNational
+7590,Commission on Science and Technology for,Government,Agencies
+60855,LA DIRECTION INTERMINISTERIELLE DU NUMERIQUE,Government,Executive
+60855,LA DIRECTION INTERMINISTERIELLE DU NUMERIQUE,Government,FederalNational
+60855,LA DIRECTION INTERMINISTERIELLE DU NUMERIQUE,Enterprise,Technology
+3527,National Institutes of Health,EducationalResearch,ResearchInstitutes
+3527,National Institutes of Health,Government,Executive
+3527,National Institutes of Health,Government,FederalNational
+3527,National Institutes of Health,Government,Agencies
+3527,National Institutes of Health,Health,Hospitals
+11724,Comptroller of the Currency,Government,FederalNational
+11724,Comptroller of the Currency,Government,Regulators
+13788,US Courts,Government,Judiciary
+13788,US Courts,Government,FederalNational
+5663,Department of Interior United States Geological Survey,Government,Executive
+5663,Department of Interior United States Geological Survey,Government,FederalNational
+5663,Department of Interior United States Geological Survey,Government,Agencies
+3635,"U.S. Department of Commerce, Bureau of Economic Analysis",Government,Executive
+3635,"U.S. Department of Commerce, Bureau of Economic Analysis",Government,FederalNational
+3635,"U.S. Department of Commerce, Bureau of Economic Analysis",Government,Agencies
+3635,"U.S. Department of Commerce, Bureau of Economic Analysis",Finance,Entities
+7764,National Oceanic and Atmospheric Administration,EducationalResearch,ResearchInstitutes
+7764,National Oceanic and Atmospheric Administration,Government,Executive
+7764,National Oceanic and Atmospheric Administration,Government,FederalNational
+7764,National Oceanic and Atmospheric Administration,Government,Regulators
+30313,Internal Revenue Service,Government,Executive
+30313,Internal Revenue Service,Government,FederalNational
+30313,Internal Revenue Service,Government,Agencies
+5744,United States Patent and Trademark Office,Government,Executive
+5744,United States Patent and Trademark Office,Government,FederalNational
+5744,United States Patent and Trademark Office,Government,Agencies
+1653,SUNET - SUNET Swedish University Network,EducationalResearch,University
+1653,SUNET - SUNET Swedish University Network,EducationalResearch,AcademicBackbone
+1653,SUNET - SUNET Swedish University Network,Government,FederalNational
+15991,SWEDISH_TAX_AGENCY - Swedish Tax Agency,Government,Executive
+15991,SWEDISH_TAX_AGENCY - Swedish Tax Agency,Government,FederalNational
+15991,SWEDISH_TAX_AGENCY - Swedish Tax Agency,Government,Agencies
+3705,U.S. Government Publishing Office,Government,Legislative
+3705,U.S. Government Publishing Office,Government,FederalNational
+3705,U.S. Government Publishing Office,Government,Agencies
+1659,Taiwan Academic Network (TANet) Information Center,EducationalResearch,AcademicBackbone
+1659,Taiwan Academic Network (TANet) Information Center,Government,FederalNational
+5766,Indian Health Service,Government,Executive
+5766,Indian Health Service,Government,FederalNational
+5766,Indian Health Service,Health,Insurances
+5766,Indian Health Service,Health,Hospitals
+5774,USPS-001 (United States Postal Service),Government,Executive
+5774,USPS-001 (United States Postal Service),Government,FederalNational
+5774,USPS-001 (United States Postal Service),Government,Agencies
+265884,CONSEJO NACIONAL DE INVESTIGACIONES CIENTIFICAS Y TECNICAS CONICET,EducationalResearch,ResearchInstitutes
+265884,CONSEJO NACIONAL DE INVESTIGACIONES CIENTIFICAS Y TECNICAS CONICET,Government,Executive
+265884,CONSEJO NACIONAL DE INVESTIGACIONES CIENTIFICAS Y TECNICAS CONICET,Government,FederalNational
+7872,United States Antarctic Program,EducationalResearch,ResearchInstitutes
+7872,United States Antarctic Program,Government,Executive
+7872,United States Antarctic Program,Government,FederalNational
+11985,Social Security Administration,Government,Executive
+11985,Social Security Administration,Government,FederalNational
+11985,Social Security Administration,Government,Agencies
+5852,DoD Network Information Center,Government,Executive
+5852,DoD Network Information Center,Government,FederalNational
+5852,DoD Network Information Center,Government,Agencies
+5852,DoD Network Information Center,LawEnforcement,
+272116,INSTITUTO NACIONAL DE TECNOLOGIA INDUSTRIAL CENTROS DE INVESTIGACION,EducationalResearch,ResearchInstitutes
+272116,INSTITUTO NACIONAL DE TECNOLOGIA INDUSTRIAL CENTROS DE INVESTIGACION,Government,Executive
+272116,INSTITUTO NACIONAL DE TECNOLOGIA INDUSTRIAL CENTROS DE INVESTIGACION,Government,FederalNational
+12037,Federal Deposit Insurance Corporation,Government,Executive
+12037,Federal Deposit Insurance Corporation,Government,FederalNational
+12037,Federal Deposit Insurance Corporation,Government,Agencies
+12037,Federal Deposit Insurance Corporation,Finance,Entities
+22284,U.S. Department of the Interior,Government,Executive
+22284,U.S. Department of the Interior,Government,FederalNational
+22284,U.S. Department of the Interior,Government,Agencies
+1835,Forskningsnettet - Danish network for Research and Education,EducationalResearch,AcademicBackbone
+1835,Forskningsnettet - Danish network for Research and Education,Government,FederalNational
+200521,Ministerio de Asuntos Economicos y Transformacion Digital,Government,Executive
+200521,Ministerio de Asuntos Economicos y Transformacion Digital,Government,FederalNational
+1916,Rede Nacional de Ensino e Pesquisa,EducationalResearch,AcademicBackbone
+1916,Rede Nacional de Ensino e Pesquisa,Government,FederalNational
+6026,DoD Network Information Center,Government,Executive
+6026,DoD Network Information Center,Government,FederalNational
+6026,DoD Network Information Center,Government,Agencies
+6026,DoD Network Information Center,LawEnforcement,
+59323,Punjab Information Technology Board,Government,Executive
+59323,Punjab Information Technology Board,Government,StateProvince
+59323,Punjab Information Technology Board,Government,Agencies
+59323,Punjab Information Technology Board,Enterprise,Technology
+4046,Federal Aviation Administration,Government,Executive
+4046,Federal Aviation Administration,Government,FederalNational
+4046,Federal Aviation Administration,Government,Regulators
+4046,Federal Aviation Administration,Transportation,Airports
+14298,Environmental Protection Agency,Government,Executive
+14298,Environmental Protection Agency,Government,FederalNational
+14298,Environmental Protection Agency,Government,Agencies
+2018,Tertiary Education and Research Network of South Africa,EducationalResearch,AcademicBackbone
+2018,Tertiary Education and Research Network of South Africa,Government,FederalNational
+204930,PWSZN-AS - Panstwowa Akademia Nauk Stosowanych w Nysie,EducationalResearch,University
+204930,PWSZN-AS - Panstwowa Akademia Nauk Stosowanych w Nysie,Government,StateProvince
+20545,GRENA-AS - Georgian Research and Educational Networking Association (GRENA),EducationalResearch,AcademicBackbone
+20545,GRENA-AS - Georgian Research and Educational Networking Association (GRENA),Government,FederalNational
+141773,BDCCL-AS-AP Bangladesh Data Center Company Limited,ContentProvider,Hosting
+141773,BDCCL-AS-AP Bangladesh Data Center Company Limited,Government,Executive
+141773,BDCCL-AS-AP Bangladesh Data Center Company Limited,Government,FederalNational
+132634,IDNIC-EGOV-AS-ID Direktorat E-Goverment Kementerian KOMINFO,Government,Executive
+132634,IDNIC-EGOV-AS-ID Direktorat E-Goverment Kementerian KOMINFO,Government,FederalNational
+202024,FEDNETAS1 - General Authority for Regulating the Telecommunications and Digital Government Sectors,Government,Executive
+202024,FEDNETAS1 - General Authority for Regulating the Telecommunications and Digital Government Sectors,Government,FederalNational
+202024,FEDNETAS1 - General Authority for Regulating the Telecommunications and Digital Government Sectors,Government,Regulators
+42894,MINVENW-RWS - Ministerie van Verkeer en Waterstaat/Rijkswaterstaat,Government,Executive
+42894,MINVENW-RWS - Ministerie van Verkeer en Waterstaat/Rijkswaterstaat,Government,FederalNational
+42894,MINVENW-RWS - Ministerie van Verkeer en Waterstaat/Rijkswaterstaat,Government,Agencies
+58488,PUSDATIN KKP - Ministry of Marine Affairs and Fisheries,Government,Executive
+58488,PUSDATIN KKP - Ministry of Marine Affairs and Fisheries,Government,FederalNational
+12564,CMBG-AS - Council of Ministers,Government,Executive
+12564,CMBG-AS - Council of Ministers,Government,FederalNational
+21096,DSTSIP-AS - The State Cyber Protection Center of the State Service of Special Communication and Information Protection of Ukraine,Government,Executive
+21096,DSTSIP-AS - The State Cyber Protection Center of the State Service of Special Communication and Information Protection of Ukraine,Government,FederalNational
+21096,DSTSIP-AS - The State Cyber Protection Center of the State Service of Special Communication and Information Protection of Ukraine,Government,Agencies
+21096,DSTSIP-AS - The State Cyber Protection Center of the State Service of Special Communication and Information Protection of Ukraine,LawEnforcement,
+139442,Ministry of Law and Human Rights - Indonesia,Government,Judiciary
+139442,Ministry of Law and Human Rights - Indonesia,Government,FederalNational
+264705,Secretaria Nacional de Tecnologias de la Informacion y Comunicaciones,Government,Executive
+264705,Secretaria Nacional de Tecnologias de la Informacion y Comunicaciones,Government,FederalNational
+9112,"POZMAN - Institute of Bioorganic Chemistry Polish Academy of Science, Poznan Supercomputing and Networking Center",EducationalResearch,ResearchInstitutes
+9112,"POZMAN - Institute of Bioorganic Chemistry Polish Academy of Science, Poznan Supercomputing and Networking Center",Government,Executive
+9112,"POZMAN - Institute of Bioorganic Chemistry Polish Academy of Science, Poznan Supercomputing and Networking Center",Government,FederalNational
+63932,BCC-BD Bangladesh Computer Council,EducationalResearch,AcademicBackbone
+63932,BCC-BD Bangladesh Computer Council,Government,Executive
+63932,BCC-BD Bangladesh Computer Council,Government,FederalNational
+63932,BCC-BD Bangladesh Computer Council,Government,Agencies
+136061,IDNIC-BPBATAM-AS-ID Badan Pengusahaan Batam,Government,Executive
+136061,IDNIC-BPBATAM-AS-ID Badan Pengusahaan Batam,Government,FederalNational
+136061,IDNIC-BPBATAM-AS-ID Badan Pengusahaan Batam,Government,Regulators
+137313,IDNIC-EKON-AS-ID Kementerian Koordinator Bidang Perekonomian,Government,Executive
+137313,IDNIC-EKON-AS-ID Kementerian Koordinator Bidang Perekonomian,Government,FederalNational
+137313,IDNIC-EKON-AS-ID Kementerian Koordinator Bidang Perekonomian,Finance,Entities
+63826,CPTU-BD Ministry of Planning,Government,Executive
+63826,CPTU-BD Ministry of Planning,Government,FederalNational
+63826,CPTU-BD Ministry of Planning,Government,Agencies
+17564,GITN-PCN-AS-AP GITN M Sdn. Bhd.,Government,Executive
+17564,GITN-PCN-AS-AP GITN M Sdn. Bhd.,Government,FederalNational
+17564,GITN-PCN-AS-AP GITN M Sdn. Bhd.,Government,Agencies
+29673,"IMPRENSANACIONAL-PT-AS - Imprensa Nacional-Casa da Moeda, S.A.",EducationalResearch,ResearchInstitutes
+29673,"IMPRENSANACIONAL-PT-AS - Imprensa Nacional-Casa da Moeda, S.A.",Government,Executive
+29673,"IMPRENSANACIONAL-PT-AS - Imprensa Nacional-Casa da Moeda, S.A.",Government,FederalNational
+29673,"IMPRENSANACIONAL-PT-AS - Imprensa Nacional-Casa da Moeda, S.A.",Finance,Entities
+131352,VNCERT-AS-VN Vietnam Cybersecurity Emergency Response TeamsCoordination Center,Government,Executive
+131352,VNCERT-AS-VN Vietnam Cybersecurity Emergency Response TeamsCoordination Center,Government,FederalNational
+42186,Office for Information Technology and Electronic Governance - RU,Government,Executive
+42186,Office for Information Technology and Electronic Governance - RU,Government,FederalNational
+42186,Office for Information Technology and Electronic Governance - RU,Government,Regulators
+150703,MOC-AS-AP Ministry of Commerce,Government,Executive
+150703,MOC-AS-AP Ministry of Commerce,Government,FederalNational
+150703,MOC-AS-AP Ministry of Commerce,Government,Regulators
+150703,MOC-AS-AP Ministry of Commerce,Finance,Entities
+38764,HEADQUARTERS OF THE REPUBLIC OF INDONESIA POLICE,Government,Executive
+38764,HEADQUARTERS OF THE REPUBLIC OF INDONESIA POLICE,Government,FederalNational
+38764,HEADQUARTERS OF THE REPUBLIC OF INDONESIA POLICE,LawEnforcement,
+202553,Education Implementation Service - Netherlands,Government,Executive
+202553,Education Implementation Service - Netherlands,Government,FederalNational
+202553,Education Implementation Service - Netherlands,Government,Agencies
+30885,BNR - Banca Nationala a Romaniei,Government,FederalNational
+30885,BNR - Banca Nationala a Romaniei,Finance,CentralBanks
+30885,BNR - Banca Nationala a Romaniei,Finance,Entities
+203396,Ministry of Economic Affairs - Netherlands,Government,Executive
+203396,Ministry of Economic Affairs - Netherlands,Government,FederalNational
+203396,Ministry of Economic Affairs - Netherlands,Government,Regulators
+198395,MINFIN-AS198395-AS - Ministry of finance of Ukraine,Government,Executive
+198395,MINFIN-AS198395-AS - Ministry of finance of Ukraine,Government,FederalNational
+198395,MINFIN-AS198395-AS - Ministry of finance of Ukraine,Government,Regulators
+198395,MINFIN-AS198395-AS - Ministry of finance of Ukraine,Finance,Entities
+24595,Tax Authorities - Netherlands,Government,Executive
+24595,Tax Authorities - Netherlands,Government,FederalNational
+24595,Tax Authorities - Netherlands,Government,Regulators
+24595,Tax Authorities - Netherlands,Finance,Entities
+8308,Scientific and Academic Computer Network – National Research Institute - Poland,EducationalResearch,ResearchInstitutes
+8308,Scientific and Academic Computer Network – National Research Institute - Poland,Government,FederalNational
+8308,Scientific and Academic Computer Network – National Research Institute - Poland,DNS,ccTLD
+8286,"West Pomeranian University of Technology in Szczecin, Academic Computer Science Center - Poland",EducationalResearch,University
+8286,"West Pomeranian University of Technology in Szczecin, Academic Computer Science Center - Poland",Government,CityCountyMunicipality
+1887,NASK-ACADEMIC - SCIENTIFIC AND ACADEMIC COMPUTER NETWORK - NATIONAL RESEARCH INSTITUTE - Poland,EducationalResearch,ResearchInstitutes
+1887,NASK-ACADEMIC - SCIENTIFIC AND ACADEMIC COMPUTER NETWORK - NATIONAL RESEARCH INSTITUTE - Poland,Government,FederalNational
+1887,NASK-ACADEMIC - SCIENTIFIC AND ACADEMIC COMPUTER NETWORK - NATIONAL RESEARCH INSTITUTE - Poland,DNS,ccTLD
+39279,CTS-MD - Information Technology and Cyber Security Service P.I.,Government,Executive
+39279,CTS-MD - Information Technology and Cyber Security Service P.I.,Government,FederalNational
+39279,CTS-MD - Information Technology and Cyber Security Service P.I.,Government,Agencies
+1930,"RCCN - Fundacao para a Ciencia e a Tecnologia, I.P.",EducationalResearch,ResearchInstitutes
+1930,"RCCN - Fundacao para a Ciencia e a Tecnologia, I.P.",Government,Executive
+1930,"RCCN - Fundacao para a Ciencia e a Tecnologia, I.P.",Government,FederalNational
+1930,"RCCN - Fundacao para a Ciencia e a Tecnologia, I.P.",Government,Agencies
+47672,MON-AS - ARMED FORCES CYBERSPACE RESOURCE CENTER,Government,Executive
+47672,MON-AS - ARMED FORCES CYBERSPACE RESOURCE CENTER,Government,FederalNational
+47672,MON-AS - ARMED FORCES CYBERSPACE RESOURCE CENTER,LawEnforcement,
+197388,"USS-AS - State enterprise ""Ukrainian Special Systems""",Government,Executive
+197388,"USS-AS - State enterprise ""Ukrainian Special Systems""",Government,FederalNational
+56811,NBOG-AS - National Bank of Georgia,Government,FederalNational
+56811,NBOG-AS - National Bank of Georgia,Finance,CentralBanks
+57473,"EMIS-AS - Education Managment Information System ""EMIS""",EducationalResearch,ResearchInstitutes
+57473,"EMIS-AS - Education Managment Information System ""EMIS""",Government,FederalNational
+50561,Academy of Applied Sciences in Elblag,EducationalResearch,Schools
+50561,Academy of Applied Sciences in Elblag,Government,CityCountyMunicipality
+13134,"Instituto de Informatica, IP - Ministerio da Solidariedade e Seguranca Social",Government,Executive
+13134,"Instituto de Informatica, IP - Ministerio da Solidariedade e Seguranca Social",Government,FederalNational
+13134,"Instituto de Informatica, IP - Ministerio da Solidariedade e Seguranca Social",Government,Agencies
+34339,Data Processing Center of the Ministry of Finance - Poland,Government,Executive
+34339,Data Processing Center of the Ministry of Finance - Poland,Government,FederalNational
+44586,"ESMIS-BG - Executive Agency ""Electronic Communication Networks and Information Systems""",Government,Executive
+44586,"ESMIS-BG - Executive Agency ""Electronic Communication Networks and Information Systems""",Government,FederalNational
+44586,"ESMIS-BG - Executive Agency ""Electronic Communication Networks and Information Systems""",Government,Agencies
+5576,National Information Society Agency - Albania,Government,Executive
+5576,National Information Society Agency - Albania,Government,FederalNational
+5576,National Information Society Agency - Albania,Government,Agencies
+46018,Department of Industry of the Republic of Indonesia,Government,Executive
+46018,Department of Industry of the Republic of Indonesia,Government,FederalNational
+48037,SSO-ICT - SSC-ICT Haaglanden,Government,Executive
+48037,SSO-ICT - SSC-ICT Haaglanden,Government,FederalNational
+1797,Servicio Central de Informática Universitaria - Uruguay,EducationalResearch,AcademicBackbone
+1797,Servicio Central de Informática Universitaria - Uruguay,Government,FederalNational
+1797,Servicio Central de Informática Universitaria - Uruguay,DNS,ccTLD
+56236,National Narcotics Agency - Indonesia,Government,Executive
+56236,National Narcotics Agency - Indonesia,Government,FederalNational
+56236,National Narcotics Agency - Indonesia,Government,Agencies
+13011,RA Official Gazette - Romania,Government,Legislative
+13011,RA Official Gazette - Romania,Government,FederalNational
+141201,State Digital Department (JDN) - Malasya,Government,Executive
+141201,State Digital Department (JDN) - Malasya,Government,FederalNational
+141201,State Digital Department (JDN) - Malasya,Government,Agencies
+202277,PT-SGE-ASN - SGE - Secretaria Geral da Economia,Government,Executive
+202277,PT-SGE-ASN - SGE - Secretaria Geral da Economia,Government,FederalNational
+31313,Special Telecommunications Service - Romania,Government,Executive
+31313,Special Telecommunications Service - Romania,Government,Agencies
+5408,GR-NET - National Infrastructures for Research and Technology S.A.,Government,Executive
+5408,GR-NET - National Infrastructures for Research and Technology S.A.,Government,FederalNational
+5408,GR-NET - National Infrastructures for Research and Technology S.A.,Government,Agencies
+210213,"State Enterprise ""Latvian State Radio and Television Centre""",Government,FederalNational
+210213,"State Enterprise ""Latvian State Radio and Television Centre""",TvRadioCulturalAmenities,
+820,Shared Services Canada,Government,Executive
+820,Shared Services Canada,Government,FederalNational
+820,Shared Services Canada,Government,Agencies
+2665,Shared Services Canada,Government,Executive
+2665,Shared Services Canada,Government,FederalNational
+2665,Shared Services Canada,Government,Agencies
+39909,PULMAN-EDU-AS - Institute of Soil Science and Plant Cultivation - State Research Institute,EducationalResearch,ResearchInstitutes
+39909,PULMAN-EDU-AS - Institute of Soil Science and Plant Cultivation - State Research Institute,Government,FederalNational
+25237,ISRAEL PORTS DEVELOPMENT and ASSETS COMPANY LTD,Government,Executive
+25237,ISRAEL PORTS DEVELOPMENT and ASSETS COMPANY LTD,Government,FederalNational
+25237,ISRAEL PORTS DEVELOPMENT and ASSETS COMPANY LTD,Transportation,Ships
+201547,National Library of Latvia,Government,FederalNational
+201547,National Library of Latvia,TvRadioCulturalAmenities,
+51437,"FSUE ""GlavNIVZ"" of the Russian Federation President's Management Department",Government,Executive
+51437,"FSUE ""GlavNIVZ"" of the Russian Federation President's Management Department",Government,FederalNational
+43188,Field support service - Latvia,Government,Executive
+43188,Field support service - Latvia,Government,FederalNational
+43188,Field support service - Latvia,Government,Agencies
+6801,"National Research Center ""Kurchatov Institute""",EducationalResearch,ResearchInstitutes
+6801,"National Research Center ""Kurchatov Institute""",Government,FederalNational
+52250,Ag para el Desarrollo de la Sociedad de la Inf en Bolivia - ADSIB,Government,FederalNational
+52250,Ag para el Desarrollo de la Sociedad de la Inf en Bolivia - ADSIB,Government,Agencies
+52250,Ag para el Desarrollo de la Sociedad de la Inf en Bolivia - ADSIB,DNS,ccTLD
+20548,Saeima of the Republic of Latvia,Government,Legislative
+20548,Saeima of the Republic of Latvia,Government,FederalNational
+34073,Ministry of Education and Science of the Republic of Latvia,Government,Executive
+34073,Ministry of Education and Science of the Republic of Latvia,Government,FederalNational
+206362,LV-OSSNET-AS - SIA OSS Networks,Access,SmallISP
+206362,LV-OSSNET-AS - SIA OSS Networks,Government,Executive
+206362,LV-OSSNET-AS - SIA OSS Networks,Government,FederalNational
+35506,SYZEFXIS - INFORMATION SOCIETY S.A.,Government,Executive
+35506,SYZEFXIS - INFORMATION SOCIETY S.A.,Government,FederalNational
+35506,SYZEFXIS - INFORMATION SOCIETY S.A.,Government,Agencies
+5495,ASN-SPBGU - Saint Petersburg State University,EducationalResearch,University
+5495,ASN-SPBGU - Saint Petersburg State University,Government,StateProvince
+41706,ROSNEFT-AS - Rosneft,Government,Executive
+41706,ROSNEFT-AS - Rosneft,Government,FederalNational
+41706,ROSNEFT-AS - Rosneft,EnergyAndUtility,
+8194,"State Enterprise ""Latvian State Radio and Television Centre""",Government,FederalNational
+8194,"State Enterprise ""Latvian State Radio and Television Centre""",TvRadioCulturalAmenities,
+41424,"State Joint Stock Company ""Latvijas Railways""",Government,Executive
+41424,"State Joint Stock Company ""Latvijas Railways""",Government,FederalNational
+41424,"State Joint Stock Company ""Latvijas Railways""",Transportation,Trains
+50893,Ministry of Welfare of the Republic of Latvia,Government,Executive
+50893,Ministry of Welfare of the Republic of Latvia,Government,FederalNational
+31581,KOPINT-AS - National Infocommunications Service Company Limited by Shares,Government,Executive
+31581,KOPINT-AS - National Infocommunications Service Company Limited by Shares,Government,FederalNational
+31511,B-RAIL-BE-AS - Infrabel NV van publiek recht,Government,Executive
+31511,B-RAIL-BE-AS - Infrabel NV van publiek recht,Government,FederalNational
+31511,B-RAIL-BE-AS - Infrabel NV van publiek recht,Transportation,Trains
+2611,BELNET,EducationalResearch,AcademicBackbone
+2611,BELNET,Government,FederalNational
+3219,HU-GOVNET - Ministry of Local Government and Regional Development,Government,Executive
+3219,HU-GOVNET - Ministry of Local Government and Regional Development,Government,FederalNational
+15383,CIRB-CIBG,Government,Executive
+15383,CIRB-CIBG,Government,StateProvince
+15383,CIRB-CIBG,Government,Agencies
+1955,HBONE-AS - KIFU (Governmental Info Tech Development Agency),Government,Executive
+1955,HBONE-AS - KIFU (Governmental Info Tech Development Agency),Government,FederalNational
+1955,HBONE-AS - KIFU (Governmental Info Tech Development Agency),Government,Agencies
+48298,MINISTRY OF INTERIOR OF THE CR,Government,Executive
+48298,MINISTRY OF INTERIOR OF THE CR,Government,FederalNational
+2907,SINET-AS Research Organization of Information and Systems,EducationalResearch,ResearchInstitutes
+2907,SINET-AS Research Organization of Information and Systems,Government,FederalNational
+2513,JST Japan Science and Technology Agency,Government,Executive
+2513,JST Japan Science and Technology Agency,Government,FederalNational
+2513,JST Japan Science and Technology Agency,Government,Agencies
+3208,Algerian Academic Research Network,EducationalResearch,AcademicBackbone
+3208,Algerian Academic Research Network,Government,FederalNational
+6127,Information and Decision Support Center - Egypt,Government,Executive
+6127,Information and Decision Support Center - Egypt,Government,FederalNational
+6127,Information and Decision Support Center - Egypt,Government,Agencies
+31065,Ministry of Communications and Information Technology - Egypt,Government,Executive
+31065,Ministry of Communications and Information Technology - Egypt,Government,FederalNational
+135956,MOH-AS-VN The Authority of Information Technology - Ministry of Health,Government,Executive
+135956,MOH-AS-VN The Authority of Information Technology - Ministry of Health,Government,FederalNational
+135956,MOH-AS-VN The Authority of Information Technology - Ministry of Health,Government,Agencies
+135008,GOVTECH-AS-GOVTECH GOVERNMENT TECHNOLOGY AGENCY,Government,Executive
+135008,GOVTECH-AS-GOVTECH GOVERNMENT TECHNOLOGY AGENCY,Government,FederalNational
+135008,GOVTECH-AS-GOVTECH GOVERNMENT TECHNOLOGY AGENCY,Government,Agencies
+10616,National Oceanic and Atmospheric Administration,EducationalResearch,ResearchInstitutes
+10616,National Oceanic and Atmospheric Administration,Government,Executive
+10616,National Oceanic and Atmospheric Administration,Government,FederalNational
+10616,National Oceanic and Atmospheric Administration,Government,Regulators
+3923,Federal Aviation Administration,Government,Executive
+3923,Federal Aviation Administration,Government,FederalNational
+3923,Federal Aviation Administration,Government,Agencies
+45353,NITC-AS-AP NITC: IT Agency of Government of Nepal,Government,Executive
+45353,NITC-AS-AP NITC: IT Agency of Government of Nepal,Government,FederalNational
+45353,NITC-AS-AP NITC: IT Agency of Government of Nepal,Government,Agencies
+135428,FENZ-AS-AP Fire and Emergency New Zealand,Government,Executive
+135428,FENZ-AS-AP Fire and Emergency New Zealand,Government,FederalNational
+135428,FENZ-AS-AP Fire and Emergency New Zealand,LawEnforcement,
+133826,Directorate General of Higher Education - Indonesia,Government,Executive
+133826,Directorate General of Higher Education - Indonesia,Government,FederalNational
+133826,Directorate General of Higher Education - Indonesia,Government,Regulators
+10754,Federal Reserve Board - US,Government,FederalNational
+10754,Federal Reserve Board - US,Finance,CentralBanks
+38027,"Information Center, Ministry of Sci and Tech - China",Government,Executive
+38027,"Information Center, Ministry of Sci and Tech - China",Government,FederalNational
+57580,"SRCI-MID-RF-AS - Federal State Unitary Enterprise ""Research Center For Informatics Under The Ministry Of Foreign Affairs Of The Russian Federation""",EducationalResearch,ResearchInstitutes
+57580,"SRCI-MID-RF-AS - Federal State Unitary Enterprise ""Research Center For Informatics Under The Ministry Of Foreign Affairs Of The Russian Federation""",Government,Executive
+57580,"SRCI-MID-RF-AS - Federal State Unitary Enterprise ""Research Center For Informatics Under The Ministry Of Foreign Affairs Of The Russian Federation""",Government,FederalNational
+45320,Department of Communication and Information of the Republic of Indonesia,Government,Executive
+45320,Department of Communication and Information of the Republic of Indonesia,Government,FederalNational
+1999,U.S. House of Representatives,Government,Legislative
+1999,U.S. House of Representatives,Government,FederalNational
+18241,SPINET State Power Information Net,Government,Executive
+18241,SPINET State Power Information Net,Government,FederalNational
+18241,SPINET State Power Information Net,EnergyAndUtility,
+37937,EGOVNET China eGovNet Information Center,Government,Executive
+37937,EGOVNET China eGovNet Information Center,Government,FederalNational
+37937,EGOVNET China eGovNet Information Center,Government,Agencies
+140750,VNTA-AS-VN Network and Services Development Support Center - Viet Nam Telecommunications Authority,Government,Executive
+140750,VNTA-AS-VN Network and Services Development Support Center - Viet Nam Telecommunications Authority,Government,FederalNational
+140750,VNTA-AS-VN Network and Services Development Support Center - Viet Nam Telecommunications Authority,Government,Regulators
+7497,CSTNET-AS-AP Computer Network Information Center of Chinese Academy of Sciences CNIC-CAS,EducationalResearch,AcademicBackbone
+7497,CSTNET-AS-AP Computer Network Information Center of Chinese Academy of Sciences CNIC-CAS,EducationalResearch,ResearchInstitutes
+7497,CSTNET-AS-AP Computer Network Information Center of Chinese Academy of Sciences CNIC-CAS,Government,Executive
+7497,CSTNET-AS-AP Computer Network Information Center of Chinese Academy of Sciences CNIC-CAS,Government,FederalNational
+8798,General Information Agency S.A.,Government,Executive
+8798,General Information Agency S.A.,Government,FederalNational
+55971,CASS-NET Chinese Academy of Social Sciences,EducationalResearch,ResearchInstitutes
+55971,CASS-NET Chinese Academy of Social Sciences,Government,Executive
+55971,CASS-NET Chinese Academy of Social Sciences,Government,FederalNational
+20588,Research Association Berlin e.V.,EducationalResearch,ResearchInstitutes
+20588,Research Association Berlin e.V.,Government,Executive
+20588,Research Association Berlin e.V.,Government,StateProvince
+198561,FAS - Legal Entity Under Public Law Financial Analytical Service,Government,Executive
+198561,FAS - Legal Entity Under Public Law Financial Analytical Service,Government,FederalNational
+198561,FAS - Legal Entity Under Public Law Financial Analytical Service,Government,Agencies
+198561,FAS - Legal Entity Under Public Law Financial Analytical Service,Finance,Entities
+1009,Air Force Technical Applications Center,Government,Executive
+1009,Air Force Technical Applications Center,Government,FederalNational
+1009,Air Force Technical Applications Center,LawEnforcement,
+2532,Library of Congress,Government,FederalNational
+2532,Library of Congress,TvRadioCulturalAmenities,
+4152,Department of Agriculture - US ,Government,Executive
+4152,Department of Agriculture - US ,Government,FederalNational
+55597,NCC-AS-KR National Cancer Center,Government,Executive
+55597,NCC-AS-KR National Cancer Center,Government,FederalNational
+55597,NCC-AS-KR National Cancer Center,Health,Hospitals
+18297,Gwangju Institute of Science and Technology - South Korea,EducationalResearch,University
+18297,Gwangju Institute of Science and Technology - South Korea,EducationalResearch,ResearchInstitutes
+18297,Gwangju Institute of Science and Technology - South Korea,Government,Executive
+18297,Gwangju Institute of Science and Technology - South Korea,Government,CityCountyMunicipality
+131799,COMWEL-AS-KR korea workers compensation welfare service,Government,Executive
+131799,COMWEL-AS-KR korea workers compensation welfare service,Government,FederalNational
+131799,COMWEL-AS-KR korea workers compensation welfare service,Health,Insurances
+45972,KOREALX-AS-KR KOREA LAND AND GEOSPATIAL INFORMATIX CORPORATION,Government,Executive
+45972,KOREALX-AS-KR KOREA LAND AND GEOSPATIAL INFORMATIX CORPORATION,Government,FederalNational
+45408,Korea Student Aid Foundation (KOSAF),Government,Executive
+45408,Korea Student Aid Foundation (KOSAF),Government,FederalNational
+9974,KRA-AS-KR Korea Racing Association,Government,Executive
+9974,KRA-AS-KR Korea Racing Association,Government,FederalNational
+9974,KRA-AS-KR Korea Racing Association,Government,Regulators
+17851, Korea Petroleum Quality & Distribution Authority (K-Petro),Government,Executive
+17851, Korea Petroleum Quality & Distribution Authority (K-Petro),Government,FederalNational
+17851, Korea Petroleum Quality & Distribution Authority (K-Petro),Government,Regulators
+17851, Korea Petroleum Quality & Distribution Authority (K-Petro),EnergyAndUtility,
+38682,NIERNET-AS-KR National Institute of Environmental Research,EducationalResearch,ResearchInstitutes
+38682,NIERNET-AS-KR National Institute of Environmental Research,Government,Executive
+38682,NIERNET-AS-KR National Institute of Environmental Research,Government,FederalNational
+9706,PETISNET-AS BUSAN EDUCATION RESEARCH & INFORMATION INSTITUTE,EducationalResearch,ResearchInstitutes
+9706,PETISNET-AS BUSAN EDUCATION RESEARCH & INFORMATION INSTITUTE,Government,Executive
+9706,PETISNET-AS BUSAN EDUCATION RESEARCH & INFORMATION INSTITUTE,Government,FederalNational
+10183,KCISA-AS-KR Korea Culture Information Service Agency,Government,Executive
+10183,KCISA-AS-KR Korea Culture Information Service Agency,Government,FederalNational
+10183,KCISA-AS-KR Korea Culture Information Service Agency,Government,Agencies
+45990,HIRANET-AS-KR Health Insurance Review Assessment Service,Government,Executive
+45990,HIRANET-AS-KR Health Insurance Review Assessment Service,Government,FederalNational
+45990,HIRANET-AS-KR Health Insurance Review Assessment Service,Government,Agencies
+45990,HIRANET-AS-KR Health Insurance Review Assessment Service,Health,Insurances
+7557,KTNET-AS Korea Trade Network,Government,Executive
+7557,KTNET-AS Korea Trade Network,Government,FederalNational
+7557,KTNET-AS Korea Trade Network,Finance,Entities
+38708,KOREAEXIM-AS-KR EXPORT-IMPORT BANK OF KOREA,Government,Executive
+38708,KOREAEXIM-AS-KR EXPORT-IMPORT BANK OF KOREA,Government,FederalNational
+38708,KOREAEXIM-AS-KR EXPORT-IMPORT BANK OF KOREA,Government,Agencies
+38708,KOREAEXIM-AS-KR EXPORT-IMPORT BANK OF KOREA,Finance,CreditUnion
+3608,KRC-AS-KR Korea Rural Community Corporation,Government,Executive
+3608,KRC-AS-KR Korea Rural Community Corporation,Government,FederalNational
+55616,Daegu Gyeongbuk Institute of Science and Technology,EducationalResearch,ResearchInstitutes
+55616,Daegu Gyeongbuk Institute of Science and Technology,Government,Executive
+55616,Daegu Gyeongbuk Institute of Science and Technology,Government,FederalNational
+1781,KAIST-DAEJEON-AS-KR Korea Advanced Institute of Science and Technology,EducationalResearch,ResearchInstitutes
+1781,KAIST-DAEJEON-AS-KR Korea Advanced Institute of Science and Technology,Government,Executive
+1781,KAIST-DAEJEON-AS-KR Korea Advanced Institute of Science and Technology,Government,FederalNational
+10186,REDCROSSNET-AS-KR Korean Red Cross,Government,FederalNational
+10186,REDCROSSNET-AS-KR Korean Red Cross,Health,Hospitals
+17591,KRFNET-AS-KR National Research Foundation of Korea,EducationalResearch,ResearchInstitutes
+17591,KRFNET-AS-KR National Research Foundation of Korea,Government,Executive
+17591,KRFNET-AS-KR National Research Foundation of Korea,Government,FederalNational
+17591,KRFNET-AS-KR National Research Foundation of Korea,Government,Agencies
+9707,WORKNET-AS Korea Employment Information Management Agency,Government,Executive
+9707,WORKNET-AS Korea Employment Information Management Agency,Government,FederalNational
+9707,WORKNET-AS Korea Employment Information Management Agency,Government,Agencies
+9970,KUT-AS Korea University of Technology and Education,EducationalResearch,University
+9970,KUT-AS Korea University of Technology and Education,Government,Executive
+9970,KUT-AS Korea University of Technology and Education,Government,FederalNational
+10050,NL-AS-KR The National Library of Korea,Government,FederalNational
+10050,NL-AS-KR The National Library of Korea,TvRadioCulturalAmenities,
+9455,Korea Education and Research Information Service,Government,Executive
+9455,Korea Education and Research Information Service,Government,FederalNational
+9455,Korea Education and Research Information Service,Government,Agencies
+17584,ICE-AS-KR Inchon Metropolitan Office Of Education,Government,Executive
+17584,ICE-AS-KR Inchon Metropolitan Office Of Education,Government,CityCountyMunicipality
+38693,TSNET-AS-KR Korea Transportation Safety Authority,Government,Executive
+38693,TSNET-AS-KR Korea Transportation Safety Authority,Government,FederalNational
+38693,TSNET-AS-KR Korea Transportation Safety Authority,Transportation,TransitAuthority
+18310,SKB-VITSSEN-AS-KR SK Broadband Co Ltd,Access,SmallISP
+18310,SKB-VITSSEN-AS-KR SK Broadband Co Ltd,Mobile,
+18310,SKB-VITSSEN-AS-KR SK Broadband Co Ltd,Government,Executive
+18310,SKB-VITSSEN-AS-KR SK Broadband Co Ltd,Government,FederalNational
+38388,KCOPA-AS-KR Korea Copyright Protection Agency,Government,Executive
+38388,KCOPA-AS-KR Korea Copyright Protection Agency,Government,FederalNational
+38388,KCOPA-AS-KR Korea Copyright Protection Agency,Government,Regulators
+1237,KREONET-AS-KR Korea Institute of Science and Technology Information,EducationalResearch,AcademicBackbone
+1237,KREONET-AS-KR Korea Institute of Science and Technology Information,Government,FederalNational
+131795,KIER-AS-KR KOREA INSTITUTE OF ENERGY RESEARCH,EducationalResearch,ResearchInstitutes
+131795,KIER-AS-KR KOREA INSTITUTE OF ENERGY RESEARCH,Government,Executive
+131795,KIER-AS-KR KOREA INSTITUTE OF ENERGY RESEARCH,Government,FederalNational
+55613,KAB-AS-KR KOREA APPRAISAL BOARD,Government,Executive
+55613,KAB-AS-KR KOREA APPRAISAL BOARD,Government,FederalNational
+55613,KAB-AS-KR KOREA APPRAISAL BOARD,Government,Agencies
+55604,"Korea Minting, Security Printing and ID Card Operating Corporation",Government,Executive
+55604,"Korea Minting, Security Printing and ID Card Operating Corporation",Government,FederalNational
+9489,KARINET-AS Korea Aerospace Research Institute,EducationalResearch,ResearchInstitutes
+9489,KARINET-AS Korea Aerospace Research Institute,Government,Executive
+9489,KARINET-AS Korea Aerospace Research Institute,Government,FederalNational
+2385,KRIBB-AS-KR KRIBBKorea Research Institute of Bioscience Biotechnology,EducationalResearch,ResearchInstitutes
+2385,KRIBB-AS-KR KRIBBKorea Research Institute of Bioscience Biotechnology,Government,Executive
+2385,KRIBB-AS-KR KRIBBKorea Research Institute of Bioscience Biotechnology,Government,FederalNational
+10166,KOWANET-AS-KR Korea Water Resources Corporation,Government,Executive
+10166,KOWANET-AS-KR Korea Water Resources Corporation,Government,FederalNational
+10166,KOWANET-AS-KR Korea Water Resources Corporation,Government,Agencies
+10166,KOWANET-AS-KR Korea Water Resources Corporation,EnergyAndUtility,
+9487,KTFC1120-AS-KR Korea Technology Finance Corporation,Government,Executive
+9487,KTFC1120-AS-KR Korea Technology Finance Corporation,Government,FederalNational
+9487,KTFC1120-AS-KR Korea Technology Finance Corporation,Finance,Entities
+38112,HUGC-AS-KR Korea Housing Urban Guarantee Corporation,Government,Executive
+38112,HUGC-AS-KR Korea Housing Urban Guarantee Corporation,Government,FederalNational
+45397,KFPP-AS-KR KOREA FOUNDATION FOR THE PROMOTION OF PRIVATE SCHOOL,Government,Executive
+45397,KFPP-AS-KR KOREA FOUNDATION FOR THE PROMOTION OF PRIVATE SCHOOL,Government,FederalNational
+17841,NCIA-AS-KR NATIONAL INFORMATION RESOURCES SERVICE,Government,Executive
+17841,NCIA-AS-KR NATIONAL INFORMATION RESOURCES SERVICE,Government,FederalNational
+9275,KASI-AS-KR Korea Astronomy Observatory,Government,Executive
+9275,KASI-AS-KR Korea Astronomy Observatory,Government,FederalNational
+38125,FREEWAY-AS-KR Korea Expressway Corporation,Government,Executive
+38125,FREEWAY-AS-KR Korea Expressway Corporation,Government,FederalNational
+38125,FREEWAY-AS-KR Korea Expressway Corporation,Transportation,TransitAuthority
+55620,KNOC-AS-KR KNOC,Government,Executive
+55620,KNOC-AS-KR KNOC,Government,FederalNational
+55620,KNOC-AS-KR KNOC,EnergyAndUtility,
+9458,POBA-AS-KR Public Officials Benefit Association,Government,Executive
+9458,POBA-AS-KR Public Officials Benefit Association,Government,FederalNational
+9854,Korea Tourism Organization,Government,Executive
+9854,Korea Tourism Organization,Government,FederalNational
+45379,UNIST-AS-KR Ulsan National Institute of Science and Technology,EducationalResearch,ResearchInstitutes
+45379,UNIST-AS-KR Ulsan National Institute of Science and Technology,Government,Executive
+45379,UNIST-AS-KR Ulsan National Institute of Science and Technology,Government,CityCountyMunicipality
+45973,Korea Trade-Investment Promotion Agency,Government,Executive
+45973,Korea Trade-Investment Promotion Agency,Government,FederalNational
+45973,Korea Trade-Investment Promotion Agency,Government,Agencies
+45973,Korea Trade-Investment Promotion Agency,Finance,Entities
+45998,NMC-AS-KR National Medical Center,Government,Executive
+45998,NMC-AS-KR National Medical Center,Government,FederalNational
+45998,NMC-AS-KR National Medical Center,Health,Hospitals
+10161,Animal and Plant Quarantine Agency (QIA),Government,Executive
+10161,Animal and Plant Quarantine Agency (QIA),Government,FederalNational
+10161,Animal and Plant Quarantine Agency (QIA),Government,Agencies
+17582,KIC-AS-KR Korea Investment Corporation,Government,Executive
+17582,KIC-AS-KR Korea Investment Corporation,Government,FederalNational
+17582,KIC-AS-KR Korea Investment Corporation,Finance,Entities
+9685,Korea Agriculture Technology Promotion Agency- KOAT ,Government,Executive
+9685,Korea Agriculture Technology Promotion Agency- KOAT ,Government,FederalNational
+9685,Korea Agriculture Technology Promotion Agency- KOAT ,Government,Agencies
+17574,SMGCC-AS-KR Seoul Metropolitan Government Computer Center,Government,Executive
+17574,SMGCC-AS-KR Seoul Metropolitan Government Computer Center,Government,CityCountyMunicipality
+9860,NHIS-AS-KR National Health Insurance Service,Government,Executive
+9860,NHIS-AS-KR National Health Insurance Service,Government,FederalNational
+9860,NHIS-AS-KR National Health Insurance Service,Health,Insurances
+45384,EXTKSURE-AS-KR Korea trade insurance corporation,Government,Executive
+45384,EXTKSURE-AS-KR Korea trade insurance corporation,Government,FederalNational
+9633,SLC-AS-KR SUDOKWON Landfill Site Management Corp,Government,Executive
+9633,SLC-AS-KR SUDOKWON Landfill Site Management Corp,Government,FederalNational
+17865,SCOURT-AS-KR Supreme Court of Korea,Government,Judiciary
+17865,SCOURT-AS-KR Supreme Court of Korea,Government,FederalNational
+17844,NPS01-AS-KR National Pension Service,Government,Executive
+17844,NPS01-AS-KR National Pension Service,Government,FederalNational
+17844,NPS01-AS-KR National Pension Service,Finance,Entities
+18300,Korea Electric Power Corporation,Government,Executive
+18300,Korea Electric Power Corporation,Government,FederalNational
+18300,Korea Electric Power Corporation,EnergyAndUtility,
+45984,DIRS-AS-KR Dongnam Institute of Radiologycal Sciences,EducationalResearch,ResearchInstitutes
+45984,DIRS-AS-KR Dongnam Institute of Radiologycal Sciences,Government,Executive
+45984,DIRS-AS-KR Dongnam Institute of Radiologycal Sciences,Government,StateProvince
+45984,DIRS-AS-KR Dongnam Institute of Radiologycal Sciences,Health,Hospitals
+10044,RDA-AS-KR Rural Development Administration RDA,Government,Executive
+10044,RDA-AS-KR Rural Development Administration RDA,Government,FederalNational
+131097,KEAD-AS-KR KEAD,Government,Executive
+131097,KEAD-AS-KR KEAD,Government,FederalNational
+58313,"Misaka Network, Inc. (UK)",ContentProvider,Hosting
+30786,Swisscom Directories AG,ContentProvider,Hosting
+30786,Swisscom Directories AG,Enterprise,Technology
+142596,Cloudtronics,Enterprise,Technology
+270674,WebFiber Telecom,Access,SmallISP
+262385,VSAT TELECOMUNICAÇÕES,Access,SmallISP
+262385,VSAT TELECOMUNICAÇÕES,Satellite,
+269014,VIVEZA TELECOM AS269014,Access,SmallISP
+264900,RJNET Telecomunicacoes Ltda ME,Access,SmallISP
+269491,ShalomNET,Access,SmallISP
+398230,RTEBB-NET1,Access,SmallISP
+203421,Baltic Broadband,Access,SmallISP
+271466,UC Telecom,Access,SmallISP
+50224,MythicalKitten,Personal,
+198498,Dolnet Group,Access,SmallISP
+212794,Gardener on Metal,Enterprise,Technology
+202975,Teknonet,Access,SmallISP
+268525,E3 Telecom,Access,SmallISP
+271366,SMART TECNOLOGIAS E SOLUÇÕES APLICADAS,Enterprise,Technology
+41379,Nationwide Telephone Assistance Ltd,Enterprise,Technology
+211407,PT Perwira Media Solusi,ContentProvider,Hosting
+264153,Cable.com Telecomunicações,Access,SmallISP
+63778,BGPNAP2,EducationalResearch,ResearchInstitutes
+131944,KADOKAWA CORPORATION,Enterprise,Entertainment
+131944,KADOKAWA CORPORATION,Enterprise,Technology
+205279,Montel Telecom,Access,SmallISP
+205279,Montel Telecom,Mobile,
+269673,LIBERCOM TECNOLOGIA EM COMUNICACAO,Access,SmallISP
+265740,SURNET WISP,Personal,
+209336,GBWS,Enterprise,Technology
+25094,CTIE,Government,Executive
+25094,CTIE,Government,FederalNational
+133869,SalesForce.com AS133869,ContentProvider,Hosting
+133869,SalesForce.com AS133869,Enterprise,Technology
+202886,BRET Wilfried,Personal,
+50061,PricewaterhouseCoopers DE,Enterprise,Technology
+50061,PricewaterhouseCoopers DE,Finance,Entities
+24122,BDCOM Online,Access,SmallISP
+24122,BDCOM Online,Enterprise,Technology
+211048,ISC F-ROOT TAS1,DNS,Roots
+133968,Logon Broadband,Access,SmallISP
+22180,PRECISIONIT,Enterprise,Technology
+35206,NovaTrend Services GmbH,ContentProvider,Hosting
+38755,Badan Pusat Statistik,Government,Executive
+38755,Badan Pusat Statistik,Government,FederalNational
+38755,Badan Pusat Statistik,Government,Agencies
+210464,API VERSA OU - AS210464,ContentProvider,Hosting
+200303,LUMASERV,ContentProvider,Hosting
+141617,Topindo Solusi Komunika,Enterprise,Technology
+48850,EPIX.Warszawa-KIX,IXP,
+135775,Proline Datatech Services,Access,SmallISP
+152756,PT Jaringan Universal Online Solusindo,Access,SmallISP
+199995,Omega Telecom,Access,SmallISP
+199995,Omega Telecom,Transit,Regional
+133616,Beachhead Group,Enterprise,Technology
+28054,ISC F-ROOT SXM1,DNS,Roots
+28054,ISC F-ROOT SXM1,DNS,ANS
+263584,Wanhouse Soluções em Tecnologia,Access,SmallISP
+24789,Rostelecom Novgorod,Access,SmallISP
+24789,Rostelecom Novgorod,Mobile,
+24789,Rostelecom Novgorod,Government,Executive
+24789,Rostelecom Novgorod,Government,FederalNational
+31079,Liberty Global International,Access,LargeISP
+31079,Liberty Global International,Enterprise,Technology
+270581,JET NETWORK,Access,SmallISP
+135378,Trust Axiata Digital Limited,Enterprise,Technology
+198184,NEXTO,ContentProvider,Hosting
+271626,LF Telecom,Access,SmallISP
+132048,PowerDNS [AnyCast],DNS,ANS
+132048,PowerDNS [AnyCast],Enterprise,Technology
+10352,WCTC,Access,SmallISP
+206361,TamaNET,Access,SmallISP
+206361,TamaNET,ContentProvider,Hosting
+206072,KAJETAN,Personal,
+200857,Dissidence,Personal,
+1127,SURF Network Maintainer,Cooperatives,
+147152,PT Asli Isoae Solusine,Enterprise,Technology
+31767,SMITH SECKMAN REID,Enterprise,IndustrialManufacturing
+31767,SMITH SECKMAN REID,Enterprise,Technology
+139450,PT. DIDANATANECA ANUGERAH SEJAHTERA,Access,SmallISP
+10104,BVKCOMPUTER-AS-AP,Personal,
+202373,Stadtwerke Rostock,EnergyAndUtility,
+57653,Central Technology Ltd,ContentProvider,Hosting
+57653,Central Technology Ltd,Enterprise,Technology
+272863,Cable Familia,Enterprise,Entertainment
+272863,Cable Familia,TvRadioCulturalAmenities,
+38011,GBSL-AS-BD,Access,SmallISP
+64238,DNS-OARC,EducationalResearch,ResearchInstitutes
+13424,Intercity,Enterprise,Technology
+262312,VEX TELECOM SERVIÇOS DE TELECOMUNICAÇÃO LTDA,Access,SmallISP
+268313,Fernandes & Rodrigues Consultores Associados,Enterprise,Technology
+37576,Zanlink Ltd,Access,SmallISP
+150570,On2Cloud IT SERVICES,Enterprise,Technology
+60524,Lebanese Armed Forces,Government,Executive
+60524,Lebanese Armed Forces,Government,FederalNational
+60524,Lebanese Armed Forces,LawEnforcement,
+266009,T2web,Transit,Domestic
+135301,iQ3,Enterprise,Technology
+28349,TVC Tupa,Access,SmallISP
+134654,Datautama Dinamika NAP,Access,SmallISP
+134654,Datautama Dinamika NAP,Transit,Domestic
+28100,Cooperativa Villa del Rosario (Coovilros),Access,SmallISP
+28100,Cooperativa Villa del Rosario (Coovilros),EnergyAndUtility,
+28100,Cooperativa Villa del Rosario (Coovilros),Cooperatives,
+135244,Kedia Internet,Access,SmallISP
+55957,"CCTV international network Co., LTD",TvRadioCulturalAmenities,
+15706,Sudatel Telecom Group,Access,LargeISP
+201680,Ministry of Communication and Information Technology - Qatar,Government,Executive
+201680,Ministry of Communication and Information Technology - Qatar,Government,FederalNational
+201680,Ministry of Communication and Information Technology - Qatar,Government,Agencies
+199338,Adam Ryszewski AR-NET,Access,SmallISP
+140399,HSPIX,IXP,
+15033,Xpressbet IT,Enterprise,Entertainment
+213216,LuxChan,Enterprise,Technology
+141362,Thai Name Server Co.,DNS,ccTLD
+141362,Thai Name Server Co.,Enterprise,Technology
+53049,IOLNET,Access,SmallISP
+53049,IOLNET,Mobile,
+141180,HUAWEI INTERNATIONAL,Enterprise,IndustrialManufacturing
+141180,HUAWEI INTERNATIONAL,Enterprise,Technology
+268146,PKNET SERVICOS DE TELECOMUNICACOES LTDA,Access,SmallISP
+3594,RAIN1,EducationalResearch,Schools
+199104,Deutsche Bank AG Poland,Finance,Bank
+37663,CINX Operations/Route Collector,IXP,
+30373,Business Only Broadband,Access,SmallISP
+271694,MANALINK PROVEDOR DE INTERNET,Access,SmallISP
+327932,CONNECTIS-DATA ANGOLA,Access,SmallISP
+138699,ByteDance AS138699,Enterprise,Entertainment
+140457,Ikhlas Cipta Teknologi,Access,SmallISP
+40992,MAREX,Finance,Entities
+273024,273024,Access,SmallISP
+17547,M1 Net Ltd,Access,SmallISP
+17547,M1 Net Ltd,Mobile,
+35871,Reynolds Communications,Access,SmallISP
+207684,BAJTNET,Access,SmallISP
+207684,BAJTNET,Mobile,
+199976,DUNE TECHNOLOGY,Enterprise,Technology
+262500,BS2 Sistemas para Internet Ltda,ContentProvider,Hosting
+199064,QWANT,Enterprise,Technology
+400517,Linespeed,Enterprise,Technology
+44901,BelCloud Ltd.,Transit,Global
+214498,McLarenApplied,Enterprise,IndustrialManufacturing
+214498,McLarenApplied,Enterprise,Technology
+133253,Kremlin Tech Ventures,Enterprise,Technology
+62035,Byteworks GmbH,ContentProvider,Hosting
+62035,Byteworks GmbH,Enterprise,Technology
+131931,Aomori Cable TV,TvRadioCulturalAmenities,
+25133,McLaut-Invest,Access,SmallISP
+263126,XMAX TELECOM,Access,SmallISP
+15072,Netriplex Corporation,DNS,ANS
+264857,LE FAVI DANIEL OSVALDO,Access,SmallISP
+134138,AXONVX,Enterprise,Technology
+26554,US Signal,ContentProvider,Hosting
+146847,BRISKCOM INFOWAY,Access,SmallISP
+48487,LoVo,Access,SmallISP
+36119,"imeem, inc.",Enterprise,Entertainment
+39202,Global Radio,TvRadioCulturalAmenities,
+267320,PRIME SERVICOS DE COMUNICACAO LTDA,Access,SmallISP
+273794,TERA CORPORATION TELECOMUNICACOES EIRELI,Enterprise,Technology
+262968,4B Digital Ltda,Enterprise,Technology
+38200,BTS Communications,Access,SmallISP
+63212,TahoeIX Route Servers,IXP,
+201273,CUBEquadrat,Enterprise,Technology
+37412,The Packet Hub,Enterprise,Technology
+329174,Swift Broadband Limited,Access,SmallISP
+152080,Fixy Sinergi Nusantara,Enterprise,Technology
+48987,JYANG Net,Personal,
+59147,Drupadi Prima,ContentProvider,Hosting
+205675,Hybrid Adtech Germany,Enterprise,Technology
+269064,MULTICOM INTERNET,Access,SmallISP
+58436,SecureAX,ContentProvider,Hosting
+398846,LOGIS,ContentProvider,Hosting
+398846,LOGIS,Enterprise,Technology
+39397,Az.StarNet,Access,SmallISP
+39397,Az.StarNet,ContentProvider,Hosting
+271595,FIBER SYS TELECOM,Access,SmallISP
+149365,Java Kreasindo Bersama,ContentProvider,Hosting
+149365,Java Kreasindo Bersama,Enterprise,Technology
+132394,OpusV,Enterprise,Technology
+273664,NP SOLUCOES EM TI LTDA,Enterprise,Technology
+24657,Dokumenta,Enterprise,Technology
+263524,Ciabrasnet - Central Brasileira de Internet Ltda,Access,SmallISP
+59155,INETKU,Access,SmallISP
+38186,Forewin Telecom Group Limited,ContentProvider,Hosting
+38186,Forewin Telecom Group Limited,Enterprise,Technology
+199837,Connetical Srl,Access,SmallISP
+397585,"Tech and Networks Solutions, LLC",Enterprise,Technology
+200556,Ethan Cady,Personal,
+267905,PERES RAMOS WILLIAN (GIGABIT INTERNET),Access,SmallISP
+265672,ALCOM SPA,Access,SmallISP
+262150,EPEC (Empresa Provincial de Energía de Córdoba) Telecomunicaciones,Government,Executive
+262150,EPEC (Empresa Provincial de Energía de Córdoba) Telecomunicaciones,Government,StateProvince
+262150,EPEC (Empresa Provincial de Energía de Córdoba) Telecomunicaciones,EnergyAndUtility,
+197075,Active Network S.p.A.,Access,SmallISP
+35940,Ninja-IX Looking Glass,IXP,
+60653,FEEDLY-DEVHD,Enterprise,Technology
+37682,Tizeti Network,Access,SmallISP
+149251,Froze Communications,Access,SmallISP
+212606,DiPocket,Enterprise,Technology
+263922,SPEED TURBO TELECOM,Access,SmallISP
+269258,NETBOX TELECOM EIRELI - ME,Access,SmallISP
+812,ROGERS-COMMUNICATIONS,Access,LargeISP
+812,ROGERS-COMMUNICATIONS,Transit,Regional
+812,ROGERS-COMMUNICATIONS,Mobile,
+203529,Florian BLANCHET,Personal,
+63602,China Internet Exchange(CNIX) Route Servers,IXP,
+18568,Bidtellect,Enterprise,Ecommerce
+210882,TiZu Tech,Personal,
+272061,CROSS CONNECT LAC,Access,SmallISP
+24889,Monzoon Networks AG,Access,SmallISP
+46032,Fastel Sarana Indonesia ISP GLOBENET,Access,SmallISP
+47559,VOIXP Route Servers,IXP,
+18041,Taiwan Digital Streaming Co.,ContentProvider,Hosting
+149854,Aichgati Online,Access,SmallISP
+31958,"NGNSYS, LLC",Enterprise,Ecommerce
+210654,Des Capital B.V.,Finance,Entities
+263103,VivaNet Informatica - LTDA,Access,SmallISP
+35104,Kaztranscom,Access,SmallISP
+138040,DNSVAULT,DNS,ANS
+263248,GCI Service Provider,Access,SmallISP
+263248,GCI Service Provider,Enterprise,Technology
+18062,GRid And Next GEneration NETwork,Access,SmallISP
+18062,GRid And Next GEneration NETwork,ContentProvider,Hosting
+9908,Hong Kong Cable Television Limited,TvRadioCulturalAmenities,
+33876,Dominios,ContentProvider,Hosting
+133217,AFOYI-AS-AP,Enterprise,Technology
+142115,Hong Kong Cable TV,Access,LargeISP
+22772,Login,Enterprise,Technology
+26621,FEROGLIO JULIA ELENA,Personal,
+267777,FUTURE SOLUTIONS DEVELOPMENT,Access,SmallISP
+267777,FUTURE SOLUTIONS DEVELOPMENT,Enterprise,Technology
+199449,netkomplanet,Access,SmallISP
+199449,netkomplanet,Mobile,
+213002,Domainhizmetleri-Com,ContentProvider,Hosting
+213002,Domainhizmetleri-Com,Enterprise,Technology
+57508,Alza,ContentProvider,Hosting
+57508,Alza,Enterprise,Technology
+135228,Vardha Info Tech,Enterprise,Technology
+400476,Tailscale Inc.,Enterprise,Technology
+15966,Emango Internet Services,ContentProvider,Hosting
+15966,Emango Internet Services,Enterprise,Technology
+58369,Fiber Networks Indonesia,Access,SmallISP
+200779,DE-CIX MAPS Amsterdam Route Servers,IXP,
+197131,Ketnet Telecom Ltd,Access,SmallISP
+197131,Ketnet Telecom Ltd,Enterprise,Technology
+28181,MASTER TELECOM LTDA ME,Access,SmallISP
+28181,MASTER TELECOM LTDA ME,Mobile,
+31122,Viatel Ireland,ContentProvider,Hosting
+31122,Viatel Ireland,Enterprise,Technology
+263378,FOKUSNET PROVEDOR DE INTERNET,Access,SmallISP
+199364,RAX,ContentProvider,Hosting
+199364,RAX,Enterprise,Technology
+265851,MJL NETWORK,Access,SmallISP
+42437,T2 Rostov-on-Don,Access,SmallISP
+42437,T2 Rostov-on-Don,Mobile,
+42437,T2 Rostov-on-Don,Government,Executive
+42437,T2 Rostov-on-Don,Government,FederalNational
+272268,Atar Net,Access,SmallISP
+269314,GIACOMETTI & GIACOMETTI,Access,SmallISP
+63791,doornoc,EducationalResearch,University
+12479,Orange Spain,Access,LargeISP
+12479,Orange Spain,Transit,Domestic
+12479,Orange Spain,Mobile,
+269714,Vipfiber Telecom Ltda,Access,SmallISP
+62693,SpotXchange DEN,ContentProvider,Hosting
+62693,SpotXchange DEN,Enterprise,Ecommerce
+211750,MC-Node,ContentProvider,Hosting
+18733,ZENIMAXMEDIA,ContentProvider,Hosting
+18733,ZENIMAXMEDIA,Enterprise,Entertainment
+28130,Certto Telecomunicações,Access,SmallISP
+137087,Sb Networks,Access,SmallISP
+137087,Sb Networks,ContentProvider,Hosting
+264550,M H SAT SERVIÇOS EM TELECOMUNICAÇÕES,Access,SmallISP
+397795,The Fire Horn,Enterprise,IndustrialManufacturing
+27775,TeleSur Suriname,Access,SmallISP
+27775,TeleSur Suriname,Mobile,
+27775,TeleSur Suriname,Government,Executive
+27775,TeleSur Suriname,Government,FederalNational
+27775,TeleSur Suriname,DNS,ccTLD
+269354,NDD TELECOM - SERVICOS DE COMUNICACOES,Access,SmallISP
+38644,KANDANET,IXP,
+64131,GLOBALCONNECT,Access,SmallISP
+264886,GD NET SOLUTION,Access,SmallISP
+202199,Bradley James King,Personal,
+395400,University of Guam,EducationalResearch,University
+395400,University of Guam,Government,Executive
+395400,University of Guam,Government,FederalNational
+271673,ASN271673 (ST NET TELECOM),Access,SmallISP
+3300,British Telecom GIIB,Access,LargeISP
+3300,British Telecom GIIB,Transit,Global
+3300,British Telecom GIIB,Mobile,
+21296,Pricewaterhouse Coopers Services UK,Enterprise,Technology
+21296,Pricewaterhouse Coopers Services UK,Finance,Entities
+210091,KeenSystems,Access,SmallISP
+40193,Trit Networks,Access,SmallISP
+269918,"SISTEMAS TELCORP, C.A.",Access,SmallISP
+269918,"SISTEMAS TELCORP, C.A.",Satellite,
+328537,Super Group,Enterprise,IndustrialManufacturing
+56654,Infinity Telecom SRL,Access,SmallISP
+56654,Infinity Telecom SRL,ContentProvider,Hosting
+215743,PONGPONG NETWORK LTD,ContentProvider,Hosting
+136530,Ultranet Communications,Access,SmallISP
+273890,NAP VE - Transit,IXP,
+44407,Linkt,Enterprise,Technology
+207609,Sepehr Ahmadi,ContentProvider,Hosting
+207609,Sepehr Ahmadi,Enterprise,Technology
+200730,BAKCHOD Network,Personal,
+269631,AFC INFORMATICA & INTERNET,Access,SmallISP
+327875,KINIX Ops,IXP,
+17773,"UPNET Technologies Co., Ltd",Access,SmallISP
+137669,Asg Telecom,Access,SmallISP
+49368,DomoLAN,Access,SmallISP
+25735,Sloth Networks,ContentProvider,Hosting
+267567,ALPHANET,Access,SmallISP
+393290,Teleperformance Group,Enterprise,Technology
+136377,Linkwave Technologies Pvt. Ltd.,Access,SmallISP
+204588,Protegion (Rapyd Europe hf.),Enterprise,Technology
+204588,Protegion (Rapyd Europe hf.),Finance,Entities
+141870,GV REDDY BROADBAND SERVICES,Access,SmallISP
+6540,"Path Network, Inc. (AS6540)",ContentProvider,Hosting
+6540,"Path Network, Inc. (AS6540)",Enterprise,Technology
+55403,Digital Solutions,Enterprise,Technology
+399561,RTCONN CDN AS399561,ContentProvider,CDN
+399561,RTCONN CDN AS399561,Enterprise,Entertainment
+26762,Conversant US East,ContentProvider,Hosting
+26762,Conversant US East,Enterprise,Technology
+14161,LANDOLAKES,Enterprise,IndustrialManufacturing
+14161,LANDOLAKES,Cooperatives,
+51402,COM-IN Telekommunikation,Access,SmallISP
+266430,Victor.net e Link Evolution Telecom,Access,SmallISP
+23735,EOL,Access,SmallISP
+23735,EOL,Mobile,
+23735,EOL,ContentProvider,Hosting
+24689,Rosintel,Access,SmallISP
+138685,Mahidol Wittayanusorn School,EducationalResearch,Schools
+138685,Mahidol Wittayanusorn School,Government,Executive
+138685,Mahidol Wittayanusorn School,Government,CityCountyMunicipality
+149353,PT. Selaras Citra Artmedia,Access,SmallISP
+149353,PT. Selaras Citra Artmedia,Enterprise,Technology
+37154,ZAMTEL,Access,SmallISP
+37154,ZAMTEL,Mobile,
+37154,ZAMTEL,Government,Executive
+37154,ZAMTEL,Government,FederalNational
+266655,SERVICIOS DE TELECOMUNICACIONES MAS CONECTADOS,Access,SmallISP
+266655,SERVICIOS DE TELECOMUNICACIONES MAS CONECTADOS,Mobile,
+151358,Finovy Pte. Ltd.,ContentProvider,Hosting
+151358,Finovy Pte. Ltd.,Enterprise,Technology
+270065,CHILE TV CABLE,Access,SmallISP
+266995,Evox Telecom LTDA - ME,Access,SmallISP
+35575,Vaioni,Access,SmallISP
+35575,Vaioni,Transit,Domestic
+31069,LanCity,Access,SmallISP
+48288,EWII Bredbånd AS48288,Access,SmallISP
+48288,EWII Bredbånd AS48288,EnergyAndUtility,
+147066,Fasttel Broadband Pvt. Ltd.,Access,SmallISP
+9177,"Mezhdurechensk factory of radio equipment repair, Ltd",Enterprise,IndustrialManufacturing
+21981,GOEASTON,Government,Executive
+21981,GOEASTON,Government,CityCountyMunicipality
+21981,GOEASTON,EnergyAndUtility,
+216430,Nikola PHILIP-SINIBALDI,Personal,
+395081,MegaIX Toronto Route Servers,IXP,
+395081,MegaIX Toronto Route Servers,Enterprise,Technology
+199599,Telecom-Birzha,Transit,Domestic
+42991,BioNet,Access,SmallISP
+47302,cyon GmbH,ContentProvider,Hosting
+136311,Gayatri Telecom,Access,SmallISP
+206446,CLOUD LEASE,ContentProvider,Hosting
+150237,Akses Digital Bersama,Access,SmallISP
+134707,RoyalCable,Access,LargeISP
+263586,E. M. Fernandes (ZAZZ INTERNET),Access,SmallISP
+268222,FENIX TELECOM,Access,SmallISP
+833,Spearware Networks LLC,ContentProvider,Hosting
+36040,Google LLC AS36040,Enterprise,Technology
+12576,EE,Access,LargeISP
+12576,EE,Mobile,
+329467,Organization PAN AFRICA TELECOM (PTY) LTD,Access,SmallISP
+329467,Organization PAN AFRICA TELECOM (PTY) LTD,ContentProvider,Hosting
+150286,VICTORIAS TELEPHONE SYSTEM,Access,SmallISP
+150286,VICTORIAS TELEPHONE SYSTEM,Mobile,
+131465,Marbel Telephone System Inc,Access,SmallISP
+131465,Marbel Telephone System Inc,Mobile,
+149771,Hewad Aziz Services Company,ContentProvider,Hosting
+211282,Consumer Internet Cooperative PG-19 - AS211282,Access,SmallISP
+211282,Consumer Internet Cooperative PG-19 - AS211282,Cooperatives,
+34554,Antares Kommunikationstechnik AG (antanet.ch),Access,SmallISP
+15497,Colocall Ltd.,ContentProvider,Hosting
+262595,OnNet Telecomunicacoes,Access,SmallISP
+262595,OnNet Telecomunicacoes,Transit,Domestic
+262595,OnNet Telecomunicacoes,Mobile,
+137184,Suniway Group,Access,SmallISP
+137184,Suniway Group,Mobile,
+200899,INTERSPACE,Access,SmallISP
+200899,INTERSPACE,Transit,Regional
+199439,Dreamlink sp. z o.o.,Access,SmallISP
+1320,NNIC AS1320,Government,Executive
+1320,NNIC AS1320,Government,FederalNational
+55077,"LightSpeed Technologies, LLC",Access,SmallISP
+25425,SCF Management Services (Cyprus) Ltd,Enterprise,IndustrialManufacturing
+25425,SCF Management Services (Cyprus) Ltd,Transportation,Ships
+138629,"NSM SOLUTION AND MAINTENANCE CO., LTD.",Access,SmallISP
+209188,Nick's V6,Personal,
+271949,AX INTERNET,Access,SmallISP
+271949,AX INTERNET,Mobile,
+22177,Transit do Brasil Ltda,Access,SmallISP
+22177,Transit do Brasil Ltda,ContentProvider,Hosting
+137018,Blue Sky Cable Network,Access,SmallISP
+16065,SimulaMet CRNA,EducationalResearch,ResearchInstitutes
+9215,vMind-portvMind Veri Merkezi | AS9215,ContentProvider,Hosting
+35559,Someaddress Networks,Personal,
+25698,Smart City Telecom AS25698,Access,SmallISP
+139009,Windstream Communication Limited,Transit,Regional
+328526,CloudFace,ContentProvider,Hosting
+328526,CloudFace,Enterprise,Technology
+138038,Wolf Network Lab Experimental,Personal,
+52788,Meganet Telecomunicaçoes e Internet LTDA,Access,SmallISP
+52788,Meganet Telecomunicaçoes e Internet LTDA,Mobile,
+135407,TransWorldEnterpriseServices,Access,SmallISP
+270442,G15NET LTDA,Access,SmallISP
+267630,UNIVERSIDADE ESTADUAL DO MARANHÃO,EducationalResearch,University
+267630,UNIVERSIDADE ESTADUAL DO MARANHÃO,Government,Executive
+267630,UNIVERSIDADE ESTADUAL DO MARANHÃO,Government,StateProvince
+30188,TELEVERGENCE,Enterprise,Technology
+25309,TOP-IX,IXP,
+42476,SwissIX,IXP,
+31210,DTEL-IX,IXP,
+49634,PITER-IX Riga,IXP,
+2593,VSIX,IXP,
+24457,DE-CIX Delhi,IXP,
+55518,SGIX,IXP,
+55822,MyIX,IXP,
+6777,AMS-IX,IXP,
+24736,CAIX,IXP,
+393523,WPGIX,IXP,
+13770,HFXIX,IXP,
+63028,NWAX,IXP,
+62502,YEGIX,IXP,
+8695,Kherson Traffic Exchange,IXP,
+394594,IX-Denver,IXP,
+49917,LSIX,IXP,
+15669,BIX.BG,IXP,
+20530,RoNIX,IXP,
+37324,MIXP,IXP,
+48586,BAIKAL-IX,IXP,
+23169,Ohio IX,IXP,
+37780,GABIX,IXP,
+41882,RomandIX,IXP,
+13094,SFO-IX,IXP,
+37386,UIXP,IXP,
+37224,RINEX,IXP,
+44896,POZIX,IXP,
+45093,Cnean,IXP,
+56931,Eurasia Peering IX,IXP,
+53649,MonctonIX,IXP,
+54033,PhillyIX,IXP,
+20759,SAIX,IXP,
+33495,FCIX,IXP,
+62819,Pacific Wave,IXP,
+58146,Litix,IXP,
+23899,VNIX-HN,IXP,
+23540,CMH-IX,IXP,
+49624,LU-CIX,IXP,
+43268,SNS-IX,IXP,
+48443,BHNIX,IXP,
+24470,DE-CIX Chennai,IXP,
+24508,DE-CIX Kolkata,IXP,
+7481,TWIX,IXP,
+26468,MUS-IX,IXP,
+62484,48 IX,IXP,
+270849,OnlineNet,IXP,
+271801,PIT Bolivia,IXP,
+39607,PITER-IX Helsinki,IXP,
+399280,SXMIX,IXP,
+56393,Frys-IX,IXP,
+57106,AAIX,IXP,
+59510,GIBIRIX,IXP,
+210925,BEE-IX,IXP,
+211181,IRAQ-IXP,IXP,
+210461,RUDAKI-IX,IXP,
+207800,RTIX,IXP,
+34840,KMIX,IXP,
+37728,EG-IX,IXP,
+272136,SUR-IX,IXP,
+47584,Stelia IX,IXP,
+272852,SUR-IX,IXP,
+9446,MVIX,IXP,
+211764,SAIX,IXP,
+150190,sumIX,IXP,
+150528,EdgeNXT,IXP,
+146757,NXIXP,IXP,
+9437,DE-CIX Hyderabad,IXP,
+36090,F4IX MCI,IXP,
+152007,AIX,IXP,
+273881,RPCI,IXP,
+401485,QIX Quebec city,IXP,
+16395,MBIX,IXP,
+57463,NetIX,IXP,
+53339,YYCIX,IXP,
+49638,CATNIX,IXP,
+37431,KINIX,IXP,
+37474,JINX,IXP,
+198391,DIX,IXP,
+327821,MIXP,IXP,
+39107,InterLAN-IX,IXP,
+37700,JINX,IXP,
+37701,CINX,IXP,
+37699,DINX,IXP,
+37668,DINX,IXP,
+28681,KM-IX,IXP,
+136754,BGP.Exchange,IXP,
+46210,YXEIX,IXP,
+14086,QIX Montreal,IXP,
+58137,ANIX,IXP,
+60082,CATNIX,IXP,
+37776,MLIX,IXP,
+23676,MARIIX,IXP,
+396515,YYCIX,IXP,
+17482,btIX,IXP,
+39160,SR-IX,IXP,
+27228,PhillyIX,IXP,
+61600,UEPG Internet Exchange,IXP,
+139875,NIX-BD,IXP,
+14694,BVIX,IXP,
+139136,NNIX,IXP,
+62866,Ohio IX,IXP,
+50263,1-IX EU,IXP,
+328998,UIXP,IXP,
+18155,ISPAB-NIX,IXP,
+273575,FOX,IXP,
+56584,INTERIX,IXP,
+60812,1-IX UA,IXP,
+152735,Guam IX,IXP,
+215157,OnlineNet,IXP,
+214591,frankonIX,IXP,
+152063,ILIX,IXP,
+52055,NetIX,IXP,
+58406,ISC F-ROOT ULN1,DNS,Roots
+30132,ISC F-ROOT AMS1,DNS,Roots
+33082,ISC F-ROOT FRA1,DNS,Roots
+23709,ISC F-ROOT HKG1,DNS,Roots
+30125,ISC F-ROOT PHX1,DNS,Roots
+45220,ISC F-ROOT KUL1,DNS,Roots
+23711,ISC F-ROOT SIN1,DNS,Roots
+23710,ISC F-ROOT AKL1,DNS,Roots
+33072,ISC F-ROOT BCN1,DNS,Roots
+23708,ISC F-ROOT BNE1,DNS,Roots
+33078,ISC F-ROOT ORD2,DNS,Roots
+27859,ISC F-ROOT SCL2,DNS,Roots
+24048,ISC F-ROOT CGK1,DNS,Roots
+24050,ISC F-ROOT SGN1,DNS,Roots
+27848,ISC F-ROOT LPB1,DNS,Roots
+30122,ISC F-ROOT GRU1,DNS,Roots
+27322,ISC F-ROOT JNB1,DNS,Roots
+30128,ISC F-ROOT KBP1,DNS,Roots
+24051,ISC F-ROOT RUH1,DNS,Roots
+33558,ISC F-ROOT LAD1,DNS,Roots
+27318,ISC F-ROOT LAX1,DNS,Roots
+33073,ISC F-ROOT LCY1,DNS,Roots
+33081,ISC F-ROOT LCY2,DNS,Roots
+30129,ISC F-ROOT LIS1,DNS,Roots
+30133,ISC F-ROOT NUL0,DNS,Roots
+25572,ISC F-ROOT MAD1,DNS,Roots
+30127,ISC F-ROOT MTY1,DNS,Roots
+61447,ISC F-ROOT MVD1,DNS,Roots
+33074,ISC F-ROOT CKG1,DNS,Roots
+33079,ISC F-ROOT OSL1,DNS,Roots
+52243,ISC F-ROOT PAP1,DNS,Roots
+55440,ISC F-ROOT PNH1,DNS,Roots
+30134,ISC F-ROOT LAS1,DNS,Roots
+27320,ISC F-ROOT ROM1,DNS,Roots
+33075,ISC F-ROOT SCL1,DNS,Roots
+23713,ISC F-ROOT SEL1,DNS,Roots
+38568,ISC F-ROOT SUV1,DNS,Roots
+30124,ISC F-ROOT SVO1,DNS,Roots
+33076,ISC F-ROOT RIC1,DNS,Roots
+30131,ISC F-ROOT CLT1,DNS,Roots
+23712,ISC F-ROOT TPE1,DNS,Roots
+33077,ISC F-ROOT TRN1,DNS,Roots
+53459,ISC F-ROOT WAW1,DNS,Roots
+30123,ISC F-ROOT DEN2,DNS,Roots
+30130,ISC F-ROOT YYZ1,DNS,Roots
+27319,ISC F-ROOT PAH1,DNS,Roots
+33080,ISC F-ROOT ATL1,DNS,Roots
+33071,ISC F-ROOT ORD1,DNS,Roots
+24047,ISC F-ROOT KIX1,DNS,Roots
+394070,ISC F-ROOT LGA1,DNS,Roots
+27321,ISC F-ROOT OAK1,DNS,Roots
+395217,ISC F-ROOT RNO1,DNS,Roots
+55439,ISC F-ROOT PEK2,DNS,Roots
+23707,ISC F-ROOT HAN1,DNS,Roots
+393221,ISC F-ROOT MGM1,DNS,Roots
+205488,ISC F-ROOT BBU1,DNS,Roots
+137064,ISC F-ROOT ABQ1,DNS,Roots
+142576,ISC F-ROOT JOG1,DNS,Roots
+211022,ISC F-ROOT TLV1,DNS,Roots
+146951,ISC F-ROOT CCU1,DNS,Roots
+147025,ISC F-ROOT POM1,DNS,Roots
+210762,ISC F-ROOT TGD1,DNS,Roots
+210765,ISC F-ROOT PRG1,DNS,Roots
+210764,ISC F-ROOT AGP1,DNS,Roots
+148967,ISC F-ROOT DAD1,DNS,Roots
+328995,ISC F-ROOT DLA1,DNS,Roots
+149646,ISC F-ROOT DPS1,DNS,Roots
+27913,ISC F-ROOT FOR1,DNS,Roots
+211834,ISC F-ROOT BER1,DNS,Roots
+400091,ISC F-ROOT DFW1,DNS,Roots
+201969,ISC F-ROOT LUX1,DNS,Roots
+53518,ISC F-ROOT SJU1,DNS,Roots
+215233,ISC F-ROOT BEG1,DNS,Roots
+30511,ISC F-ROOT LGA2,DNS,Roots
+400390,ISC F-ROOT PDX1,DNS,Roots
+11431,NIC.BR wx.dns.br,DNS,ccTLD
+53035,NIC.BR a.dns.br,DNS,ccTLD
+10906,NIC.BR b.dns.br,DNS,ccTLD
+11284,NIC.BR c.dns.br,DNS,ccTLD
+11644,NIC.BR d.dns.br,DNS,ccTLD
+12136,NIC.BR e.dns.br,DNS,ccTLD
+14650,NIC.BR f.dns.br,DNS,ccTLD
+52274,NIC.EC S.A.,DNS,ccTLD
+51090,AM NIC,DNS,ccTLD
+30971,nic.at,DNS,ccTLD
+23454,"Akamai Technologies, Inc",ContentProvider,CDN
+40009,BitGravity,ContentProvider,CDN
+30081,CacheFly,ContentProvider,CDN
+60068,CDN77,ContentProvider,CDN
+204720,CDNetworks Russia,ContentProvider,CDN
+63541,Chinacache,ContentProvider,CDN
+63541,Chinacache,Government,Executive
+63541,Chinacache,Government,FederalNational
+15133,Edgecast - AS15133,ContentProvider,CDN
+29791,Internap,ContentProvider,Hosting
+29791,Internap,ContentProvider,CDN
+29791,Internap,Enterprise,Technology
+1828,Unitas Global,ContentProvider,Hosting
+1828,Unitas Global,ContentProvider,CDN
+1828,Unitas Global,Enterprise,Technology
+30636,Internap AS30636,ContentProvider,Hosting
+30636,Internap AS30636,ContentProvider,CDN
+30636,Internap AS30636,Enterprise,Technology
+22822,Edgio - AS22822,ContentProvider,CDN
+25804,Edgio - AS25804 - Israel,ContentProvider,CDN
+38622,Edgio - AS38622 - Australia,ContentProvider,CDN
+45396,Edgio - AS45396 - Korea,ContentProvider,CDN
+55429,Edgio - AS55429 - India,ContentProvider,CDN
+60261,Edgio - AS60261 - UAE,ContentProvider,CDN
+23059,Edgio - AS23059 - LATAM,ContentProvider,CDN
+38621,Edgio - AS38621 - New Delhi,ContentProvider,CDN
+54104,"StackPath, LLC, MaxCDN",ContentProvider,CDN
+209242,Cloudflare London,ContentProvider,CDN
+19551,Incapsula,ContentProvider,Hosting
+19551,Incapsula,ContentProvider,CDN
+13884,SoftLayer Technologies,ContentProvider,Hosting
+36351,"SoftLayer Technologies, Inc. (an IBM Company)",ContentProvider,Cloud
+36351,"SoftLayer Technologies, Inc. (an IBM Company)",ContentProvider,Hosting
+200325,BunnyCDN,ContentProvider,CDN
+12684,SES ASTRA,Access,SmallISP
+12684,SES ASTRA,Satellite,
+6621,Hughes Network Systems llc,Access,LargeISP
+6621,Hughes Network Systems llc,Satellite,
+201935,Eutelsat - Skylogic Mediterraneo,Access,LargeISP
+201935,Eutelsat - Skylogic Mediterraneo,Satellite,
+9229,Speedcast Limited,Access,SmallISP
+9229,Speedcast Limited,Satellite,
+38456,SpeedCast Australia,Access,SmallISP
+38456,SpeedCast Australia,Satellite,
+26593,Telespazio argentina,Access,SmallISP
+26593,Telespazio argentina,Satellite,
+38891,MEASAT Satellite Systems,Access,SmallISP
+38891,MEASAT Satellite Systems,Satellite,
+63951,THAICOM,Access,LargeISP
+63951,THAICOM,Satellite,
+15802,Emirates Integrated Telecommunication Company (du),Access,LargeISP
+15802,Emirates Integrated Telecommunication Company (du),Mobile,
+15802,Emirates Integrated Telecommunication Company (du),Government,Executive
+15802,Emirates Integrated Telecommunication Company (du),Government,FederalNational
+15757,Gazprom Space Systems,Access,SmallISP
+15757,Gazprom Space Systems,Satellite,
+20764,RASCOM,Access,LargeISP
+20764,RASCOM,Satellite,
+37472,NigComSat,Access,SmallISP
+37472,NigComSat,Satellite,
+37472,NigComSat,Government,Executive
+37472,NigComSat,Government,FederalNational
+141721,AsiaSat,Access,LargeISP
+141721,AsiaSat,Satellite,
+9605,NTT DOCOMO,Access,LargeISP
+9605,NTT DOCOMO,Mobile,
+43205,Vivacom Bulgaria EAD-Bulsatcom,Access,SmallISP
+43205,Vivacom Bulgaria EAD-Bulsatcom,Mobile,
+43205,Vivacom Bulgaria EAD-Bulsatcom,TvRadioCulturalAmenities,
+41697,Hellas Sat Consortium Ltd,Access,SmallISP
+41697,Hellas Sat Consortium Ltd,Satellite,
+9158,Telenor Denmark,Access,LargeISP
+9158,Telenor Denmark,Mobile,
+9158,Telenor Denmark,Government,Executive
+9158,Telenor Denmark,Government,FederalNational
+24499,Telenor Pakistan,Access,LargeISP
+24499,Telenor Pakistan,Mobile,
+24499,Telenor Pakistan,Government,Executive
+24499,Telenor Pakistan,Government,FederalNational
+328306,Avanti Communications South Africa,Access,SmallISP
+328306,Avanti Communications South Africa,Satellite,
+800,OneWeb,Access,LargeISP
+800,OneWeb,Satellite,
+328724,ISAT AFRICA KENYA LTD,Access,SmallISP
+328724,ISAT AFRICA KENYA LTD,Satellite,
+395263,KEPLER COMMUNICATIONS,Access,SmallISP
+395263,KEPLER COMMUNICATIONS,Satellite,
+37463,MTN Congo,Access,SmallISP
+37463,MTN Congo,Mobile,
+29465,MTN NIGERIA Communication,Access,LargeISP
+29465,MTN NIGERIA Communication,Mobile,
+30992,MTN Cameroon,Access,LargeISP
+30992,MTN Cameroon,Mobile,
+16637,MTN South Africa,Access,SmallISP
+16637,MTN South Africa,Transit,Regional
+16637,MTN South Africa,Mobile,
+36962,MTN Zambia,Access,LargeISP
+36962,MTN Zambia,Mobile,
+132471,MTN Afghanistan,Access,LargeISP
+132471,MTN Afghanistan,Mobile,
+37424,MTN BENIN,Access,LargeISP
+37424,MTN BENIN,Mobile,
+36974,MTN Cote d'Ivoire,Access,LargeISP
+36974,MTN Cote d'Ivoire,Mobile,
+15805,MTN Cyprus,Access,SmallISP
+15805,MTN Cyprus,Mobile,
+36890,MTN Rwandacell,Access,LargeISP
+36890,MTN Rwandacell,Mobile,
+20294,MTN Uganda,Access,LargeISP
+20294,MTN Uganda,Mobile,
+27822,MTNSAT AS27822,Access,SmallISP
+27822,MTNSAT AS27822,Satellite,
+32806,MTNSAT AS32806,Access,SmallISP
+32806,MTNSAT AS32806,Satellite,
+27277,SpaceX,Access,LargeISP
+27277,SpaceX,Satellite,
+29242,Viasat UA,TvRadioCulturalAmenities,
+33696,NextArray,ContentProvider,Hosting
+28114,Directv Argentina,Access,SmallISP
+28114,Directv Argentina,Satellite,
+28114,Directv Argentina,TvRadioCulturalAmenities,
+262928,Directv Colombia,Access,SmallISP
+262928,Directv Colombia,Satellite,
+262928,Directv Colombia,TvRadioCulturalAmenities,
+270057,DIRECTV COLOMBIA,Access,SmallISP
+270057,DIRECTV COLOMBIA,Satellite,
+270057,DIRECTV COLOMBIA,TvRadioCulturalAmenities,
+7474,SingTel Optus,Access,SmallISP
+7474,SingTel Optus,Mobile,
+7474,SingTel Optus,Satellite,
+7474,SingTel Optus,Government,Executive
+7474,SingTel Optus,Government,FederalNational
+6830,Liberty Global,Access,LargeISP
+6830,Liberty Global,Transit,Global
+3491,PCCW Global,Access,SmallISP
+3491,PCCW Global,Transit,Global
+3491,PCCW Global,Mobile,
+3491,PCCW Global,Satellite,
+6461,Zayo,Access,SmallISP
+6461,Zayo,Transit,Global
+4809,China Telecom / CN2,Access,SmallISP
+4809,China Telecom / CN2,Transit,Global
+4809,China Telecom / CN2,Mobile,
+4809,China Telecom / CN2,Government,Executive
+4809,China Telecom / CN2,Government,FederalNational
+4837,China Unicom,Access,LargeISP
+4837,China Unicom,Transit,Global
+4837,China Unicom,Mobile,
+4837,China Unicom,Government,Executive
+4837,China Unicom,Government,FederalNational
+7473,Singapore Telecommunications Limited,Access,SmallISP
+7473,Singapore Telecommunications Limited,Transit,Regional
+7473,Singapore Telecommunications Limited,Mobile,
+7473,Singapore Telecommunications Limited,Government,Executive
+7473,Singapore Telecommunications Limited,Government,FederalNational
+6939,Hurricane Electric,Transit,Global
+1273,Vodafone Global Network,Access,SmallISP
+1273,Vodafone Global Network,Transit,Global
+1273,Vodafone Global Network,Mobile,
+2828,XO Communications,Access,SmallISP
+2828,XO Communications,Transit,Domestic
+4637,Telstra ,Access,SmallISP
+4637,Telstra ,Transit,Regional
+4637,Telstra ,Mobile,
+11406,CIGNA,Health,Insurances
+13348,CIGNA2,Health,Insurances
+10879,UnitedHealth Group,Health,Insurances
+36092,Centene Corporation,Health,Insurances
+328772,Momentum Metropolitan Life,Health,Insurances
+55366,Bupa Asia Pacific,Health,Insurances
+132097,Bupa Australia,Health,Insurances
+22593,Blue Cross and Blue Shield of North Carolina,Health,Insurances
+45264,Bajaj Allianz Life Insurance,Health,Insurances
+137938,QBE Insurance Group,Health,Insurances
+33110,Manitoba Blue Cross,Health,Insurances
+122,UPMC AS122,Health,Hospitals
+62679,"Shopify, Inc",Enterprise,Ecommerce
+63408,"Shopify, Inc 2",Enterprise,Ecommerce
+37963,Alibaba (China),ContentProvider,Cloud
+37963,Alibaba (China),DNS,ANS
+37963,Alibaba (China),Enterprise,Ecommerce
+24429,Alibaba Cloud CDN,ContentProvider,Cloud
+24429,Alibaba Cloud CDN,ContentProvider,CDN
+131486,Beijing Jingdong 360 Degree E-commerce,Enterprise,Ecommerce
+11643,eBay Inc.,Enterprise,Ecommerce
+31621,Allegro.pl Poland,Enterprise,Ecommerce
+42656,Allegro.pl Poland,Enterprise,Ecommerce
+12196,Etsy,Enterprise,Ecommerce
+27475,Wayfair LLC,Enterprise,Ecommerce
+63776,Mercari,Enterprise,Ecommerce
+398079,Revolve Clothing,Enterprise,Ecommerce
+12269,Groupon Prod1,Enterprise,Ecommerce
+12,New York University,EducationalResearch,University
+27370,City of Boston,Government,Executive
+27370,City of Boston,Government,CityCountyMunicipality
+22834,Boston College,EducationalResearch,University
+132205,Yarra City Council,Government,Executive
+132205,Yarra City Council,Government,CityCountyMunicipality
+27202,City of Bardstown,Government,Executive
+27202,City of Bardstown,Government,CityCountyMunicipality
+23457,City of Brampton,Government,Executive
+23457,City of Brampton,Government,CityCountyMunicipality
+930,CITY OF CELINA,Government,Executive
+930,CITY OF CELINA,Government,CityCountyMunicipality
+62022,City of Espoo,Government,Executive
+62022,City of Espoo,Government,CityCountyMunicipality
+397883,City of Hilliard,Government,Executive
+397883,City of Hilliard,Government,CityCountyMunicipality
+23038,City of Hillsboro,Government,Executive
+23038,City of Hillsboro,Government,CityCountyMunicipality
+36750,City of Mississauga,Government,Executive
+36750,City of Mississauga,Government,CityCountyMunicipality
+33515,"City of Monroe, GA",Government,Executive
+33515,"City of Monroe, GA",Government,CityCountyMunicipality
+62648,City of Mont Belvieu,Government,Executive
+62648,City of Mont Belvieu,Government,CityCountyMunicipality
+395627,City of Montgomery,Government,Executive
+395627,City of Montgomery,Government,CityCountyMunicipality
+400512,City of Opelika,Government,Executive
+400512,City of Opelika,Government,CityCountyMunicipality
+32365,City of Sandy,Government,Executive
+32365,City of Sandy,Government,CityCountyMunicipality
+394366,City of Saskatoon,Government,Executive
+394366,City of Saskatoon,Government,CityCountyMunicipality
+3401,City of Seattle - IIT,Government,Executive
+3401,City of Seattle - IIT,Government,CityCountyMunicipality
+46692,City of Windom,Government,Executive
+46692,City of Windom,Government,CityCountyMunicipality
+46590,CITY-OF-CHARLESTON,Government,Executive
+46590,CITY-OF-CHARLESTON,Government,CityCountyMunicipality
+23938,Arrow Energy Limited,EnergyAndUtility,
+22987,BrightRidge,EnergyAndUtility,
+29617,Energy Water Bern,EnergyAndUtility,
+18779,Energy Group Networks (Open Colo),ContentProvider,Hosting
+13781,HES Energynet,Access,SmallISP
+13781,HES Energynet,EnergyAndUtility,
+2024,Eversource Energy,EnergyAndUtility,
+61317,Hivelocity Inc. fka Digital Energy Technologies Limited (Global),ContentProvider,Hosting
+46293,Midwest Energy & Communications,Access,SmallISP
+46293,Midwest Energy & Communications,EnergyAndUtility,
+15562,Job Snijders,Personal,
+146979,University of Nagasaki,EducationalResearch,University
+7896,University of Nebraska,EducationalResearch,University
+3582,University of Oregon,EducationalResearch,University
+56056,Amity University,EducationalResearch,University
+140918,CMKL University,EducationalResearch,University
+328419,Bayero University,EducationalResearch,University
+32082,Bridgewater State University,EducationalResearch,University
+2698,Iowa State University,EducationalResearch,University
+4201,Oregon State University,EducationalResearch,University
+29848,West Chester University,EducationalResearch,University
+33091,University of Calgary,EducationalResearch,University
+32071,Western Kentucky University,EducationalResearch,University
+7968,Loyola University of Chicago,EducationalResearch,University
+55680,Universitas Atma Jaya Yogyakarta,EducationalResearch,University
+45304,Universitas Kristen Petra,EducationalResearch,University
+38280,Monash University Malaysia,EducationalResearch,University
+200259,The American University of Paris,EducationalResearch,University
+401264,University of Arkansas Community College at Morrilton,EducationalResearch,University
+6192,University of California at Davis,EducationalResearch,University
+160,University of Chicago,EducationalResearch,University
+104,University of Colorado at Boulder,EducationalResearch,University
+6360,University of Hawaii,EducationalResearch,University
+36859,University of Houston AS36859,EducationalResearch,University
+7276,University of Houston AS7276,EducationalResearch,University
+3676,University of Iowa,EducationalResearch,University
+397607,University of Iowa MIC,EducationalResearch,University
+37420,University of Jos,EducationalResearch,University
+22985,University of Louisiana at Lafayette,EducationalResearch,University
+557,University of Maine System,EducationalResearch,University
+269906,Chaco Digital SA,Access,SmallISP
+52373,ECOM CHACO,Access,SmallISP
+3449,University of Buenos Aires,EducationalResearch,University
+3449,University of Buenos Aires,Government,Executive
+3449,University of Buenos Aires,Government,StateProvince
+269766,Consejo de la Magistatura CABA,Government,Judiciary
+269766,Consejo de la Magistatura CABA,Government,CityCountyMunicipality
+267816,MINISTERIO PUBLICO DE LA CIUDAD AUTONOMA DE BUENOS AIRES,Government,Executive
+267816,MINISTERIO PUBLICO DE LA CIUDAD AUTONOMA DE BUENOS AIRES,Government,CityCountyMunicipality
+270044,CORRIENTES TELECOMUNICACIONES,Access,SmallISP
+270044,CORRIENTES TELECOMUNICACIONES,Government,Executive
+270044,CORRIENTES TELECOMUNICACIONES,Government,StateProvince
+272834,ENER Entre Ríos,Government,Executive
+272834,ENER Entre Ríos,Government,StateProvince
+272834,ENER Entre Ríos,EnergyAndUtility,
+263791,REFSA Formosa,Access,SmallISP
+263791,REFSA Formosa,Government,Executive
+263791,REFSA Formosa,Government,StateProvince
+52308,AGUAS DEL COLORADO SAPEM,Government,Executive
+52308,AGUAS DEL COLORADO SAPEM,Government,StateProvince
+52308,AGUAS DEL COLORADO SAPEM,EnergyAndUtility,
+264808,Gobierno de Mendoza - Ministerio de Hacienda,Government,Executive
+264808,Gobierno de Mendoza - Ministerio de Hacienda,Government,StateProvince
+263774,Marandu Comunicaciones,Access,SmallISP
+263774,Marandu Comunicaciones,Government,Executive
+263774,Marandu Comunicaciones,Government,StateProvince
+262222,OPTIC Neuquén,Government,Executive
+262222,OPTIC Neuquén,Government,StateProvince
+267820,NEUTICS Neuquén,Access,SmallISP
+267820,NEUTICS Neuquén,Government,Executive
+267820,NEUTICS Neuquén,Government,StateProvince
+265687,ALTEC Río Negro,Access,SmallISP
+265687,ALTEC Río Negro,Satellite,
+265687,ALTEC Río Negro,Government,Executive
+265687,ALTEC Río Negro,Government,StateProvince
+264848,STIC - Gobierno de Salta,Government,Executive
+264848,STIC - Gobierno de Salta,Government,StateProvince
+52440,"Universidad de La Punta, San Luis",EducationalResearch,University
+52440,"Universidad de La Punta, San Luis",Government,Executive
+52440,"Universidad de La Punta, San Luis",Government,CityCountyMunicipality
+52293,Gobierno de Santa Fe,Government,Executive
+52293,Gobierno de Santa Fe,Government,StateProvince
+47447,23M GmbH,ContentProvider,Hosting
+51701,Adminor Aktiebolag,ContentProvider,Hosting
+328608,Africa on Cloud,ContentProvider,Hosting
+38136,Akari Networks Limited,ContentProvider,Hosting
+266768,MEGANET,Access,SmallISP
+47147,Anexia,ContentProvider,Hosting
+60150,area-7 IT-Services GmbH,ContentProvider,Hosting
+41075,ATW Internet Kft.,ContentProvider,Hosting
+23507,AVSISP,ContentProvider,Hosting
+151704,Bharat Datacenter,ContentProvider,Hosting
+216360,Valor Node,ContentProvider,Hosting
+6597,Coloblox Data Centers,ContentProvider,Hosting
+17139,ColoradoColo,ContentProvider,Hosting
+198468,Dutch Internet Services,ContentProvider,Hosting
+212815,Dyjix SAS,ContentProvider,Hosting
+7195,EdgeUno,Transit,Regional
+264254,AZAN SERVICOS DE INTERNET,ContentProvider,Hosting
+62553,Elcro Digital Services LLC,ContentProvider,Hosting
+48927,ESEVEN DevOps GmbH,ContentProvider,Hosting
+21738,Rozint,Transit,Domestic
+47152,Fibersix di Ascione Francesco,Access,SmallISP
+47152,Fibersix di Ascione Francesco,Mobile,
+47152,Fibersix di Ascione Francesco,Government,Executive
+47152,Fibersix di Ascione Francesco,Government,CityCountyMunicipality
+42831,UK Dedicated Servers,ContentProvider,Hosting
+50338,GamerHost s.r.o.,ContentProvider,Hosting
+21472,ServerHouse Ltd.,ContentProvider,Hosting
+263702,Grupo ZGH,ContentProvider,Hosting
+3280,ENGINYRING,ContentProvider,Hosting
+198831,Holycloud,ContentProvider,Hosting
+213683,Host.AL,ContentProvider,Hosting
+47272,HYEHOST,ContentProvider,Hosting
+202662,Hytron Network Services,ContentProvider,Hosting
+34927,FogNet - iFog GmbH,Transit,Global
+397373,H4Y Technologies LLC,ContentProvider,Hosting
+60707,Kapteyan A.S.,ContentProvider,Hosting
+14061,DigitalOcean,ContentProvider,Cloud
+14061,DigitalOcean,DNS,ANS
+14627,NO-IP,DNS,ANS
+12008,UltraDNS,DNS,ANS
+20144,ICANN Managed Root Server,DNS,Roots
+54994,Meteverse Cloud,ContentProvider,CDN
+54994,Meteverse Cloud,DNS,ANS
+63363,Tucows.com Co.,DNS,ANS
+396566,VeriSign Global Registry Services,DNS,ANS
+32934,Meta,Enterprise,Technology
+714,Apple,Enterprise,Technology
+62597,NSONE Inc,DNS,ANS
+132203,Tencent Global,DNS,ANS
+132203,Tencent Global,Enterprise,Technology
+6619,Samsung SDS,ContentProvider,Hosting
+6619,Samsung SDS,DNS,ANS
+6619,Samsung SDS,Enterprise,Technology
+203391,ClouDNS,DNS,ANS
+25888,HP Inc.,DNS,ANS
+25888,HP Inc.,Enterprise,Technology
+397213,"Vercara, LLC",DNS,ANS
+33353,Sony Interactive Entertainment,Enterprise,Entertainment
+33353,Sony Interactive Entertainment,Enterprise,Technology
+16552,Tiggee,DNS,ANS
+398037,NVIDIA Corporation,Enterprise,Technology
+31898,Oracle Cloud Infrastructure,ContentProvider,Cloud
+31898,Oracle Cloud Infrastructure,DNS,ANS
+21342,Akamai International B.V.,ContentProvider,CDN
+21342,Akamai International B.V.,DNS,ANS
+41095,IPTP Networks,Transit,Global
+1239,Sprint,Transit,Global
+286,GTT,Transit,Global
+7713,TELIN,Transit,Regional
+7713,TELIN,Government,Executive
+7713,TELIN,Government,FederalNational
+34549,meerfarbig GmbH & Co. KG,Transit,Regional
+4766,KT Corporation (Korea Telecom),Access,LargeISP
+4766,KT Corporation (Korea Telecom),Mobile,
+2497,Internet Initiative Japan,Transit,Global
+2516,KDDI,Access,LargeISP
+2516,KDDI,Transit,Global
+2516,KDDI,Mobile,
+23947,Moratel International - Global (NAP),Access,LargeISP
+23947,Moratel International - Global (NAP),Transit,Regional
+3462,"Chunghwa Telecom Co., Ltd.",Access,LargeISP
+3462,"Chunghwa Telecom Co., Ltd.",Mobile,
+38930,FiberRing,Access,SmallISP
+38930,FiberRing,Transit,Regional
+33891,Core-Backbone,Transit,Global
+41327,Fiber Telecom (FT),Transit,Regional
+24482,SG.GS,Transit,Global
+9121,Turk Telekom,Access,LargeISP
+9121,Turk Telekom,Transit,Regional
+9121,Turk Telekom,Mobile,
+6663,Türk Telekom International,Access,SmallISP
+6663,Türk Telekom International,Transit,Global
+6663,Türk Telekom International,Mobile,
+3132,Red Cientifica Peruana,EducationalResearch,ResearchInstitutes
+327992,Ghanaian Academic and Research Network,EducationalResearch,ResearchInstitutes
+37074,University of Ghana,EducationalResearch,University
+209092,SNCF Connect & Tech Services SASUFrance,Government,Executive
+209092,SNCF Connect & Tech Services SASUFrance,Government,FederalNational
+209092,SNCF Connect & Tech Services SASUFrance,Transportation,Trains
+205555,SNCF Connect & Tech Services SASUFrance,Government,Executive
+205555,SNCF Connect & Tech Services SASUFrance,Government,FederalNational
+205555,SNCF Connect & Tech Services SASUFrance,Transportation,Trains
+203885,Societe nationale SNCF SA,Government,Executive
+203885,Societe nationale SNCF SA,Government,FederalNational
+203885,Societe nationale SNCF SA,Transportation,Trains
+15937,ADIF,Government,Executive
+15937,ADIF,Government,FederalNational
+15937,ADIF,Transportation,Trains
+34216,TRENITALIA SPA,Government,Executive
+34216,TRENITALIA SPA,Government,FederalNational
+34216,TRENITALIA SPA,Transportation,Trains
+204445,DB Systel GmbH,Government,Executive
+204445,DB Systel GmbH,Government,FederalNational
+204445,DB Systel GmbH,Transportation,Trains
+211616,JSC RZD-Zdorovie,Government,Executive
+211616,JSC RZD-Zdorovie,Government,FederalNational
+211616,JSC RZD-Zdorovie,Transportation,Trains
+63347,BNSF Logistics LLC,Transportation,Trains
+9403,Institute of Scientific and Technical Information of China,EducationalResearch,ResearchInstitutes
+9403,Institute of Scientific and Technical Information of China,Government,Executive
+9403,Institute of Scientific and Technical Information of China,Government,FederalNational
+9401,National Library of China,Government,FederalNational
+9401,National Library of China,TvRadioCulturalAmenities,
+63644,"Cardinal Health (China) Investment Co., Ltd.",Government,Executive
+63644,"Cardinal Health (China) Investment Co., Ltd.",Government,FederalNational
+63644,"Cardinal Health (China) Investment Co., Ltd.",Health,Hospitals
+63635,China Internet Network Information Center,Government,Executive
+63635,China Internet Network Information Center,Government,FederalNational
+63635,China Internet Network Information Center,Government,Agencies
+63635,China Internet Network Information Center,DNS,ccTLD
+28637,Cia Proc. de Dados do Estado de S Paulo - Prodesp,Government,Executive
+28637,Cia Proc. de Dados do Estado de S Paulo - Prodesp,Government,StateProvince
+28637,Cia Proc. de Dados do Estado de S Paulo - Prodesp,Enterprise,Technology
+63324,Capital Metropolitan Transportation Authority,Government,Executive
+63324,Capital Metropolitan Transportation Authority,Government,CityCountyMunicipality
+63324,Capital Metropolitan Transportation Authority,Transportation,TransitAuthority
+54153,Los Angeles County Metropolitan Transportation Authority,Government,Executive
+54153,Los Angeles County Metropolitan Transportation Authority,Government,CityCountyMunicipality
+54153,Los Angeles County Metropolitan Transportation Authority,Transportation,TransitAuthority
+398062,Southeastern Pennsylvania Transportation Authority,Government,Executive
+398062,Southeastern Pennsylvania Transportation Authority,Government,CityCountyMunicipality
+398062,Southeastern Pennsylvania Transportation Authority,Transportation,TransitAuthority
+397508,"North Jersey Transportation Planning Authority, Inc.",Government,Executive
+397508,"North Jersey Transportation Planning Authority, Inc.",Government,CityCountyMunicipality
+397508,"North Jersey Transportation Planning Authority, Inc.",Transportation,TransitAuthority
+396192,South Jersey Transportation Authority,Government,Executive
+396192,South Jersey Transportation Authority,Government,CityCountyMunicipality
+396192,South Jersey Transportation Authority,Transportation,TransitAuthority
+394993,Santa Clara Valley Transportation Authority,Government,Executive
+394993,Santa Clara Valley Transportation Authority,Government,CityCountyMunicipality
+394993,Santa Clara Valley Transportation Authority,Transportation,TransitAuthority
+29977,Whatcom Transportation Authority,Government,Executive
+29977,Whatcom Transportation Authority,Government,CityCountyMunicipality
+29977,Whatcom Transportation Authority,Transportation,TransitAuthority
+19722,Niagara Frontier Transportation Authority,Government,Executive
+19722,Niagara Frontier Transportation Authority,Government,CityCountyMunicipality
+19722,Niagara Frontier Transportation Authority,Transportation,TransitAuthority
+890,Hermiston School District 8R,EducationalResearch,Schools
+8150,Mobile Public School System,EducationalResearch,Schools
+7970,Leon County School District,EducationalResearch,Schools
+6975,Lexington County School District,EducationalResearch,Schools
+6642,Rainbow District School,EducationalResearch,Schools
+6377,Eugene School District 4J,EducationalResearch,Schools
+63419,Dufferin-Peel Catholic District School,EducationalResearch,Schools
+63400,Lubbock Independent School District,EducationalResearch,Schools
+63398,Twin Rivers Unified School District,EducationalResearch,Schools
+63359,Simcoe Muskoka Catholic District School,EducationalResearch,Schools
+63312,South Carolina Governor's School for Science and Mathematics,EducationalResearch,Schools
+63205,Elwood Union Free School District,EducationalResearch,Schools
+63171,Pasadena Independent School District,EducationalResearch,Schools
+63036,Coppell Independent School District,EducationalResearch,Schools
+62999,Fort Zumwalt School District,EducationalResearch,Schools
+62894,Puyallup School District,EducationalResearch,Schools
+62867,Aldine Independent School District,EducationalResearch,Schools
+62757,Richardson Independent School District,EducationalResearch,Schools
+62718,Springfield School District,EducationalResearch,Schools
+62705,Spotsylvania County School Board,EducationalResearch,Schools
+62678,Horace Mann School,EducationalResearch,Schools
+62677,William Floyd Union Free School District,EducationalResearch,Schools
+62558,Weslaco Independent School District,EducationalResearch,Schools
+62552,San Marino Unified School District,EducationalResearch,Schools
+62546,Frisco Independent School District,EducationalResearch,Schools
+62510,North East Independent School District,EducationalResearch,Schools
+62509,Waxahachie Independent School District,EducationalResearch,Schools
+60382,Cranleigh SchoolUnited Kingdom,EducationalResearch,Schools
+59202,St. Michael's Grammar School,EducationalResearch,Schools
+58706,Xavier SchoolPhilippines,EducationalResearch,Schools
+5724,University of Massachusetts Medical School,EducationalResearch,Schools
+55887,Diocesan School for GirlsNew Zealand,EducationalResearch,Schools
+55813,The Rural Clinical School of Western Australia (Head Office),EducationalResearch,Schools
+55268,Edmonds School District #15,EducationalResearch,Schools
+55260,Polk School District,EducationalResearch,Schools
+55206,Foothills School Division No. 38,EducationalResearch,Schools
+55133,St. Croix Central School District,EducationalResearch,Schools
+55027,Independent School District 625,EducationalResearch,Schools
+54933,Austin Independent School District,EducationalResearch,Schools
+54925,Fairbanks North Star Borough School District,EducationalResearch,Schools
+54776,West Essex Regional School District,EducationalResearch,Schools
+54772,Klein Independent School District,EducationalResearch,Schools
+54556,McCallie School,EducationalResearch,Schools
+54520,Calgary Catholic School District,EducationalResearch,Schools
+54453,Medicine Hat School District #76,EducationalResearch,Schools
+54443,Eden Prairie School District,EducationalResearch,Schools
+54436,Highline School District,EducationalResearch,Schools
+54397,Lakefield College School,EducationalResearch,Schools
+54304,Weld County School District Six,EducationalResearch,Schools
+54248,School Board of Gadsden County,EducationalResearch,Schools
+54192,Montebello Unified School District,EducationalResearch,Schools
+54060,Poudre School District R-1,EducationalResearch,Schools
+53906,Lethbridge School District No. 51,EducationalResearch,Schools
+53777,Francis W. Parker School,EducationalResearch,Schools
+53772,Tempe Union High School District #213,EducationalResearch,Schools
+53648,"The School Board of Alachua County, Florida",EducationalResearch,Schools
+53643,Manteno Community Unit School District 5,EducationalResearch,Schools
+53642,Central Community Unit School District 301,EducationalResearch,Schools
+53631,Ottawa Catholic School,EducationalResearch,Schools
+53622,Copiague Union Free School District,EducationalResearch,Schools
+53469,Kenai Peninsula Borough School District,EducationalResearch,Schools
+53446,Eastern Virginia Medical School,EducationalResearch,Schools
+53421,Troy City School District,EducationalResearch,Schools
+53406,Deer Park Independent School District,EducationalResearch,Schools
+53399,Clarkstown Central School District,EducationalResearch,Schools
+53357,Douglas County School District RE.1,EducationalResearch,Schools
+53296,State College Area School District,EducationalResearch,Schools
+5101,The School District of Lee County,EducationalResearch,Schools
+14618,"Amazon.com, Inc.",ContentProvider,Cloud
+63949,Akamai Connected Cloud,ContentProvider,Cloud
+20473,"The Constant Company, LLC",ContentProvider,Cloud
+8987,Amazon Data Services Ireland Ltd,ContentProvider,Cloud
+58593,"Shanghai Blue Cloud Technology Co.,Ltd",ContentProvider,Cloud
+8070,Microsoft Corporation,ContentProvider,Cloud
+55960,Beijing Guanghuan Xinwang Digital,ContentProvider,Cloud
+19527,Google LLC,ContentProvider,Cloud
+135629,Ningxia West Cloud Data Technology Co.Ltd.,ContentProvider,Cloud
+8069,Microsoft Corporation,ContentProvider,Cloud
+200350,Yandex.Cloud LLC,ContentProvider,Cloud
+6167,Verizon Business,Access,LargeISP
+6167,Verizon Business,Mobile,
+6167,Verizon Business,ContentProvider,Cloud
+3598,Microsoft Corporation,ContentProvider,Cloud
+59067,"Microsoft Mobile Alliance Internet Services Co., Ltd",ContentProvider,Cloud
+17676,SoftBank Corp.,Access,LargeISP
+17676,SoftBank Corp.,Mobile,
+30453,Central Ohio Transit Authority,Transportation,TransitAuthority
+394741,Idaho Central Credit Union,Finance,CreditUnion
+399023,CENTRAL ALABAMA ELECTRIC COOPERATIVE,EnergyAndUtility,
+399023,CENTRAL ALABAMA ELECTRIC COOPERATIVE,Cooperatives,
+29894,South Central Rural Telecommunications Cooperative Inc.,Access,SmallISP
+29894,South Central Rural Telecommunications Cooperative Inc.,Cooperatives,
+61690,Central das Cooperativas de Credito do Estado do PBrazil,Finance,CreditUnion
+60813,Banco de Sabadell SA,Finance,Bank
+61513,BANCO DE FOMENTO A LA PRODUCCION,Finance,Bank
+60290,"LLC ""CENTRAL CASH REGISTER""",Finance,Bank
+41708,Banco Credibom S.A.,Finance,Bank
+35519,Banco di Desio e della Brianza SPA,Finance,Bank
+328440,"Banco BAI Cabo Verde, SA",Finance,Bank
+328283,Banco de Poupana e Crdito S.A,Finance,Bank
+328274,"BIM - Banco Internacional de Mocambique, SA",Finance,Bank
+328273,"BCS- Banco de Credito do Sul, S.A.",Finance,Bank
+328165,"Banco de Investimento Rural, S.A",Finance,Bank
+28672,"BANCO BIC PORTUGUES, SA",Finance,Bank
+28631,Banrisul - Banco do Estado do Rio Grande do Sul,Finance,Bank
+28586,BANCO BRADESCO SA,Finance,Bank
+28304,Banco Safra SA.,Finance,Bank
+28248,BRB - Banco de Brasï¿½lia S/A,Finance,Bank
+28196,BANCO VOTORANTIM S/A,Finance,Bank
+28112,Banco Prival,Finance,Bank
+28074,Banco Azteca El Salvador S.A.,Finance,Bank
+28070,Banco Colpatria Red Multibanca Colpatria S.A.,Finance,Bank
+28069,"Banco Azteca de Guatemala, S.A.",Finance,Bank
+28059,Banco Hipotecario de Fomento,Finance,Bank
+28055,Banco Azteca Honduras,Finance,Bank
+28035,BANCO SUPERVIELLE SOCIEDAD ANONIMA,Finance,Bank
+28033,Banco Familiar SAECA,Finance,Bank
+28012,BBVA Banco Provincial S.A.,Finance,Bank
+27999,"Banco de la Producción, S.A.",Finance,Bank
+27957,Banco Mercantil C.A.,Finance,Bank
+27910,Banco Industrial,Finance,Bank
+27905,Banco de Finanzas,Finance,Bank
+27862,"BANESCO BANCO UNIVERSAL, C.A.",Finance,Bank
+27812,Banco de Credito HFS Panama S.A.,Finance,Bank
+27811,Banco Avanz S.A.,Finance,Bank
+27785,"BANCO CUSCATLAN SV, S.A.",Finance,Bank
+27764,BANCO CONTINENTAL,Finance,Bank
+27687,"Banco General, S.A.",Finance,Bank
+27649,Banco Aliado,Finance,Bank
+274010,BANCO BILBAO VIZCAYA ARGENTARIA COLOMBIA S.A.,Finance,Bank
+273987,BANCO POPULAR Y DE DESARROLLO COMUNAL,Finance,Bank
+273749,Banco do Estado do Par SA,Finance,Bank
+273688,BANESTES SA BANCO DO ESTADO DO ESPIRITO SANTO,Finance,Bank
+273513,Banco ABN AMRO S.A.,Finance,Bank
+273038,FIDUCIARIA CENTRAL S.A.,Finance,Bank
+265859,BANCO PATAGONIA S.A,Finance,Bank
+265807,BANCO COLUMBIA S.A.,Finance,Bank
+13774,BANCO ITAU CHILE,Finance,Bank
+26599,TELEFÔNICA BRASIL S.A,Access,LargeISP
+26599,TELEFÔNICA BRASIL S.A,Mobile,
+22394,Verizon Business,Access,LargeISP
+22394,Verizon Business,Mobile,
+4713,NTT Communications Corporation,Access,LargeISP
+4713,NTT Communications Corporation,Mobile,
+6713,Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM,Access,LargeISP
+6713,Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM,Transit,Domestic
+6713,Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM,Mobile,
+6713,Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM,Government,Executive
+6713,Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM,Government,FederalNational
+26611,COMUNICACIÓN CELULAR S.A. COMCEL S.A.,Access,LargeISP
+26611,COMUNICACIÓN CELULAR S.A. COMCEL S.A.,Mobile,
+37069,The Egyptian Company for Mobile Services (Mobinil),Access,LargeISP
+37069,The Egyptian Company for Mobile Services (Mobinil),Mobile,
+36992,ETISALAT MISR,Access,LargeISP
+36992,ETISALAT MISR,Mobile,
+36992,ETISALAT MISR,Government,Executive
+36992,ETISALAT MISR,Government,FederalNational
+20057,"AT&T Enterprises, LLC",Access,LargeISP
+20057,"AT&T Enterprises, LLC",Mobile,
+9644,SK Telecom,Access,LargeISP
+9644,SK Telecom,Mobile,
+197207,Mobile Communication Company of Iran PLC,Access,LargeISP
+197207,Mobile Communication Company of Iran PLC,Mobile,
+197207,Mobile Communication Company of Iran PLC,Government,Executive
+197207,Mobile Communication Company of Iran PLC,Government,FederalNational
+15557,Societe Francaise Du Radiotelephone - SFR SA,Access,LargeISP
+15557,Societe Francaise Du Radiotelephone - SFR SA,Mobile,
+12322,Free SAS,Access,LargeISP
+12322,Free SAS,Mobile,
+12430,VODAFONE ESPANA S.A.U.,Access,LargeISP
+12430,VODAFONE ESPANA S.A.U.,Mobile,
+35819,"Etihad Etisalat, a joint stock company",Access,LargeISP
+35819,"Etihad Etisalat, a joint stock company",Mobile,
+6057,ANTEL,Access,LargeISP
+6057,ANTEL,Transit,Domestic
+6057,ANTEL,Mobile,
+6057,ANTEL,Government,Executive
+6057,ANTEL,Government,FederalNational
+37468,Angola Cables,Transit,Domestic
+37468,Angola Cables,Government,Executive
+37468,Angola Cables,Government,FederalNational
+9498,Bharti Airtel Limited,Access,SmallISP
+9498,Bharti Airtel Limited,Mobile,
+3216,"PJSC ""Vimpelcom""",Access,SmallISP
+3216,"PJSC ""Vimpelcom""",Transit,Regional
+3216,"PJSC ""Vimpelcom""",Mobile,
+397276,Ninth Judicial Circuit Court of Florida,Government,Judiciary
+397276,Ninth Judicial Circuit Court of Florida,Government,StateProvince
+269861,DIRECCION DE ADMINISTRACION DEL PODER JUDICIAL (CORDOBA),Government,Judiciary
+269861,DIRECCION DE ADMINISTRACION DEL PODER JUDICIAL (CORDOBA),Government,StateProvince
+17172,FIFTH JUDICIAL DISTRICT OF PENNYSYLVANIA,Government,Judiciary
+17172,FIFTH JUDICIAL DISTRICT OF PENNYSYLVANIA,Government,StateProvince
+61569,Tribunal Regional Federal da 1a Regiao,Government,Judiciary
+61569,Tribunal Regional Federal da 1a Regiao,Government,StateProvince
+53159,SUPREMO TRIBUNAL FEDERAL,Government,Judiciary
+53159,SUPREMO TRIBUNAL FEDERAL,Government,FederalNational
+52996,Tribunal Regional do Trabalho da 7a Regiao,Government,Judiciary
+52996,Tribunal Regional do Trabalho da 7a Regiao,Government,StateProvince
+52867,TRIBUNAL REGIONAL DO TRABALHO 12 REGIAO,Government,Judiciary
+52867,TRIBUNAL REGIONAL DO TRABALHO 12 REGIAO,Government,StateProvince
+52649,Tribunal de Justica do Estado do Rio Grande do Sul,Government,Judiciary
+52649,Tribunal de Justica do Estado do Rio Grande do Sul,Government,StateProvince
+52628,Tribunal de Justiï¿½a do Estado do Parï¿½,Government,Judiciary
+52628,Tribunal de Justiï¿½a do Estado do Parï¿½,Government,StateProvince
+52622,Tribunal Regional do Trabalho da 4 Regiao,Government,Judiciary
+52622,Tribunal Regional do Trabalho da 4 Regiao,Government,StateProvince
+52569,Tribunal Regional do Trabalho da 2a Regiao,Government,Judiciary
+52569,Tribunal Regional do Trabalho da 2a Regiao,Government,StateProvince
+274670,Tribunal de Contas do Estado do Rio de Janeiro,Government,Judiciary
+274670,Tribunal de Contas do Estado do Rio de Janeiro,Government,StateProvince
+273641,TRIBUNAL REGIONAL FEDERAL DA 2A. REGIAO,Government,Judiciary
+273641,TRIBUNAL REGIONAL FEDERAL DA 2A. REGIAO,Government,StateProvince
+273395,TRIBUNAL REGIONAL DO TRABALHO DA 6A. REGIAO,Government,Judiciary
+273395,TRIBUNAL REGIONAL DO TRABALHO DA 6A. REGIAO,Government,StateProvince
+272576,TRIBUNAL DE JUSTIA DO ESTADO DE RORAIMA,Government,Judiciary
+272576,TRIBUNAL DE JUSTIA DO ESTADO DE RORAIMA,Government,StateProvince
+272215,Tribunal Regional do Trabalho da 18 Regio,Government,Judiciary
+272215,Tribunal Regional do Trabalho da 18 Regio,Government,StateProvince
+271213,TRIBUNAL DE JUSTICA DO ESTADO DO AMAPA,Government,Judiciary
+271213,TRIBUNAL DE JUSTICA DO ESTADO DO AMAPA,Government,StateProvince
+270681,Tribunal de Justia do Estado da Paraba,Government,Judiciary
+270681,Tribunal de Justia do Estado da Paraba,Government,StateProvince
+269209,Tribunal Regional do Trabalho da 21 Regio,Government,Judiciary
+269209,Tribunal Regional do Trabalho da 21 Regio,Government,StateProvince
+268639,Tribunal Regional do Trabalho da 15 Regio,Government,Judiciary
+268639,Tribunal Regional do Trabalho da 15 Regio,Government,StateProvince
+268441,PIAUI TRIBUNAL DE CONTAS DO ESTADO,Government,Judiciary
+268441,PIAUI TRIBUNAL DE CONTAS DO ESTADO,Government,StateProvince
+268293,Tribunal Regional do Trabalho - 11ï¿½ Regiï¿½o,Government,Judiciary
+268293,Tribunal Regional do Trabalho - 11ï¿½ Regiï¿½o,Government,StateProvince
+268178,TRIBUNAL DE JUSTIA DO ESTADO DE ALAGOAS,Government,Judiciary
+268178,TRIBUNAL DE JUSTIA DO ESTADO DE ALAGOAS,Government,StateProvince
+268014,Tribunal de Justiï¿½a do Estado do Rio de Janeiro,Government,Judiciary
+268014,Tribunal de Justiï¿½a do Estado do Rio de Janeiro,Government,StateProvince
+267626,Tribunal de Justica de Goias,Government,Judiciary
+267626,Tribunal de Justica de Goias,Government,StateProvince
+267534,TRIBUNAL REGIONAL DO TRABALHO - 23 REGIAO,Government,Judiciary
+267534,TRIBUNAL REGIONAL DO TRABALHO - 23 REGIAO,Government,StateProvince
+267525,TRIBUNAL DE CONTAS DO ESTADO DO PARANA,Government,Judiciary
+267525,TRIBUNAL DE CONTAS DO ESTADO DO PARANA,Government,StateProvince
+267509,Tribunal Regional Federal,Government,Judiciary
+267509,Tribunal Regional Federal,Government,StateProvince
+267485,TRIBUNAL REGIONAL DO TRABALHO DA 24A REGIAO,Government,Judiciary
+267485,TRIBUNAL REGIONAL DO TRABALHO DA 24A REGIAO,Government,StateProvince
+267230,TRIBUNAL REGIONAL DO TRABALHO DA 22a REGIO,Government,Judiciary
+267230,TRIBUNAL REGIONAL DO TRABALHO DA 22a REGIO,Government,StateProvince
+267001,Tribunal de Contas do Estado do Maranhao,Government,Judiciary
+267001,Tribunal de Contas do Estado do Maranhao,Government,StateProvince
+266432,Tribunal Regional Federal da 4ï¿½ Regiï¿½o,Government,Judiciary
+266432,Tribunal Regional Federal da 4ï¿½ Regiï¿½o,Government,StateProvince
+266411,ALAGOAS TRIBUNAL DE CONTAS DO ESTADO DE ALAGOAS,Government,Judiciary
+266411,ALAGOAS TRIBUNAL DE CONTAS DO ESTADO DE ALAGOAS,Government,StateProvince
+266068,Tribunal de Justia do Estado de Sergipe,Government,Judiciary
+266068,Tribunal de Justia do Estado de Sergipe,Government,StateProvince
+265939,TRIBUNAL REGIONAL DO TRABALHO DA 16A. REGIAO,Government,Judiciary
+265939,TRIBUNAL REGIONAL DO TRABALHO DA 16A. REGIAO,Government,StateProvince
+265449,TRIBUNAL DE JUSTIï¿½A DO ESTADO DO RN,Government,Judiciary
+265449,TRIBUNAL DE JUSTIï¿½A DO ESTADO DO RN,Government,StateProvince
+265431,TRIBUNAL REGIONAL DO TRABALHO-14a.REGIO,Government,Judiciary
+265431,TRIBUNAL REGIONAL DO TRABALHO-14a.REGIO,Government,StateProvince
+265212,TRIBUNAL DE JUSTICA DO DISTRITO FEDERAL,Government,Judiciary
+265212,TRIBUNAL DE JUSTICA DO DISTRITO FEDERAL,Government,StateProvince
+63281,Vermont Judiciary,Government,Judiciary
+63281,Vermont Judiciary,Government,StateProvince
+397480,State of New Jersey Judiciary,Government,Judiciary
+397480,State of New Jersey Judiciary,Government,StateProvince
+55057,Office of the Illinois Attorney General,Government,Judiciary
+55057,Office of the Illinois Attorney General,Government,StateProvince
+399957,Queens County District Attorney’s Office,Government,Judiciary
+399957,Queens County District Attorney’s Office,Government,CityCountyMunicipality
+398118,Commonwealth of Virginia Office of the Attorney General,Government,Judiciary
+398118,Commonwealth of Virginia Office of the Attorney General,Government,StateProvince
+3924,Texas Attorney General,Government,Judiciary
+3924,Texas Attorney General,Government,StateProvince
+32099,New York State Office of the Attorney General,Government,Judiciary
+32099,New York State Office of the Attorney General,Government,StateProvince
+6102,CBS inc.,Enterprise,Entertainment
+6102,CBS inc.,TvRadioCulturalAmenities,
+55731,Fox Sports Australia Pty Limited,Enterprise,Entertainment
+55731,Fox Sports Australia Pty Limited,TvRadioCulturalAmenities,
+63098,FOX CORPORATION,Enterprise,Entertainment
+63098,FOX CORPORATION,TvRadioCulturalAmenities,
+62644,NBC Sports Network,Enterprise,Entertainment
+62644,NBC Sports Network,TvRadioCulturalAmenities,
+53294,Fox News Channel,Enterprise,Entertainment
+53294,Fox News Channel,TvRadioCulturalAmenities,
+4549,"ESPN, Inc.",Enterprise,Entertainment
+4549,"ESPN, Inc.",TvRadioCulturalAmenities,
+11888,"Television Internacional, SA de CV",Enterprise,Entertainment
+11888,"Television Internacional, SA de CV",TvRadioCulturalAmenities,
+28517,"TV Azteca, S.A.B. de C.V.Mexico",Enterprise,Entertainment
+28517,"TV Azteca, S.A.B. de C.V.Mexico",TvRadioCulturalAmenities,
+28507,"TV Azteca, S.A.B. de C.V.Mexico",Enterprise,Entertainment
+28507,"TV Azteca, S.A.B. de C.V.Mexico",TvRadioCulturalAmenities,
+262186,TV AZTECA SUCURSAL COLOMBIA,Enterprise,Entertainment
+262186,TV AZTECA SUCURSAL COLOMBIA,TvRadioCulturalAmenities,
+28604,Globo Comunicação e Participaçoes SA,Enterprise,Entertainment
+28604,Globo Comunicação e Participaçoes SA,TvRadioCulturalAmenities,
+266715,Televisión Nacional de Chile,Government,FederalNational
+266715,Televisión Nacional de Chile,Enterprise,Entertainment
+266715,Televisión Nacional de Chile,TvRadioCulturalAmenities,
+62128,Russ Outdoor LLC,Enterprise,Entertainment
+200777,Deutsche Welle Anstalt des Oeffentlichen Rechts,Government,FederalNational
+200777,Deutsche Welle Anstalt des Oeffentlichen Rechts,Enterprise,Entertainment
+200777,Deutsche Welle Anstalt des Oeffentlichen Rechts,TvRadioCulturalAmenities,
+41707,A.P. MOLLER - MAERSK A/SDenmark,Government,Executive
+41707,A.P. MOLLER - MAERSK A/SDenmark,Government,FederalNational
+41707,A.P. MOLLER - MAERSK A/SDenmark,Transportation,Ships
+29139,A.P. MOLLER - MAERSK A/SDenmark,Government,Executive
+29139,A.P. MOLLER - MAERSK A/SDenmark,Government,FederalNational
+29139,A.P. MOLLER - MAERSK A/SDenmark,Transportation,Ships
+15423,A.P. MOLLER - MAERSK A/SDenmark,Government,Executive
+15423,A.P. MOLLER - MAERSK A/SDenmark,Government,FederalNational
+15423,A.P. MOLLER - MAERSK A/SDenmark,Transportation,Ships
+13057,A.P. MOLLER - MAERSK A/S,Government,Executive
+13057,A.P. MOLLER - MAERSK A/S,Government,FederalNational
+13057,A.P. MOLLER - MAERSK A/S,Transportation,Ships
+28749,MSC Mediterranean Shipping Company SA,Transportation,Ships
+15319,COSCO Shipping Lines (North America) Inc.United States,Government,Executive
+15319,COSCO Shipping Lines (North America) Inc.United States,Government,FederalNational
+15319,COSCO Shipping Lines (North America) Inc.United States,Transportation,Ships
+139876,COSCO SHIPPING LINES (NEW ZEALAND) LIMITEDNew Zealand,Government,Executive
+139876,COSCO SHIPPING LINES (NEW ZEALAND) LIMITEDNew Zealand,Government,FederalNational
+139876,COSCO SHIPPING LINES (NEW ZEALAND) LIMITEDNew Zealand,Transportation,Ships
+139175,CHINA COSCO SHIPPING CORPORATION LIMITEDChina,Government,Executive
+139175,CHINA COSCO SHIPPING CORPORATION LIMITEDChina,Government,FederalNational
+139175,CHINA COSCO SHIPPING CORPORATION LIMITEDChina,Transportation,Ships
+139174,CHINA COSCO SHIPPING CORPORATION LIMITED,Government,Executive
+139174,CHINA COSCO SHIPPING CORPORATION LIMITED,Government,FederalNational
+139174,CHINA COSCO SHIPPING CORPORATION LIMITED,Transportation,Ships
+131820,HMM,Transportation,Ships
+21203,CMA CGM SA,Transportation,Ships
+54949,New York State SenateUnited States,Government,Legislative
+54949,New York State SenateUnited States,Government,StateProvince
+3495,US SenateUnited States,Government,Legislative
+3495,US SenateUnited States,Government,FederalNational
+22178,Senate of Pennsylvania,Government,Legislative
+22178,Senate of Pennsylvania,Government,StateProvince
+263816,Camara de Diputados de Chile,Government,Legislative
+263816,Camara de Diputados de Chile,Government,FederalNational
+28629,SENADO FEDERALBrazil,Government,Legislative
+28629,SENADO FEDERALBrazil,Government,FederalNational
+271961,HONORABLE SENADO DE LA NACIONArgentina,Government,Legislative
+271961,HONORABLE SENADO DE LA NACIONArgentina,Government,FederalNational
+264670,Senado de la Republica de Chile,Government,Legislative
+264670,Senado de la Republica de Chile,Government,FederalNational
+208789,SENAT (Senate France),Government,Legislative
+208789,SENAT (Senate France),Government,FederalNational
+35006,Camera dei deputati,Government,Legislative
+35006,Camera dei deputati,Government,FederalNational
+10897,Camara dos Deputados,Government,Legislative
+10897,Camara dos Deputados,Government,FederalNational
+52608,ASSEMBLEIA LEGISLATIVA DE MINAS GERAISBrazil,Government,Legislative
+52608,ASSEMBLEIA LEGISLATIVA DE MINAS GERAISBrazil,Government,StateProvince
+266407,ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIAS,Government,Legislative
+266407,ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIAS,Government,StateProvince
+6168,Emirates Airline European Union,Government,Executive
+6168,Emirates Airline European Union,Government,FederalNational
+6168,Emirates Airline European Union,Transportation,Airports
+42379,CJSC Aviation Company International Airline of UkraineUkraine,Transportation,Airports
+40565,AIRLINE TARIFF PUBLISHING COUnited States,Transportation,Airports
+198449,OJSC Airline company ’Ural Airlines’Russian Federation,Transportation,Airports
+132978,Airline Internet Solutions India Private Limited,Transportation,Airports
+60990,State Enterprise Boryspil International AirportUkraine,Government,Executive
+60990,State Enterprise Boryspil International AirportUkraine,Government,CityCountyMunicipality
+60990,State Enterprise Boryspil International AirportUkraine,Transportation,Airports
+58094,"Vnukovo International Airport, JSCRussian Federation",Government,Executive
+58094,"Vnukovo International Airport, JSCRussian Federation",Government,CityCountyMunicipality
+58094,"Vnukovo International Airport, JSCRussian Federation",Transportation,Airports
+57884,Joint Stock Company Sochi International AirportRussian Federation,Transportation,Airports
+56854,LLC “Yemelyanovo Airport”Russian Federation,Transportation,Airports
+56810,Airport Tolmachevo JSCRussian Federation,Government,Executive
+56810,Airport Tolmachevo JSCRussian Federation,Government,CityCountyMunicipality
+56810,Airport Tolmachevo JSCRussian Federation,Transportation,Airports
+56408,Gdansk Airport Sp. z o.o.Poland,Government,Executive
+56408,Gdansk Airport Sp. z o.o.Poland,Government,CityCountyMunicipality
+56408,Gdansk Airport Sp. z o.o.Poland,Transportation,Airports
+53249,Los Angeles World AirportUnited States,Government,Executive
+53249,Los Angeles World AirportUnited States,Government,StateProvince
+53249,Los Angeles World AirportUnited States,Transportation,Airports
+50248,Vladivostok international airport JSCRussian Federation,Transportation,Airports
+46839,Airport Shoppes and Hotel CorpPuerto Rico,Transportation,Airports
+45937,Brisbane Airport CorporationAustralia,Transportation,Airports
+44718,Fraport Twin Star Airport Management ADBulgaria,Transportation,Airports
+44139,LLC SIMFEROPOL INTERNATIONAL AIRPORTRussian Federation,Transportation,Airports
+43857,Fraport AG Frankfurt Airport Services WorldwideGermany,Transportation,Airports
+43355,GATWICK AIRPORT LIMITEDUnited Kingdom,Transportation,Airports
+43104,SJSC RIGA International AirportLatvia,Government,Executive
+43104,SJSC RIGA International AirportLatvia,Government,CityCountyMunicipality
+43104,SJSC RIGA International AirportLatvia,Transportation,Airports
+42556,TOV “AirPort”Ukraine,Transportation,Airports
+40959,City and County of Denver - Denver International AirportUnited States,Government,Executive
+40959,City and County of Denver - Denver International AirportUnited States,Government,CityCountyMunicipality
+40959,City and County of Denver - Denver International AirportUnited States,Transportation,Airports
+40808,Vancouver International Airport AuthorityCanada,Government,Executive
+40808,Vancouver International Airport AuthorityCanada,Government,CityCountyMunicipality
+40808,Vancouver International Airport AuthorityCanada,Transportation,Airports
+401201,Reno-Tahoe Airport AuthorityUnited States,Government,Executive
+401201,Reno-Tahoe Airport AuthorityUnited States,Government,CityCountyMunicipality
+401201,Reno-Tahoe Airport AuthorityUnited States,Transportation,Airports
+398158,Columbus Regional Airport AuthorityUnited States,Government,Executive
+398158,Columbus Regional Airport AuthorityUnited States,Government,CityCountyMunicipality
+398158,Columbus Regional Airport AuthorityUnited States,Transportation,Airports
+398026,Indianapolis Airport AuthorityUnited States,Government,Executive
+398026,Indianapolis Airport AuthorityUnited States,Government,StateProvince
+398026,Indianapolis Airport AuthorityUnited States,Transportation,Airports
+396389,Omaha Airport AuthorityUnited States,Government,Executive
+396389,Omaha Airport AuthorityUnited States,Government,CityCountyMunicipality
+396389,Omaha Airport AuthorityUnited States,Transportation,Airports
+396161,Des Moines Airport AuthorityUnited States,Government,Executive
+396161,Des Moines Airport AuthorityUnited States,Government,CityCountyMunicipality
+396161,Des Moines Airport AuthorityUnited States,Transportation,Airports
+394916,Philadelphia International AirportUnited States,Government,Executive
+394916,Philadelphia International AirportUnited States,Government,CityCountyMunicipality
+394916,Philadelphia International AirportUnited States,Transportation,Airports
+394576,Miami International AirportUnited States,Government,Executive
+394576,Miami International AirportUnited States,Government,CityCountyMunicipality
+394576,Miami International AirportUnited States,Transportation,Airports
+393988,Pittsburgh International AirportUnited States,Government,Executive
+393988,Pittsburgh International AirportUnited States,Government,CityCountyMunicipality
+393988,Pittsburgh International AirportUnited States,Transportation,Airports
+393876,Phoenix-Mesa Gateway Airport AuthorityUnited States,Government,Executive
+393876,Phoenix-Mesa Gateway Airport AuthorityUnited States,Government,CityCountyMunicipality
+393876,Phoenix-Mesa Gateway Airport AuthorityUnited States,Transportation,Airports
+38892,"SYDNEY AIRPORT CORPORATION LIMITED,Australia",Transportation,Airports
+35963,Greenville-Spartanburg Airport Commission,Government,Executive
+35963,Greenville-Spartanburg Airport Commission,Government,CityCountyMunicipality
+35963,Greenville-Spartanburg Airport Commission,Transportation,Airports
+54811,"Nasdaq, Inc.United States",Finance,StockExchanges
+54715,"Nasdaq, Inc.United States",Finance,StockExchanges
+54572,"Nasdaq, Inc.United States",Finance,StockExchanges
+54263,"Nasdaq, Inc.United States",Finance,StockExchanges
+54136,"Nasdaq, Inc.United States",Finance,StockExchanges
+49329,Nasdaq Technology ABSweden,Finance,StockExchanges
+33584,"Nasdaq, Inc.United States",Finance,StockExchanges
+32568,"Nasdaq, Inc.United States",Finance,StockExchanges
+22246,"Nasdaq, Inc.United States",Finance,StockExchanges
+206627,Nasdaq Technology ABSweden,Finance,StockExchanges
+20309,"Nasdaq, Inc.United States",Finance,StockExchanges
+19069,"Nasdaq, Inc.United States",Finance,StockExchanges
+16115,Nasdaq Technology ABSweden,Finance,StockExchanges
+14495,"Nasdaq, Inc.United States",Finance,StockExchanges
+13836,"Nasdaq, Inc.United States",Finance,StockExchanges
+133017,NASDAQ PTY LTDAustralia,Finance,StockExchanges
+12740,Nasdaq Technology ABSweden,Finance,StockExchanges
+11952,"Nasdaq, Inc.United States",Finance,StockExchanges
+11723,"Nasdaq, Inc.",Finance,StockExchanges
+61268,SAUDI STOCK EXCHANGE (TADAWUL),Finance,StockExchanges
+49104,Boursa Kuwait Stock Exchange,Finance,StockExchanges
+49090,Budapest Stock Exchange Ltd.,Finance,StockExchanges
+37565,NIGERIAN STOCK EXCHANGE,Finance,StockExchanges
+328645,The Egyptian Stock Exchange,Finance,StockExchanges
+29575,London Stock Exchange PLCUnited Kingdom,Finance,StockExchanges
+24190,The Stock Exchange of ThailandThailand,Finance,StockExchanges
+215094,Kazakhstan Stock Exchange JSCKazakhstan,Finance,StockExchanges
+211081,"Tehran Stock Exchange Company (Public Joint Stock)Iran, Islamic Republic of",Finance,StockExchanges
+207524,London Stock Exchange PLCUnited Kingdom,Finance,StockExchanges
+207511,London Stock Exchange PLC,Finance,StockExchanges
+4788,Telekom Malaysia Berhad (TM),Access,LargeISP
+4788,Telekom Malaysia Berhad (TM),Transit,Regional
+4788,Telekom Malaysia Berhad (TM),Mobile,
+4788,Telekom Malaysia Berhad (TM),Government,Executive
+4788,Telekom Malaysia Berhad (TM),Government,FederalNational
+52468,UFINET PANAMA S.A,Access,SmallISP
+52468,UFINET PANAMA S.A,Transit,Regional
+30844,Liquid Telecommunications Ltd - United Kingdom,Transit,Regional
+264409,Huge Networks (GlobalNet) - GRUPO YAX,Transit,Global
+264409,Huge Networks (GlobalNet) - GRUPO YAX,ContentProvider,CDN
+8529,Zain Omantel International FZ-LLC,Transit,Global
+8529,Zain Omantel International FZ-LLC,Government,Executive
+8529,Zain Omantel International FZ-LLC,Government,FederalNational
+7738,Vtal - Brazil,Transit,Domestic
+37662,WIOCC - West Indian Ocean Cable Company,Transit,Regional
+23520,"Columbus Networks USA, Inc.",Transit,Regional
+37613,DOLPHIN TELECOMMUNICATION LIMITED - Ghana,Transit,Regional
+327708,Airtel Rwanda,Access,SmallISP
+327708,Airtel Rwanda,Transit,Regional
+327708,Airtel Rwanda,Mobile,
+8966,Etisalat EMIRATES TELECOMMUNICATIONS GROUP COMPANY,Access,LargeISP
+8966,Etisalat EMIRATES TELECOMMUNICATIONS GROUP COMPANY,Transit,Regional
+8966,Etisalat EMIRATES TELECOMMUNICATIONS GROUP COMPANY,Mobile,
+8966,Etisalat EMIRATES TELECOMMUNICATIONS GROUP COMPANY,Government,Executive
+8966,Etisalat EMIRATES TELECOMMUNICATIONS GROUP COMPANY,Government,FederalNational
+5713,Telkom - South Africa,Access,LargeISP
+5713,Telkom - South Africa,Transit,Regional
+5713,Telkom - South Africa,Mobile,
+5713,Telkom - South Africa,Satellite,
+5713,Telkom - South Africa,Government,Executive
+5713,Telkom - South Africa,Government,FederalNational
+37100,SEACOM Limited,Transit,Regional
+3549,"Level 3 Parent, LLC",Transit,Global
+39386,STC - Saudi Telecom Company,Access,LargeISP
+39386,STC - Saudi Telecom Company,Transit,Regional
+39386,STC - Saudi Telecom Company,Government,Executive
+39386,STC - Saudi Telecom Company,Government,FederalNational
+31133,PJSC MegaFon - Russia,Access,LargeISP
+31133,PJSC MegaFon - Russia,Transit,Regional
+31133,PJSC MegaFon - Russia,Mobile,
+52803,Ilha Turbo Tecnologia Ltda Me,Access,SmallISP
+2152,CENIC,EducationalResearch,AcademicBackbone
+2152,CENIC,Government,StateProvince
+6315,"XMission, L.C. ",Access,SmallISP
+6315,"XMission, L.C. ",ContentProvider,Hosting
+8763,DENIC eG,DNS,ccTLD
+8763,DENIC eG,Cooperatives,
+2484,AFNIC,DNS,ccTLD
+2485,AFNIC,DNS,ccTLD
+2486,AFNIC,DNS,ccTLD
+44,Lawrence Livermore National Laboratory,EducationalResearch,ResearchInstitutes
+44,Lawrence Livermore National Laboratory,Government,Executive
+44,Lawrence Livermore National Laboratory,Government,StateProvince
+60174,RTE Reseau de transport d'electricite S.A. ,Government,Executive
+60174,RTE Reseau de transport d'electricite S.A. ,Government,FederalNational
+60174,RTE Reseau de transport d'electricite S.A. ,EnergyAndUtility,
+11529,National Grid,EnergyAndUtility,
+399479,"NEW MEXICO GAS COMPANY, INC.",EnergyAndUtility,
+209513,Veolia Eau D'Ile de France SNC,EnergyAndUtility,
+1766,Exxon Mobil Corporation,EnergyAndUtility,
+14222,Navy Federal Credit Union,Finance,CreditUnion
+14222,Navy Federal Credit Union,Cooperatives,
+22093,Cleveland Clinic Foundation,Health,Hospitals
+11961,Mid-Rivers Telephone Cooperative,Access,SmallISP
+11961,Mid-Rivers Telephone Cooperative,Cooperatives,
+2818,BBC,TvRadioCulturalAmenities,
+25755,"National Public Radio, Inc.",TvRadioCulturalAmenities,
+35955,Royal Caribbean Cruises Ltd.,Transportation,Ships
+14509,AMC Theatres,Enterprise,Entertainment
