@@ -56,9 +56,9 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/TheMarcosP/Proyecto-Clasificar-Sistemas-Autonomos"
-Repository = "https://github.com/TheMarcosP/Proyecto-Clasificar-Sistemas-Autonomos"
-Issues = "https://github.com/TheMarcosP/Proyecto-Clasificar-Sistemas-Autonomos/issues"
+Homepage = "https://github.com/NU-AquaLab/linnaeus"
+Repository = "https://github.com/NU-AquaLab/linnaeus"
+Issues = "https://github.com/NU-AquaLab/linnaeus/issues"
 
 [project.scripts]
 linnaeus = "linnaeus.cli.main:main"
