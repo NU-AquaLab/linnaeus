@@ -901,10 +901,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you use Linneaus in your research, please cite:
 
 ```bibtex
-@software{linneaus2024,
+@software{linneaus2026,
   title={Linneaus: AI-Powered Autonomous Systems Classification},
-  author={Your Name},
-  year={2024},
+  author={M. Piotto, I. Schuemer, S.T. Torres, M.G. Beiró, E. Carisimo, F.E. Bustamante},
+  year={2026},
   url={https://github.com/linneaus-project/linneaus}
 }
 ```
