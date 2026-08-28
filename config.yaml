@@ -380,7 +380,7 @@ download:
   # Timeout for HTTP requests (seconds)
   timeout: 30
   # User agent for HTTP requests
-  user_agent: "Linnaeus/0.1.0 (https://github.com/linnaeus-project/linnaeus)"
+  user_agent: "Linnaeus/0.1.0 (https://github.com/NU-AquaLab/linnaeus)"
   # Maximum concurrent downloads
   max_concurrent: 5
   # Rate limiting delays (seconds)

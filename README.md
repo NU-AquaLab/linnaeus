@@ -29,7 +29,7 @@ Linnaeus is a comprehensive tool for automatically classifying Internet Autonomo
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Clone and install Linnaeus
-git clone https://github.com/linnaeus-project/linnaeus.git
+git clone https://github.com/NU-AquaLab/linnaeus.git
 cd linnaeus
 uv sync
 
@@ -41,7 +41,7 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 ```bash
 # Clone and install from source
-git clone https://github.com/linnaeus-project/linnaeus.git
+git clone https://github.com/NU-AquaLab/linnaeus.git
 cd linnaeus
 pip install -e .
 ```
@@ -791,7 +791,7 @@ logging:
 
 ```bash
 # Clone the repository
-git clone https://github.com/linnaeus-project/linnaeus.git
+git clone https://github.com/NU-AquaLab/linnaeus.git
 cd linnaeus
 
 # Install UV package manager
@@ -905,7 +905,7 @@ If you use Linnaeus in your research, please cite:
   title={Linnaeus: AI-Powered Autonomous Systems Classification},
   author={M. Piotto, I. Schuemer, S.T. Torres, M.G. Beiró, E. Carisimo, F.E. Bustamante},
   year={2026},
-  url={https://github.com/linnaeus-project/linnaeus}
+  url={https://github.com/NU-AquaLab/linnaeus}
 }
 ```
 
@@ -919,6 +919,6 @@ If you use Linnaeus in your research, please cite:
 ## Support
 
 - 📖 [Documentation](https://linnaeus.readthedocs.io/)
-- 🐛 [Issue Tracker](https://github.com/linnaeus-project/linnaeus/issues)
-- 💬 [Discussions](https://github.com/linnaeus-project/linnaeus/discussions)
+- 🐛 [Issue Tracker](https://github.com/NU-AquaLab/linnaeus/issues)
+- 💬 [Discussions](https://github.com/NU-AquaLab/linnaeus/discussions)
 - 📧 Email: linnaeus@example.com

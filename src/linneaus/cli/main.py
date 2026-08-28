@@ -3132,7 +3132,7 @@ def info() -> None:
     console.print(f"[bold blue]Linnaeus v{__version__}[/bold blue]")
     console.print(f"Author: {__author__}")
     console.print("\nAI-powered classification of Internet Autonomous Systems")
-    console.print("Repository: https://github.com/linnaeus-project/linnaeus")
+    console.print("Repository: https://github.com/NU-AquaLab/linnaeus")
 
 
 if __name__ == "__main__":

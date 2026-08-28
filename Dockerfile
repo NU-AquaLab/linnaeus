@@ -76,7 +76,7 @@ CMD ["linnaeus", "--help"]
 LABEL maintainer="Esteban <linnaeus@example.com>"
 LABEL version="0.1.0"
 LABEL description="AI-powered classification of Internet Autonomous Systems"
-LABEL org.opencontainers.image.source="https://github.com/linnaeus-project/linnaeus"
+LABEL org.opencontainers.image.source="https://github.com/NU-AquaLab/linnaeus"
 LABEL org.opencontainers.image.title="Linnaeus"
 LABEL org.opencontainers.image.description="AI-powered classification of Internet Autonomous Systems"
 LABEL org.opencontainers.image.version="0.1.0"

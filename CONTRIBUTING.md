@@ -24,7 +24,7 @@ Thank you for your interest in contributing to Linnaeus! This document provides 
 
 1. **Fork and clone the repository**:
    ```bash
-   git clone https://github.com/linnaeus-project/linnaeus.git
+   git clone https://github.com/NU-AquaLab/linnaeus.git
    cd linnaeus
    ```
 
