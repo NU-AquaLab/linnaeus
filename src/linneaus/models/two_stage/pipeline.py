@@ -16,7 +16,7 @@ import pandas as pd
 from ...data.access import DataAccessLayer
 
 if TYPE_CHECKING:
-    from ...config.two_stage_config import LinneausConfig
+    from ...config.two_stage_config import LinnaeusConfig
 from ..two_stage_schemas import (
     BatchTwoStageClassificationResponse,
     ConfidenceScore,
@@ -134,16 +134,16 @@ class TwoStageHierarchicalPipeline:
     @classmethod
     def from_config(
         cls,
-        config: "LinneausConfig",
+        config: "LinnaeusConfig",
         api_key: Optional[str] = None,
         base_url: Optional[str] = None,
     ) -> "TwoStageHierarchicalPipeline":
-        """Construct the full pipeline from a :class:`LinneausConfig`.
+        """Construct the full pipeline from a :class:`LinnaeusConfig`.
 
         Parameters
         ----------
-        config : LinneausConfig
-            Full Linneaus configuration object.
+        config : LinnaeusConfig
+            Full Linnaeus configuration object.
         api_key : str, optional
             Override API key (falls back to config / env vars).
         base_url : str, optional

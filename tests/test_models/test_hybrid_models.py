@@ -8,12 +8,12 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from linneaus.models.hybrid.stacking_classifier import (
+from linnaeus.models.hybrid.stacking_classifier import (
     HybridASClassifier,
     LLMWrapper,
     SVMWrapper,
 )
-from linneaus.models.unified_schemas import HierarchicalTags, UnifiedASClassification
+from linnaeus.models.unified_schemas import HierarchicalTags, UnifiedASClassification
 
 
 class TestHybridASClassifier:

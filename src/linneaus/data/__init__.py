@@ -1,4 +1,4 @@
-"""Data processing and access modules for Linneaus."""
+"""Data processing and access modules for Linnaeus."""
 
 from .access import DataAccessLayer
 from .alignment import AlignedDataset, ColumnNormalizer

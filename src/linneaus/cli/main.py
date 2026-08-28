@@ -1,7 +1,7 @@
 """
-Main CLI entry point for Linneaus.
+Main CLI entry point for Linnaeus.
 
-This module provides the command-line interface for the Linneaus autonomous
+This module provides the command-line interface for the Linnaeus autonomous
 systems classification tool.
 """
 
@@ -52,12 +52,12 @@ def _resolve_taxonomy_path(
 ) -> Optional[Path]:
     """Resolve ``--taxonomy`` / ``--taxonomy-file`` to a filesystem path.
 
-    Returns ``None`` when the default linneaus taxonomy should be used
+    Returns ``None`` when the default linnaeus taxonomy should be used
     (i.e. loaded from the package resource).
     """
     if taxonomy_file:
         return Path(taxonomy_file)
-    if taxonomy and taxonomy != "linneaus":
+    if taxonomy and taxonomy != "linnaeus":
         return get_builtin_taxonomy_path(taxonomy)
     return None
 
@@ -71,7 +71,7 @@ def _resolve_taxonomy_path(
 )
 def main(config: Optional[Path] = None) -> None:
     """
-    Linneaus: AI-powered classification of Internet Autonomous Systems.
+    Linnaeus: AI-powered classification of Internet Autonomous Systems.
 
     A tool for automatically classifying and analyzing Autonomous Systems (AS)
     that make up the Internet using machine learning and large language models.
@@ -199,11 +199,11 @@ def download_ipinfo(asn: int, output_dir: Optional[Path]) -> None:
     Examples:
     \b
     # Download data for Google's ASN
-    linneaus data download-ipinfo --asn 15169
+    linnaeus data download-ipinfo --asn 15169
 
     \b
     # Download with custom output directory
-    linneaus data download-ipinfo --asn 7922 --output-dir /path/to/data
+    linnaeus data download-ipinfo --asn 7922 --output-dir /path/to/data
     """
     try:
         from ..data.downloaders import IPinfoDownloader
@@ -278,15 +278,15 @@ def validate(
     Examples:
     \b
     # Validate all data sources
-    linneaus data validate
+    linnaeus data validate
 
     \b
     # Validate specific source
-    linneaus data validate --source asrank
+    linnaeus data validate --source asrank
 
     \b
     # Generate report to file
-    linneaus data validate --output-report quality_report.md
+    linnaeus data validate --output-report quality_report.md
     """
     try:
         config = get_config()
@@ -445,11 +445,11 @@ def download_ipinfo_batch(
     Examples:
     \b
     # Download data for multiple ASNs
-    linneaus data download-ipinfo-batch --asns "15169,7922,8075"
+    linnaeus data download-ipinfo-batch --asns "15169,7922,8075"
 
     \b
     # Download from file (one ASN per line)
-    linneaus data download-ipinfo-batch --asns asn_list.txt --max-concurrent 10
+    linnaeus data download-ipinfo-batch --asns asn_list.txt --max-concurrent 10
     """
     try:
         pass
@@ -611,7 +611,7 @@ def status() -> None:
             )
         else:
             console.print("\n[red]✗ No data sources are available[/red]")
-            console.print("[blue]Run 'linneaus data download' to fetch data[/blue]")
+            console.print("[blue]Run 'linnaeus data download' to fetch data[/blue]")
 
     except Exception as e:
         console.print(f"[red]✗ Failed to check data status: {e}[/red]")
@@ -721,7 +721,7 @@ def train(
     console.print("[bold green]Training pipeline ready.[/bold green]")
     console.print(
         "Note: Full training requires feature-extracted"
-        " data. Use 'linneaus data prepare' first."
+        " data. Use 'linnaeus data prepare' first."
     )
 
     # Save metadata
@@ -781,7 +781,7 @@ def train(
 @click.option(
     "--taxonomy",
     type=click.Choice(list(_BUILTIN_TAXONOMIES)),
-    default="linneaus",
+    default="linnaeus",
     help="Taxonomy to use for classification",
 )
 @click.option(
@@ -812,21 +812,21 @@ def predict(
     Examples:
     \b
     # Hybrid classification (default)
-    linneaus model predict --input asns.csv --output results.json
+    linnaeus model predict --input asns.csv --output results.json
 
     \b
     # SVM-only approach
-    linneaus model predict --approach svm-only \\
+    linnaeus model predict --approach svm-only \\
         --input asns.csv --output results.csv
 
     \b
     # Hierarchical classification
-    linneaus model predict --approach hierarchical \\
+    linnaeus model predict --approach hierarchical \\
         --input asns.csv --output results.json
 
     \b
     # Two-stage hierarchical classification (recommended)
-    linneaus model predict --approach two-stage --input asns.csv --output results.json
+    linnaeus model predict --approach two-stage --input asns.csv --output results.json
     """
     tax_path = _resolve_taxonomy_path(taxonomy, taxonomy_file)
     if tax_path:
@@ -835,7 +835,7 @@ def predict(
             console.print(
                 "[red]✗ Non-default taxonomies are only supported with "
                 "--approach llm-only (the other approaches use models trained "
-                "on the linneaus taxonomy).[/red]"
+                "on the linnaeus taxonomy).[/red]"
             )
             sys.exit(1)
 
@@ -1189,15 +1189,15 @@ def classify_single(
     Examples:
     \b
     # Basic classification
-    linneaus two-stage classify-single --asn 15169
+    linnaeus two-stage classify-single --asn 15169
 
     \b
     # With organization name for better accuracy
-    linneaus two-stage classify-single --asn 15169 --organization-name "Google LLC"
+    linnaeus two-stage classify-single --asn 15169 --organization-name "Google LLC"
 
     \b
     # JSON output with timing
-    linneaus two-stage classify-single --asn 7922 --output-format json --include-timing
+    linnaeus two-stage classify-single --asn 7922 --output-format json --include-timing
     """
     console.print(f"[blue]Classifying ASN {asn} using two-stage pipeline...[/blue]")
 
@@ -1376,17 +1376,17 @@ def classify_batch(
     Examples:
     \b
     # Basic batch processing
-    linneaus two-stage classify-batch --input asns.csv --output results.json
+    linnaeus two-stage classify-batch --input asns.csv --output results.json
 
     \b
     # Large batch with custom settings
-    linneaus two-stage classify-batch \\
+    linnaeus two-stage classify-batch \\
         --input large_dataset.csv --output results.csv \\
         --format csv --batch-size 20 --parallel
 
     \b
     # Performance analysis
-    linneaus two-stage classify-batch \\
+    linnaeus two-stage classify-batch \\
         --input test.csv --output results.json \\
         --include-timing
     """
@@ -1669,11 +1669,11 @@ def evaluate(
     Examples:
     \b
     # Basic evaluation
-    linneaus two-stage evaluate --predictions results.json --ground-truth labels.csv
+    linnaeus two-stage evaluate --predictions results.json --ground-truth labels.csv
 
     \b
     # Detailed evaluation with report
-    linneaus two-stage evaluate \\
+    linnaeus two-stage evaluate \\
         --predictions results.json \\
         --ground-truth labels.csv \\
         --output eval_report.txt --detailed-analysis
@@ -1881,11 +1881,11 @@ def benchmark(
     Examples:
     \b
     # Basic benchmark
-    linneaus two-stage benchmark --test-dataset test_asns.csv
+    linnaeus two-stage benchmark --test-dataset test_asns.csv
 
     \b
     # Custom benchmark with results
-    linneaus two-stage benchmark \\
+    linnaeus two-stage benchmark \\
         --test-dataset large_test.csv \\
         --sample-size 100 \\
         --batch-sizes "5,10,25,50" \\
@@ -2111,35 +2111,35 @@ def help_commands() -> None:
     console.print("[bold green]Quick Start Examples:[/bold green]")
     console.print("  # Classify a single organization")
     console.print(
-        "  [yellow]linneaus two-stage classify-single"
+        "  [yellow]linnaeus two-stage classify-single"
         ' --asn 15169 --organization-name "Google'
         ' LLC"[/yellow]'
     )
     console.print()
     console.print("  # Batch processing")
     console.print(
-        "  [yellow]linneaus two-stage classify-batch"
+        "  [yellow]linnaeus two-stage classify-batch"
         " --input asns.csv"
         " --output results.json[/yellow]"
     )
     console.print()
     console.print("  # Evaluate performance")
     console.print(
-        "  [yellow]linneaus two-stage evaluate"
+        "  [yellow]linnaeus two-stage evaluate"
         " --predictions results.json"
         " --ground-truth labels.csv[/yellow]"
     )
     console.print()
     console.print("  # Benchmark performance")
     console.print(
-        "  [yellow]linneaus two-stage benchmark"
+        "  [yellow]linnaeus two-stage benchmark"
         " --test-dataset test.csv"
         " --output benchmark.json[/yellow]"
     )
     console.print()
     console.print("  # Monitor performance in real-time")
     console.print(
-        "  [yellow]linneaus two-stage"
+        "  [yellow]linnaeus two-stage"
         " monitor-performance"
         " --test-dataset test.csv"
         " --output metrics.json[/yellow]"
@@ -2156,7 +2156,7 @@ def help_commands() -> None:
     console.print()
 
     console.print("For detailed help on any command, use:")
-    console.print("[yellow]linneaus two-stage COMMAND --help[/yellow]")
+    console.print("[yellow]linnaeus two-stage COMMAND --help[/yellow]")
 
 
 @two_stage.command()
@@ -2198,11 +2198,11 @@ def monitor_performance(
     Examples:
     \b
     # Basic performance monitoring
-    linneaus two-stage monitor-performance --test-dataset test.csv
+    linnaeus two-stage monitor-performance --test-dataset test.csv
 
     \b
     # Detailed monitoring with output
-    linneaus two-stage monitor-performance \\
+    linnaeus two-stage monitor-performance \\
         --test-dataset test.csv --sample-size 50 \\
         --output metrics.json
     """
@@ -2386,7 +2386,7 @@ def monitor_performance(
 @click.option(
     "--taxonomy",
     type=click.Choice(list(_BUILTIN_TAXONOMIES)),
-    default="linneaus",
+    default="linnaeus",
     help="Taxonomy to use (determines expected label columns)",
 )
 @click.option(
@@ -2533,7 +2533,7 @@ def _load_finetune_inputs(
     # Labels: the released label matrix matching the taxonomy
     ds = AlignedDataset(data_dir)
     label_level = (
-        "toplevel" if taxonomy == "linneaus" and not taxonomy_file else taxonomy
+        "toplevel" if taxonomy == "linnaeus" and not taxonomy_file else taxonomy
     )
     labels = ds.load_labels(label_level)
     splits = ds.load_splits()
@@ -2574,7 +2574,7 @@ def _load_finetune_inputs(
     help="Directory for the training JSONL and resulting model ID",
 )
 @click.option(
-    "--model-suffix", default="linneaus", help="Suffix for the fine-tuned model name"
+    "--model-suffix", default="linnaeus", help="Suffix for the fine-tuned model name"
 )
 @click.option(
     "--base-model",
@@ -2594,7 +2594,7 @@ def _load_finetune_inputs(
 @click.option(
     "--taxonomy",
     type=click.Choice(list(_BUILTIN_TAXONOMIES)),
-    default="linneaus",
+    default="linnaeus",
     help="Taxonomy to use for fine-tuning",
 )
 @click.option(
@@ -2626,12 +2626,12 @@ def fine_tune(
 
     Examples:
     \b
-    # Fine-tune on all 20 linneaus categories
-    linneaus model fine-tune --model-suffix "v1"
+    # Fine-tune on all 20 linnaeus categories
+    linnaeus model fine-tune --model-suffix "v1"
 
     \b
     # Cheaper: fine-tune on a 4-category subset
-    linneaus model fine-tune --tags "Government,Access,Enterprise,ContentProvider"
+    linnaeus model fine-tune --tags "Government,Access,Enterprise,ContentProvider"
     """
     console.print("[bold blue]Starting LLM fine-tuning[/bold blue]")
 
@@ -2706,7 +2706,7 @@ def fine_tune(
 @click.option(
     "--taxonomy",
     type=click.Choice(list(_BUILTIN_TAXONOMIES)),
-    default="linneaus",
+    default="linnaeus",
     help="Taxonomy to use for data preparation",
 )
 @click.option(
@@ -2727,7 +2727,7 @@ def prepare_data(
     Prepare labeled data for LLM fine-tuning (JSONL only, no API calls).
 
     Converts the released labels + local features into the OpenAI
-    fine-tuning JSONL format used by `linneaus model fine-tune`.
+    fine-tuning JSONL format used by `linnaeus model fine-tune`.
     """
     try:
         from ..models.llm.finetuning import prepare_training_jsonl
@@ -2855,10 +2855,10 @@ def monitor_job(
 
 @model.command("fine-tune-async")
 def fine_tune_async() -> None:
-    """Removed. Use `linneaus model fine-tune` instead."""
+    """Removed. Use `linnaeus model fine-tune` instead."""
     raise click.UsageError(
         "'fine-tune-async' was removed in this release. "
-        "Use 'linneaus model fine-tune' (optionally with --tags to restrict "
+        "Use 'linnaeus model fine-tune' (optionally with --tags to restrict "
         "categories); it prepares data, runs the job, and waits for completion."
     )
 
@@ -2946,11 +2946,11 @@ def main_benchmark(
     Examples:
     \b
     # Compare all approaches
-    linneaus benchmark --dataset test_asns.csv --output benchmark_results.json
+    linnaeus benchmark --dataset test_asns.csv --output benchmark_results.json
 
     \b
     # Compare specific models
-    linneaus benchmark --models hybrid,svm-only --dataset test.csv --sample-size 50
+    linnaeus benchmark --models hybrid,svm-only --dataset test.csv --sample-size 50
     """
     console.print("[blue]Running model benchmark comparison...[/blue]")
 
@@ -3126,13 +3126,13 @@ def main_benchmark(
 
 @main.command()
 def info() -> None:
-    """Show information about Linneaus."""
+    """Show information about Linnaeus."""
     from .. import __author__, __version__
 
-    console.print(f"[bold blue]Linneaus v{__version__}[/bold blue]")
+    console.print(f"[bold blue]Linnaeus v{__version__}[/bold blue]")
     console.print(f"Author: {__author__}")
     console.print("\nAI-powered classification of Internet Autonomous Systems")
-    console.print("Repository: https://github.com/linneaus-project/linneaus")
+    console.print("Repository: https://github.com/linnaeus-project/linnaeus")
 
 
 if __name__ == "__main__":

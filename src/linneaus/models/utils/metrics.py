@@ -5,7 +5,7 @@ This module provides functions for computing, comparing, visualising, and
 persisting per-label and aggregate classification metrics.  It operates on
 raw ``pandas.DataFrame`` objects (binary ground-truth vs. binary predictions)
 and is intended as a lightweight complement to the higher-level
-:class:`~linneaus.models.evaluation.ClassificationEvaluator`.
+:class:`~linnaeus.models.evaluation.ClassificationEvaluator`.
 """
 
 import logging

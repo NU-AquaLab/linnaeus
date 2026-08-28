@@ -1,5 +1,5 @@
 """
-Pydantic data models for Linneaus.
+Pydantic data models for Linnaeus.
 
 This module defines all the data structures used throughout the application,
 including input data schemas, classification responses, and API data models.

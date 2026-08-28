@@ -392,13 +392,13 @@ class AlignedDataset:
     # Taxonomy definitions
     # ------------------------------------------------------------------
 
-    def load_category_definitions(self, taxonomy: str = "linneaus") -> dict:
+    def load_category_definitions(self, taxonomy: str = "linnaeus") -> dict:
         """Load category definitions from the release dir, fallback to package resource.
 
         Parameters
         ----------
         taxonomy : str
-            One of ``"linneaus"``, ``"asdb"``, or ``"isic"``.
+            One of ``"linnaeus"``, ``"asdb"``, or ``"isic"``.
         """
         from ..models.llm.schema_generation import load_tags_descriptions
 

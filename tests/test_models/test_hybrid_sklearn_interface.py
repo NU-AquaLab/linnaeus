@@ -8,8 +8,8 @@ import numpy as np
 import pytest
 from sklearn.exceptions import NotFittedError
 
-from linneaus.models.sklearn_interface import HybridASNClassifier
-from linneaus.models.unified_schemas import (
+from linnaeus.models.sklearn_interface import HybridASNClassifier
+from linnaeus.models.unified_schemas import (
     HierarchicalTags,
     TopLevelTags,
     UnifiedASClassification,
@@ -61,7 +61,7 @@ class TestHybridASNClassifier:
     def classifier(self, mock_config):
         """Create classifier instance."""
         with patch(
-            "linneaus.models.sklearn_interface.get_config", return_value=mock_config
+            "linnaeus.models.sklearn_interface.get_config", return_value=mock_config
         ):
             return HybridASNClassifier(
                 approach="hybrid", svm_weight=0.4, llm_weight=0.6
@@ -79,7 +79,7 @@ class TestHybridASNClassifier:
     def test_parameter_settings(self, mock_config):
         """Test different parameter combinations."""
         with patch(
-            "linneaus.models.sklearn_interface.get_config", return_value=mock_config
+            "linnaeus.models.sklearn_interface.get_config", return_value=mock_config
         ):
             # Test hierarchical approach
             hierarchical_classifier = HybridASNClassifier(
@@ -118,7 +118,7 @@ class TestHybridASNClassifier:
     def test_fit_with_labels_hierarchical(self, mock_config, mock_hybrid_classifier):
         """Test fitting with hierarchical labels."""
         with patch(
-            "linneaus.models.sklearn_interface.get_config", return_value=mock_config
+            "linnaeus.models.sklearn_interface.get_config", return_value=mock_config
         ):
             classifier = HybridASNClassifier(approach="hierarchical")
 
@@ -127,7 +127,7 @@ class TestHybridASNClassifier:
 
         # Mock the HybridASClassifier class to avoid real instantiation in fit()
         with patch(
-            "linneaus.models.sklearn_interface.HybridASClassifier"
+            "linnaeus.models.sklearn_interface.HybridASClassifier"
         ) as MockHybridCls:
             MockHybridCls.return_value = mock_hybrid_classifier
             classifier.fit(X, y)
@@ -139,7 +139,7 @@ class TestHybridASNClassifier:
     def test_fit_with_labels_flat(self, mock_config, mock_hybrid_classifier):
         """Test fitting with flat/top-level labels."""
         with patch(
-            "linneaus.models.sklearn_interface.get_config", return_value=mock_config
+            "linnaeus.models.sklearn_interface.get_config", return_value=mock_config
         ):
             classifier = HybridASNClassifier(approach="flat")
 
@@ -148,7 +148,7 @@ class TestHybridASNClassifier:
 
         # Mock the HybridASClassifier class to avoid real instantiation in fit()
         with patch(
-            "linneaus.models.sklearn_interface.HybridASClassifier"
+            "linnaeus.models.sklearn_interface.HybridASClassifier"
         ) as MockHybridCls:
             MockHybridCls.return_value = mock_hybrid_classifier
             classifier.fit(X, y)
@@ -319,7 +319,7 @@ class TestHybridASNClassifier:
 
         for approach in approaches:
             with patch(
-                "linneaus.models.sklearn_interface.get_config", return_value=mock_config
+                "linnaeus.models.sklearn_interface.get_config", return_value=mock_config
             ):
                 classifier = HybridASNClassifier(approach=approach)
 
@@ -357,7 +357,7 @@ class TestHybridASNClassifier:
 
         # Mock the HybridASClassifier class to avoid real instantiation in fit()
         with patch(
-            "linneaus.models.sklearn_interface.HybridASClassifier"
+            "linnaeus.models.sklearn_interface.HybridASClassifier"
         ) as MockHybridCls:
             MockHybridCls.return_value = mock_hybrid_classifier
 
@@ -374,7 +374,7 @@ class TestHybridASNClassifier:
         from sklearn.model_selection import cross_val_score
 
         with patch(
-            "linneaus.models.sklearn_interface.get_config", return_value=mock_config
+            "linnaeus.models.sklearn_interface.get_config", return_value=mock_config
         ):
             classifier = HybridASNClassifier(
                 approach="hybrid", svm_weight=0.4, llm_weight=0.6
@@ -388,7 +388,7 @@ class TestHybridASNClassifier:
 
         # Mock the HybridASClassifier class to avoid real instantiation in fit()
         with patch(
-            "linneaus.models.sklearn_interface.HybridASClassifier"
+            "linnaeus.models.sklearn_interface.HybridASClassifier"
         ) as MockHybridCls:
             mock_instance = Mock()
             mock_instance.fit.return_value = mock_instance
@@ -416,7 +416,7 @@ class TestHybridASNClassifier:
 
         for params in grid:
             with patch(
-                "linneaus.models.sklearn_interface.get_config", return_value=mock_config
+                "linnaeus.models.sklearn_interface.get_config", return_value=mock_config
             ):
                 classifier = HybridASNClassifier(**params)
 

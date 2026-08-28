@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Linneaus is a Python package for classifying Internet Autonomous Systems (AS) using a hybrid machine learning approach that combines SVM classifiers with LLM inference (stacking). The system performs multi-label classification across 20 top-level categories with ~40+ subcategories, using data from multiple Internet infrastructure sources.
+Linnaeus is a Python package for classifying Internet Autonomous Systems (AS) using a hybrid machine learning approach that combines SVM classifiers with LLM inference (stacking). The system performs multi-label classification across 20 top-level categories with ~40+ subcategories, using data from multiple Internet infrastructure sources.
 
 ## Development Environment
 
@@ -30,11 +30,11 @@ There are 231 tests across the test suite covering models, CLI, configuration, a
 
 ## Package Structure
 
-The package is located at `src/linneaus/` and installed as `linneaus`.
+The package is located at `src/linnaeus/` and installed as `linnaeus`.
 
 ```
-src/linneaus/
-  cli/              # Click-based CLI (entry point: linneaus.cli.main:main)
+src/linnaeus/
+  cli/              # Click-based CLI (entry point: linnaeus.cli.main:main)
   config/           # Configuration management (settings.py, two_stage_config.py)
   data/             # Data access, downloaders, labeled data, validation
   models/
@@ -84,7 +84,7 @@ Access, Transit, Mobile, Satellite, Content Provider, Educational Research, Gove
 
 ## Data Sources
 
-Data modules in `src/linneaus/data/` pull from four sources:
+Data modules in `src/linnaeus/data/` pull from four sources:
 - **ASRank** (CAIDA): AS ranking, organization metadata, AS relationships via GraphQL API
 - **PeeringDB**: Network operator information, facility data, IX participation
 - **ASPOP** (APNIC): AS population estimates
@@ -95,43 +95,43 @@ Data modules in `src/linneaus/data/` pull from four sources:
 
 ## CLI Reference
 
-The CLI is Click-based, entry point defined in `pyproject.toml` as `linneaus = "linneaus.cli.main:main"`.
+The CLI is Click-based, entry point defined in `pyproject.toml` as `linnaeus = "linnaeus.cli.main:main"`.
 
 ### Data Commands
 ```bash
-linneaus data download --sources peeringdb,asrank,aspop,ipinfo
-linneaus data download-ipinfo --asn 15169
-linneaus data download-ipinfo-batch --asns "15169,7922,8075"
-linneaus data validate --source asrank
-linneaus data status
+linnaeus data download --sources peeringdb,asrank,aspop,ipinfo
+linnaeus data download-ipinfo --asn 15169
+linnaeus data download-ipinfo-batch --asns "15169,7922,8075"
+linnaeus data validate --source asrank
+linnaeus data status
 ```
 
 ### Model Commands
 ```bash
-linneaus model train --llm-preds predictions.csv --output-dir models/
-linneaus model predict --approach two-stage --input asns.csv --output results.json
-linneaus model evaluate --predictions preds.csv --labels labels.csv
-linneaus model fine-tune --approach hierarchical --model-suffix "v1"
-linneaus model fine-tune-async --approach hierarchical --max-concurrent 10
-linneaus model prepare-data --approach hierarchical
-linneaus model list-jobs
-linneaus model monitor-job JOB_ID
-linneaus model predict-svm --model-path model.pkl --input-data features.csv
+linnaeus model train --llm-preds predictions.csv --output-dir models/
+linnaeus model predict --approach two-stage --input asns.csv --output results.json
+linnaeus model evaluate --predictions preds.csv --labels labels.csv
+linnaeus model fine-tune --approach hierarchical --model-suffix "v1"
+linnaeus model fine-tune-async --approach hierarchical --max-concurrent 10
+linnaeus model prepare-data --approach hierarchical
+linnaeus model list-jobs
+linnaeus model monitor-job JOB_ID
+linnaeus model predict-svm --model-path model.pkl --input-data features.csv
 ```
 
 ### Two-Stage Pipeline Commands
 ```bash
-linneaus two-stage classify-single --asn 15169 --organization-name "Google LLC"
-linneaus two-stage classify-batch --input asns.csv --output results.json --parallel
-linneaus two-stage evaluate --predictions results.json --ground-truth labels.csv
-linneaus two-stage benchmark --test-dataset test.csv --batch-sizes "1,5,10,20"
-linneaus two-stage monitor-performance --test-dataset test.csv --output metrics.json
+linnaeus two-stage classify-single --asn 15169 --organization-name "Google LLC"
+linnaeus two-stage classify-batch --input asns.csv --output results.json --parallel
+linnaeus two-stage evaluate --predictions results.json --ground-truth labels.csv
+linnaeus two-stage benchmark --test-dataset test.csv --batch-sizes "1,5,10,20"
+linnaeus two-stage monitor-performance --test-dataset test.csv --output metrics.json
 ```
 
 ### Other Commands
 ```bash
-linneaus info
-linneaus benchmark --models hybrid,svm-only --dataset test.csv --output results.json
+linnaeus info
+linnaeus benchmark --models hybrid,svm-only --dataset test.csv --output results.json
 ```
 
 ## Key Implementation Details
@@ -156,12 +156,12 @@ linneaus benchmark --models hybrid,svm-only --dataset test.csv --output results.
 - Nested cross-validation support for hyperparameter tuning
 
 ### Configuration
-Managed via `src/linneaus/config/settings.py` using Pydantic models. Supports YAML config files and environment variable overrides. Key config sections: `OpenAIConfig`, `DataConfig`, `APIConfig`, `LoggingConfig`.
+Managed via `src/linnaeus/config/settings.py` using Pydantic models. Supports YAML config files and environment variable overrides. Key config sections: `OpenAIConfig`, `DataConfig`, `APIConfig`, `LoggingConfig`.
 
 ## Build System
 
 Uses Hatchling as the build backend. Defined in `pyproject.toml`:
-- Package name: `linneaus`
+- Package name: `linnaeus`
 - Version: `0.1.0`
-- Build target: `src/linneaus`
+- Build target: `src/linnaeus`
 - Tooling: black, isort, mypy, pytest with coverage

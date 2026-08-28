@@ -7,7 +7,7 @@ from unittest.mock import Mock, patch
 import pytest
 from click.testing import CliRunner
 
-from linneaus.cli.main import data, main, model
+from linnaeus.cli.main import data, main, model
 
 
 class TestCLI:
@@ -23,7 +23,7 @@ class TestCLI:
         result = runner.invoke(main, ["--help"])
 
         assert result.exit_code == 0
-        assert "Linneaus" in result.output
+        assert "Linnaeus" in result.output
         assert "AI-powered classification" in result.output
         assert "data" in result.output
         assert "model" in result.output
@@ -40,7 +40,7 @@ class TestCLI:
         result = runner.invoke(main, ["info"])
 
         assert result.exit_code == 0
-        assert "Linneaus v0.1.0" in result.output
+        assert "Linnaeus v0.1.0" in result.output
         assert "Author: Esteban" in result.output
 
 
@@ -62,7 +62,7 @@ class TestDataCommands:
         assert "process" in result.output
         assert "status" in result.output
 
-    @patch("linneaus.data.access.DataAccessLayer")
+    @patch("linnaeus.data.access.DataAccessLayer")
     def test_data_status(self, mock_data_layer, runner, mock_config):
         """Test data status command."""
         # Mock data layer
@@ -76,7 +76,7 @@ class TestDataCommands:
 
         mock_data_layer.return_value = mock_instance
 
-        with patch("linneaus.config.get_config", return_value=mock_config):
+        with patch("linnaeus.config.get_config", return_value=mock_config):
             result = runner.invoke(data, ["status"])
 
         assert result.exit_code == 0
@@ -85,7 +85,7 @@ class TestDataCommands:
         assert "PeeringDB" in result.output
         assert "ASPOP" in result.output
 
-    @patch("linneaus.data.downloaders.download_all_sources")
+    @patch("linnaeus.data.downloaders.download_all_sources")
     @patch("asyncio.run")
     def test_data_download(
         self, mock_asyncio_run, mock_download, runner, mock_config, temp_dir
@@ -98,7 +98,7 @@ class TestDataCommands:
         }
         mock_asyncio_run.return_value = mock_download_result
 
-        with patch("linneaus.config.get_config", return_value=mock_config):
+        with patch("linnaeus.config.get_config", return_value=mock_config):
             result = runner.invoke(
                 data,
                 ["download", "--sources", "peeringdb,asrank", "--date", "2024-01-01"],
@@ -111,7 +111,7 @@ class TestDataCommands:
     def test_data_download_failure(self, runner, mock_config):
         """Test data download failure handling."""
         with (
-            patch("linneaus.config.get_config", return_value=mock_config),
+            patch("linnaeus.config.get_config", return_value=mock_config),
             patch("asyncio.run", side_effect=Exception("Download failed")),
         ):
 
@@ -122,7 +122,7 @@ class TestDataCommands:
 
     def test_data_process(self, runner, mock_config):
         """Test data process command."""
-        with patch("linneaus.config.get_config", return_value=mock_config):
+        with patch("linnaeus.config.get_config", return_value=mock_config):
             result = runner.invoke(data, ["process"])
 
         assert result.exit_code == 0
@@ -150,7 +150,7 @@ class TestModelCommands:
 
     def test_model_train(self, runner, mock_config):
         """Test model train command."""
-        with patch("linneaus.config.get_config", return_value=mock_config):
+        with patch("linnaeus.config.get_config", return_value=mock_config):
             result = runner.invoke(model, ["train"])
 
         assert result.exit_code == 0
@@ -164,7 +164,7 @@ class TestModelCommands:
 
         output_file = temp_dir / "output.json"
 
-        with patch("linneaus.config.get_config", return_value=mock_config):
+        with patch("linnaeus.config.get_config", return_value=mock_config):
             result = runner.invoke(
                 model,
                 [
@@ -190,7 +190,7 @@ class TestModelCommands:
         truth_file = temp_dir / "truth.csv"
         truth_file.write_text("asn,Access,Transit\n174,1,1\n")
 
-        with patch("linneaus.config.get_config", return_value=mock_config):
+        with patch("linnaeus.config.get_config", return_value=mock_config):
             result = runner.invoke(
                 model,
                 [
@@ -231,7 +231,7 @@ class TestConfigIntegration:
         # The CLI imports get_config at module level. Since the module attribute
         # 'main' conflicts with the click group name, we need to use the module
         # directly from sys.modules.
-        cli_module = sys.modules["linneaus.cli.main"]
+        cli_module = sys.modules["linnaeus.cli.main"]
         with patch.object(cli_module, "get_config") as mock_get_config:
             result = runner.invoke(main, ["--config", str(config_file), "info"])
 

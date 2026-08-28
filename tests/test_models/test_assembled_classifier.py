@@ -9,12 +9,12 @@ import pandas as pd
 import pytest
 from sklearn.linear_model import LogisticRegression
 
-from linneaus.models.two_stage.assembled_classifier import (
+from linnaeus.models.two_stage.assembled_classifier import (
     AssembledTopLevelClassifier,
     LLMWrapper,
     SVMWrapper,
 )
-from linneaus.models.two_stage_schemas import (
+from linnaeus.models.two_stage_schemas import (
     ConfidenceScore,
     ModelType,
     TopLevelPrediction,
@@ -110,15 +110,15 @@ class TestAssembledTopLevelClassifier:
 
         with (
             patch(
-                "linneaus.models.two_stage.assembled_classifier.SVMWrapper",
+                "linnaeus.models.two_stage.assembled_classifier.SVMWrapper",
                 return_value=mock_svm_wrapper,
             ),
             patch(
-                "linneaus.models.two_stage.assembled_classifier.LLMWrapper",
+                "linnaeus.models.two_stage.assembled_classifier.LLMWrapper",
                 return_value=mock_llm_wrapper,
             ),
             patch(
-                "linneaus.models.two_stage.assembled_classifier.StackingClassifier",
+                "linnaeus.models.two_stage.assembled_classifier.StackingClassifier",
                 return_value=mock_stacking,
             ),
         ):
@@ -178,15 +178,15 @@ class TestAssembledTopLevelClassifier:
 
         with (
             patch(
-                "linneaus.models.two_stage.assembled_classifier.SVMWrapper",
+                "linnaeus.models.two_stage.assembled_classifier.SVMWrapper",
                 return_value=mock_svm_wrapper,
             ) as mock_svm_class,
             patch(
-                "linneaus.models.two_stage.assembled_classifier.LLMWrapper",
+                "linnaeus.models.two_stage.assembled_classifier.LLMWrapper",
                 return_value=mock_llm_wrapper,
             ),
             patch(
-                "linneaus.models.two_stage.assembled_classifier.StackingClassifier",
+                "linnaeus.models.two_stage.assembled_classifier.StackingClassifier",
                 return_value=mock_stacking,
             ),
         ):
@@ -216,15 +216,15 @@ class TestAssembledTopLevelClassifier:
 
         with (
             patch(
-                "linneaus.models.two_stage.assembled_classifier.SVMWrapper",
+                "linnaeus.models.two_stage.assembled_classifier.SVMWrapper",
                 return_value=mock_svm_wrapper,
             ),
             patch(
-                "linneaus.models.two_stage.assembled_classifier.LLMWrapper",
+                "linnaeus.models.two_stage.assembled_classifier.LLMWrapper",
                 return_value=mock_llm_wrapper,
             ),
             patch(
-                "linneaus.models.two_stage.assembled_classifier.StackingClassifier",
+                "linnaeus.models.two_stage.assembled_classifier.StackingClassifier",
                 return_value=mock_stacking,
             ),
         ):
@@ -249,7 +249,7 @@ class TestAssembledTopLevelClassifier:
         mock_svm_wrapper.fit.return_value = mock_svm_wrapper
 
         with patch(
-            "linneaus.models.two_stage.assembled_classifier.SVMWrapper",
+            "linnaeus.models.two_stage.assembled_classifier.SVMWrapper",
             return_value=mock_svm_wrapper,
         ):
             classifier.fit(X, y)

@@ -8,8 +8,8 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from linneaus.models.schemas import ASRankData, OrganizationData, PeeringDBData
-from linneaus.models.svm.feature_engineering import ASNFeatureEngineer
+from linnaeus.models.schemas import ASRankData, OrganizationData, PeeringDBData
+from linnaeus.models.svm.feature_engineering import ASNFeatureEngineer
 
 
 class TestASNFeatureEngineer:
@@ -45,7 +45,7 @@ class TestASNFeatureEngineer:
 
     def test_initialization_default_data_access(self, mock_config):
         """Test initialization with default data access."""
-        with patch("linneaus.models.svm.feature_engineering.DataAccessLayer"):
+        with patch("linnaeus.models.svm.feature_engineering.DataAccessLayer"):
             engineer = ASNFeatureEngineer()
             assert engineer.data_access is not None
 

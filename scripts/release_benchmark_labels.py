@@ -14,8 +14,8 @@ from pathlib import Path
 
 import pandas as pd
 
-from linneaus.data.alignment import CURRENT_RELEASE, ColumnNormalizer
-from linneaus.models.llm.schema_generation import (
+from linnaeus.data.alignment import CURRENT_RELEASE, ColumnNormalizer
+from linnaeus.models.llm.schema_generation import (
     BUILTIN_TAXONOMIES,
     get_builtin_taxonomy_path,
 )
@@ -88,7 +88,7 @@ def copy_prompts() -> None:
     """Copy the packaged prompts.yaml to the release directory."""
     from importlib import resources
 
-    src = Path(str(resources.files("linneaus.resources") / "prompts.yaml"))
+    src = Path(str(resources.files("linnaeus.resources") / "prompts.yaml"))
     dst = RELEASE_DIR / "prompts.yaml"
     if src.exists():
         shutil.copy2(src, dst)

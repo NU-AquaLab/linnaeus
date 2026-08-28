@@ -7,8 +7,8 @@ from unittest.mock import Mock, patch
 import pytest
 from openai import OpenAI
 
-from linneaus.models.two_stage.sublevel_classifier import HierarchicalSublevelClassifier
-from linneaus.models.two_stage_schemas import (
+from linnaeus.models.two_stage.sublevel_classifier import HierarchicalSublevelClassifier
+from linnaeus.models.two_stage_schemas import (
     ConfidenceScore,
     ModelType,
     SublevelPrediction,
@@ -47,7 +47,7 @@ class TestHierarchicalSublevelClassifier:
     def classifier(self, mock_openai_client, category_models, category_prompts):
         """Create test classifier instance with mocked processor initialization."""
         with patch(
-            "linneaus.models.two_stage.sublevel_classifier.HierarchicalBatchInferenceProcessor"
+            "linnaeus.models.two_stage.sublevel_classifier.HierarchicalBatchInferenceProcessor"
         ) as mock_processor_class:
             # Each category gets its own mock processor
             pass
@@ -269,7 +269,7 @@ class TestHierarchicalSublevelClassifier:
     def test_add_category_processor(self, classifier):
         """Test adding a new category processor."""
         with patch(
-            "linneaus.models.two_stage.sublevel_classifier.HierarchicalBatchInferenceProcessor"
+            "linnaeus.models.two_stage.sublevel_classifier.HierarchicalBatchInferenceProcessor"
         ) as mock_processor_class:
             mock_proc = Mock()
             mock_processor_class.return_value = mock_proc
@@ -351,7 +351,7 @@ class TestHierarchicalSublevelClassifier:
     def test_temperature_setting(self, mock_openai_client, category_models):
         """Test custom temperature setting."""
         with patch(
-            "linneaus.models.two_stage.sublevel_classifier.HierarchicalBatchInferenceProcessor"
+            "linnaeus.models.two_stage.sublevel_classifier.HierarchicalBatchInferenceProcessor"
         ):
             classifier = HierarchicalSublevelClassifier(
                 openai_client=mock_openai_client,
@@ -363,7 +363,7 @@ class TestHierarchicalSublevelClassifier:
     def test_batch_size_setting(self, mock_openai_client, category_models):
         """Test custom batch size setting."""
         with patch(
-            "linneaus.models.two_stage.sublevel_classifier.HierarchicalBatchInferenceProcessor"
+            "linnaeus.models.two_stage.sublevel_classifier.HierarchicalBatchInferenceProcessor"
         ):
             classifier = HierarchicalSublevelClassifier(
                 openai_client=mock_openai_client,

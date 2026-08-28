@@ -7,7 +7,7 @@ from datetime import datetime
 import pytest
 from pydantic import ValidationError
 
-from linneaus.models.schemas import (
+from linnaeus.models.schemas import (
     ASClassification,
     ASPOPData,
     ASRankData,

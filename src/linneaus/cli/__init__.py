@@ -1,4 +1,4 @@
-"""Command line interface for Linneaus."""
+"""Command line interface for Linnaeus."""
 
 from .main import main
 

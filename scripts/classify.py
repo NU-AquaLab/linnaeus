@@ -36,8 +36,8 @@ from openai import OpenAI
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(_PROJECT_ROOT / "src"))
 
-from linneaus.models.llm.client import create_client  # noqa: E402
-from linneaus.models.llm.schema_generation import (  # noqa: E402
+from linnaeus.models.llm.client import create_client  # noqa: E402
+from linnaeus.models.llm.schema_generation import (  # noqa: E402
     generate_developer_instructions,
     generate_schema,
     get_toplevel_tag_names,
@@ -168,7 +168,7 @@ def run_classification(
     # --- Build schema and prompt -------------------------------------------
     # Output columns are the taxonomy's sanitized top-level names; the schema
     # enum is restricted to exactly those names so every predicted tag maps
-    # to a column (for any taxonomy: linneaus, asdb, isic, or custom).
+    # to a column (for any taxonomy: linnaeus, asdb, isic, or custom).
     tags_desc = load_tags_descriptions(taxonomy_path)
     output_columns = get_toplevel_tag_names(tags_desc)
     schema = generate_schema(tags_desc, tags=output_columns)
@@ -247,8 +247,8 @@ def main() -> None:
         type=str,
         default=None,
         help=(
-            "Builtin taxonomy name (linneaus, asdb, isic) or path to a "
-            "custom taxonomy definitions JSON (default: built-in linneaus)"
+            "Builtin taxonomy name (linnaeus, asdb, isic) or path to a "
+            "custom taxonomy definitions JSON (default: built-in linnaeus)"
         ),
     )
     parser.add_argument(

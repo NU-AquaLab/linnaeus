@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "linneaus"
+name = "linnaeus"
 version = "0.1.0"
 description = "AI-powered classification of Internet Autonomous Systems"
 readme = "README.md"
@@ -61,10 +61,10 @@ Repository = "https://github.com/TheMarcosP/Proyecto-Clasificar-Sistemas-Autonom
 Issues = "https://github.com/TheMarcosP/Proyecto-Clasificar-Sistemas-Autonomos/issues"
 
 [project.scripts]
-linneaus = "linneaus.cli.main:main"
+linnaeus = "linnaeus.cli.main:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/linneaus"]
+packages = ["src/linnaeus"]
 
 [tool.hatch.build.targets.sdist]
 only-include = [
@@ -114,14 +114,14 @@ strict_equality = true
 
 [tool.pytest.ini_options]
 minversion = "7.0"
-addopts = "-ra -q --cov=linneaus --cov-report=term-missing"
+addopts = "-ra -q --cov=linnaeus --cov-report=term-missing"
 testpaths = ["tests"]
 python_files = ["test_*.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
 
 [tool.coverage.run]
-source = ["src/linneaus"]
+source = ["src/linnaeus"]
 omit = ["*/tests/*"]
 
 [tool.coverage.report]

@@ -1,5 +1,5 @@
-# Linneaus Configuration File
-# Created by `linneaus init`. Adjust settings below for your environment.
+# Linnaeus Configuration File
+# Created by `linnaeus init`. Adjust settings below for your environment.
 
 # Application environment
 environment: development
@@ -41,4 +41,4 @@ apis:
 logging:
   level: "INFO"
   format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-  # file_path: "./logs/linneaus.log"  # Uncomment to enable file logging
+  # file_path: "./logs/linnaeus.log"  # Uncomment to enable file logging

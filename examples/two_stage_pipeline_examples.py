@@ -15,13 +15,13 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-from linneaus.config import load_config
-from linneaus.data.two_stage_data import DataSplitManager
+from linnaeus.config import load_config
+from linnaeus.data.two_stage_data import DataSplitManager
 
 # Import pipeline components
-from linneaus.models.two_stage import TwoStageHierarchicalPipeline
-from linneaus.models.two_stage.error_handling import ErrorHandler, FallbackStrategy
-from linneaus.models.two_stage.evaluation import HierarchicalEvaluator
+from linnaeus.models.two_stage import TwoStageHierarchicalPipeline
+from linnaeus.models.two_stage.error_handling import ErrorHandler, FallbackStrategy
+from linnaeus.models.two_stage.evaluation import HierarchicalEvaluator
 
 
 def example_1_basic_single_prediction():

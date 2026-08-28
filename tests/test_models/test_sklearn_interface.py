@@ -8,12 +8,12 @@ import numpy as np
 import pytest
 from sklearn.exceptions import NotFittedError
 
-from linneaus.models.schemas import (
+from linnaeus.models.schemas import (
     ASClassification,
     BatchClassificationResponse,
     ClassificationTags,
 )
-from linneaus.models.sklearn_interface import ASNClassifier, ASNDataTransformer
+from linnaeus.models.sklearn_interface import ASNClassifier, ASNDataTransformer
 
 
 class TestASNClassifier:
@@ -56,7 +56,7 @@ class TestASNClassifier:
     def classifier(self, mock_config):
         """Create classifier instance."""
         with patch(
-            "linneaus.models.sklearn_interface.get_config", return_value=mock_config
+            "linnaeus.models.sklearn_interface.get_config", return_value=mock_config
         ):
             return ASNClassifier(model_id="test-model")
 
@@ -252,7 +252,7 @@ class TestASNDataTransformer:
     def transformer(self, mock_config):
         """Create transformer instance."""
         with patch(
-            "linneaus.models.sklearn_interface.get_config", return_value=mock_config
+            "linnaeus.models.sklearn_interface.get_config", return_value=mock_config
         ):
             return ASNDataTransformer()
 
@@ -316,7 +316,7 @@ class TestASNDataTransformer:
     def test_feature_selection(self, mock_config):
         """Test selective feature inclusion."""
         with patch(
-            "linneaus.models.sklearn_interface.get_config", return_value=mock_config
+            "linnaeus.models.sklearn_interface.get_config", return_value=mock_config
         ):
             # Only ASRank features
             transformer = ASNDataTransformer(

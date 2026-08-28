@@ -72,8 +72,8 @@ class ASNClassifier(BaseEstimator, ClassifierMixin):
 
     Examples
     --------
-    >>> from linneaus.models import ASNClassifier
-    >>> from linneaus.data import DataAccessLayer
+    >>> from linnaeus.models import ASNClassifier
+    >>> from linnaeus.data import DataAccessLayer
     >>>
     >>> # Initialize classifier
     >>> clf = ASNClassifier(model_id="ft:gpt-4o-mini-...")
@@ -436,7 +436,7 @@ class ASNDataTransformer(BaseEstimator, TransformerMixin):
 
     Examples
     --------
-    >>> from linneaus.models import ASNDataTransformer
+    >>> from linnaeus.models import ASNDataTransformer
     >>> transformer = ASNDataTransformer()
     >>> X = np.array([174, 15169, 32934]).reshape(-1, 1)
     >>> X_transformed = transformer.fit_transform(X)

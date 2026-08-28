@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document describes the hierarchical data schema used for Autonomous System (AS) classification in the Linneaus project. The schema has been redesigned to provide clearer separation between top-level categories and their subcategories.
+This document describes the hierarchical data schema used for Autonomous System (AS) classification in the Linnaeus project. The schema has been redesigned to provide clearer separation between top-level categories and their subcategories.
 
 ## Schema Evolution
 

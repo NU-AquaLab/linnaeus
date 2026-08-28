@@ -1,5 +1,5 @@
 # =============================================================================
-# Linneaus LLM prompt templates
+# Linnaeus LLM prompt templates
 # =============================================================================
 # EDIT THIS FILE to change the LLM prompts used for AS classification.
 # Edit resources/taxonomies/*.json to change the category DEFINITIONS
@@ -13,9 +13,9 @@
 #                         (sub-level prompt only)
 #
 # These templates are used by
-# linneaus.models.llm.schema_generation.generate_developer_instructions(),
+# linnaeus.models.llm.schema_generation.generate_developer_instructions(),
 # which drives scripts/classify.py, scripts/test_pipeline_e2e.py and the
-# `linneaus model fine-tune` / `prepare-data` CLI commands.
+# `linnaeus model fine-tune` / `prepare-data` CLI commands.
 # =============================================================================
 
 # System prompt for top-level classification across all categories.

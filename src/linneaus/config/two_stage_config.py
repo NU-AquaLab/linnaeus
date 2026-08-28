@@ -207,8 +207,8 @@ class LoggingConfig(BaseModel):
     file_path: Optional[Path] = Field(default=None, description="Log file path")
 
 
-class LinneausConfig(BaseModel):
-    """Complete Linneaus configuration."""
+class LinnaeusConfig(BaseModel):
+    """Complete Linnaeus configuration."""
 
     environment: str = Field(
         default="development", description="Application environment"
@@ -256,13 +256,13 @@ class ConfigLoader:
             load_dotenv(self.env_path)
             logger.info(f"Loaded environment variables from {self.env_path}")
 
-    def load_config(self) -> LinneausConfig:
+    def load_config(self) -> LinnaeusConfig:
         """
         Load configuration from YAML and environment variables.
 
         Returns
         -------
-        LinneausConfig
+        LinnaeusConfig
             Validated configuration object.
         """
         # Load YAML config
@@ -281,7 +281,7 @@ class ConfigLoader:
 
         # Validate and return configuration
         try:
-            config = LinneausConfig(**config_data)
+            config = LinnaeusConfig(**config_data)
             logger.info("Configuration validation successful")
             return config
         except Exception as e:
@@ -338,14 +338,14 @@ class ConfigLoader:
         return config_data
 
     def save_config(
-        self, config: LinneausConfig, output_path: Optional[Path] = None
+        self, config: LinnaeusConfig, output_path: Optional[Path] = None
     ) -> None:
         """
         Save configuration to YAML file.
 
         Parameters
         ----------
-        config : LinneausConfig
+        config : LinnaeusConfig
             Configuration to save.
         output_path : Optional[Path]
             Output path (defaults to config_path).
@@ -397,7 +397,7 @@ __all__ = [
     "Stage2Config",
     "GeneralConfig",
     "PromptsConfig",
-    "LinneausConfig",
+    "LinnaeusConfig",
     "LLMConfig",
     "OpenAIConfig",
     "ConfigLoader",

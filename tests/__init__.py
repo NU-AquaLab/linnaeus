@@ -1,1 +1,1 @@
-"""Test package for Linneaus."""
+"""Test package for Linnaeus."""

@@ -3,7 +3,7 @@
 import os
 from unittest.mock import patch
 
-from linneaus.models.llm.client import (
+from linnaeus.models.llm.client import (
     _resolve_api_key,
     _resolve_base_url,
     create_async_client,
@@ -98,7 +98,7 @@ class TestCreateFromConfig:
     """Test client creation from LLMConfig."""
 
     def test_create_from_config(self):
-        from linneaus.config.settings import LLMConfig
+        from linnaeus.config.settings import LLMConfig
 
         cfg = LLMConfig(api_key="cfg-key", base_url="http://localhost:8000/v1")
         client = create_client_from_config(cfg)

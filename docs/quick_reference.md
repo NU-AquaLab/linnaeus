@@ -15,7 +15,7 @@ cp .env.example .env
 
 ### Single Prediction
 ```python
-from linneaus.models.two_stage import TwoStageHierarchicalPipeline
+from linnaeus.models.two_stage import TwoStageHierarchicalPipeline
 
 pipeline = TwoStageHierarchicalPipeline()
 result = pipeline.predict_single(asn=15169, organization_name="Google LLC")
@@ -39,7 +39,7 @@ print(f"Processed: {len(batch_result.results)} organizations")
 
 ### Quick Config Changes
 ```python
-from linneaus.config import load_config
+from linnaeus.config import load_config
 
 config = load_config()
 config.two_stage_pipeline.stage1.svm_weight = 0.3
@@ -59,7 +59,7 @@ LOG_LEVEL=INFO
 
 ### Custom Error Handler
 ```python
-from linneaus.models.two_stage.error_handling import ErrorHandler, FallbackStrategy
+from linnaeus.models.two_stage.error_handling import ErrorHandler, FallbackStrategy
 
 error_handler = ErrorHandler(
     enable_graceful_degradation=True,
@@ -74,7 +74,7 @@ pipeline = TwoStageHierarchicalPipeline(error_handler=error_handler)
 
 ### Quick Evaluation
 ```python
-from linneaus.models.two_stage.evaluation import HierarchicalEvaluator
+from linnaeus.models.two_stage.evaluation import HierarchicalEvaluator
 
 evaluator = HierarchicalEvaluator()
 results = evaluator.evaluate(predictions, ground_truth_df)
@@ -127,7 +127,7 @@ for i in range(0, len(large_list), chunk_size):
 ### Missing Data
 ```python
 # Check if ASN exists in data
-from linneaus.data.access import DataAccessLayer
+from linnaeus.data.access import DataAccessLayer
 data_access = DataAccessLayer()
 org_data = data_access.get_organization_data(asn)
 ```

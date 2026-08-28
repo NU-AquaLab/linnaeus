@@ -1,13 +1,13 @@
-# Linneaus CLI Usage Guide
+# Linnaeus CLI Usage Guide
 
 ## Overview
 
-The Linneaus CLI provides comprehensive command-line access to the AS classification pipeline, including both legacy approaches and the new two-stage hierarchical system.
+The Linnaeus CLI provides comprehensive command-line access to the AS classification pipeline, including both legacy approaches and the new two-stage hierarchical system.
 
 ## Command Structure
 
 ```
-linneaus [OPTIONS] COMMAND [ARGS]...
+linnaeus [OPTIONS] COMMAND [ARGS]...
 ```
 
 ### Main Command Groups
@@ -22,16 +22,16 @@ linneaus [OPTIONS] COMMAND [ARGS]...
 
 ```bash
 # Show available two-stage commands
-linneaus two-stage help-commands
+linnaeus two-stage help-commands
 
 # Classify a single organization
-linneaus two-stage classify-single --asn 15169 --organization-name "Google LLC"
+linnaeus two-stage classify-single --asn 15169 --organization-name "Google LLC"
 
 # Batch processing
-linneaus two-stage classify-batch --input asns.csv --output results.json
+linnaeus two-stage classify-batch --input asns.csv --output results.json
 
 # Evaluate performance
-linneaus two-stage evaluate --predictions results.json --ground-truth labels.csv
+linnaeus two-stage evaluate --predictions results.json --ground-truth labels.csv
 ```
 
 ### Single Classification
@@ -40,16 +40,16 @@ Classify a single AS organization:
 
 ```bash
 # Basic classification
-linneaus two-stage classify-single --asn 15169
+linnaeus two-stage classify-single --asn 15169
 
 # With organization name for better accuracy
-linneaus two-stage classify-single --asn 15169 --organization-name "Google LLC"
+linnaeus two-stage classify-single --asn 15169 --organization-name "Google LLC"
 
 # JSON output with timing information
-linneaus two-stage classify-single --asn 7922 --output-format json --include-timing
+linnaeus two-stage classify-single --asn 7922 --output-format json --include-timing
 
 # Simple text output
-linneaus two-stage classify-single --asn 174 --output-format simple
+linnaeus two-stage classify-single --asn 174 --output-format simple
 ```
 
 **Options:**
@@ -65,10 +65,10 @@ Process multiple organizations from a CSV file:
 
 ```bash
 # Basic batch processing
-linneaus two-stage classify-batch --input asns.csv --output results.json
+linnaeus two-stage classify-batch --input asns.csv --output results.json
 
 # Large batch with custom settings
-linneaus two-stage classify-batch \
+linnaeus two-stage classify-batch \
   --input large_dataset.csv \
   --output results.csv \
   --format csv \
@@ -76,7 +76,7 @@ linneaus two-stage classify-batch \
   --parallel
 
 # Performance analysis with timing
-linneaus two-stage classify-batch \
+linnaeus two-stage classify-batch \
   --input test.csv \
   --output results.json \
   --include-timing \
@@ -106,12 +106,12 @@ Evaluate predictions against ground truth:
 
 ```bash
 # Basic evaluation
-linneaus two-stage evaluate \
+linnaeus two-stage evaluate \
   --predictions results.json \
   --ground-truth labels.csv
 
 # Detailed evaluation with report
-linneaus two-stage evaluate \
+linnaeus two-stage evaluate \
   --predictions results.json \
   --ground-truth labels.csv \
   --output eval_report.txt \
@@ -138,10 +138,10 @@ Test pipeline performance with different configurations:
 
 ```bash
 # Basic benchmark
-linneaus two-stage benchmark --test-dataset test_asns.csv
+linnaeus two-stage benchmark --test-dataset test_asns.csv
 
 # Custom benchmark with results
-linneaus two-stage benchmark \
+linnaeus two-stage benchmark \
   --test-dataset large_test.csv \
   --sample-size 100 \
   --batch-sizes "5,10,25,50" \
@@ -163,20 +163,20 @@ The legacy model predict command now supports the two-stage approach:
 
 ```bash
 # Two-stage approach (recommended)
-linneaus model predict \
+linnaeus model predict \
   --approach two-stage \
   --input asns.csv \
   --output results.json
 
 # Legacy hybrid approach
-linneaus model predict \
+linnaeus model predict \
   --approach hybrid \
   --input asns.csv \
   --output results.json \
   --format csv
 
 # SVM-only approach
-linneaus model predict \
+linnaeus model predict \
   --approach svm-only \
   --input asns.csv \
   --output results.csv \
@@ -198,13 +198,13 @@ Download fresh data from external sources:
 
 ```bash
 # Download all sources
-linneaus data download
+linnaeus data download
 
 # Download specific sources
-linneaus data download --sources "peeringdb,asrank"
+linnaeus data download --sources "peeringdb,asrank"
 
 # Force refresh existing data
-linneaus data download --force-refresh
+linnaeus data download --force-refresh
 ```
 
 ### Check Data Status
@@ -212,7 +212,7 @@ linneaus data download --force-refresh
 Check availability and status of data sources:
 
 ```bash
-linneaus data status
+linnaeus data status
 ```
 
 ## Configuration
@@ -251,7 +251,7 @@ two_stage_pipeline:
 Use a custom configuration file:
 
 ```bash
-linneaus --config /path/to/custom/config.yaml two-stage classify-single --asn 15169
+linnaeus --config /path/to/custom/config.yaml two-stage classify-single --asn 15169
 ```
 
 ## Output Formats
@@ -337,7 +337,7 @@ split -l 1000 large_dataset.csv chunk_
 
 # Process each chunk
 for chunk in chunk_*; do
-  linneaus two-stage classify-batch --input $chunk --output results_$chunk.json
+  linnaeus two-stage classify-batch --input $chunk --output results_$chunk.json
 done
 ```
 
@@ -348,22 +348,22 @@ done
 1. **OpenAI API Rate Limits**
    ```bash
    # Reduce batch size and enable retries
-   linneaus two-stage classify-batch --batch-size 5 --input asns.csv --output results.json
+   linnaeus two-stage classify-batch --batch-size 5 --input asns.csv --output results.json
    ```
 
 2. **Memory Issues**
    ```bash
    # Use sequential processing for large batches
-   linneaus two-stage classify-batch --sequential --batch-size 10 --input asns.csv --output results.json
+   linnaeus two-stage classify-batch --sequential --batch-size 10 --input asns.csv --output results.json
    ```
 
 3. **Missing Data**
    ```bash
    # Check data availability
-   linneaus data status
+   linnaeus data status
 
    # Download missing data
-   linneaus data download --force-refresh
+   linnaeus data download --force-refresh
    ```
 
 ### Error Handling
@@ -379,16 +379,16 @@ The two-stage pipeline includes comprehensive error handling:
 
 ```bash
 # General help
-linneaus --help
+linnaeus --help
 
 # Command group help
-linneaus two-stage --help
+linnaeus two-stage --help
 
 # Specific command help
-linneaus two-stage classify-single --help
+linnaeus two-stage classify-single --help
 
 # Show two-stage features overview
-linneaus two-stage help-commands
+linnaeus two-stage help-commands
 ```
 
 ## Examples
@@ -397,25 +397,25 @@ linneaus two-stage help-commands
 
 ```bash
 # 1. Check data availability
-linneaus data status
+linnaeus data status
 
 # 2. Download data if needed
-linneaus data download
+linnaeus data download
 
 # 3. Classify organizations
-linneaus two-stage classify-batch \
+linnaeus two-stage classify-batch \
   --input test_organizations.csv \
   --output predictions.json \
   --include-timing
 
 # 4. Evaluate against ground truth
-linneaus two-stage evaluate \
+linnaeus two-stage evaluate \
   --predictions predictions.json \
   --ground-truth ground_truth.csv \
   --output evaluation_report.txt
 
 # 5. Benchmark performance
-linneaus two-stage benchmark \
+linnaeus two-stage benchmark \
   --test-dataset test_organizations.csv \
   --output benchmark_results.json
 ```
@@ -434,7 +434,7 @@ mkdir -p "$OUTPUT_DIR"
 echo "Starting AS classification pipeline..."
 
 # Run classification
-linneaus two-stage classify-batch \
+linnaeus two-stage classify-batch \
   --input "$INPUT_FILE" \
   --output "$OUTPUT_DIR/predictions.json" \
   --format json \
@@ -444,7 +444,7 @@ linneaus two-stage classify-batch \
 echo "Classification completed. Results saved to $OUTPUT_DIR/"
 
 # Generate CSV for analysis
-linneaus two-stage classify-batch \
+linnaeus two-stage classify-batch \
   --input "$INPUT_FILE" \
   --output "$OUTPUT_DIR/predictions.csv" \
   --format csv \

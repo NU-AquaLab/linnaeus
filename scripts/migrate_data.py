@@ -44,10 +44,10 @@ import pandas as pd
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_ROOT = SCRIPT_DIR.parent
 
-# Add src/ to path so we can import linneaus
+# Add src/ to path so we can import linnaeus
 sys.path.insert(0, str(DEFAULT_ROOT / "src"))
 
-from linneaus.data.alignment import (  # noqa: E402
+from linnaeus.data.alignment import (  # noqa: E402
     CANONICAL_SUBLEVEL,
     CANONICAL_TOPLEVEL,
     CURRENT_RELEASE,
@@ -129,7 +129,7 @@ def migrate_labels(legacy: Path, out: Path) -> None:
     save_dual(sub, labels_dir / "sublevel")
 
     # ---- toplevel (collapsed from sublevel) ----
-    from linneaus.models.utils.tag_reduction import simplify_tags
+    from linnaeus.models.utils.tag_reduction import simplify_tags
 
     tag_only = sub.drop(columns=["asn"])
     simplified = simplify_tags(tag_only)
@@ -145,7 +145,7 @@ def migrate_labels(legacy: Path, out: Path) -> None:
     save_dual(tl, labels_dir / "toplevel")
 
     # ---- hierarchical (long format) ----
-    from linneaus.data.labeled_data import LabeledDataManager
+    from linnaeus.data.labeled_data import LabeledDataManager
 
     mgr = LabeledDataManager(legacy)
     legacy_df = mgr.load_legacy_labels(csv_path)

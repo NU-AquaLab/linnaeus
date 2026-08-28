@@ -2,8 +2,8 @@
 
 import pytest
 
-from linneaus.data.alignment import CANONICAL_TOPLEVEL
-from linneaus.models.llm.schema_generation import (
+from linnaeus.data.alignment import CANONICAL_TOPLEVEL
+from linnaeus.models.llm.schema_generation import (
     BUILTIN_TAXONOMIES,
     generate_developer_instructions,
     generate_schema,
@@ -15,7 +15,7 @@ from linneaus.models.llm.schema_generation import (
 
 class TestLoadTagsDescriptions:
     def test_default_matches_canonical_toplevel(self):
-        """The bundled linneaus taxonomy keys must equal the canonical 20 names."""
+        """The bundled linnaeus taxonomy keys must equal the canonical 20 names."""
         descriptions = load_tags_descriptions()
         assert list(descriptions.keys()) == CANONICAL_TOPLEVEL
 

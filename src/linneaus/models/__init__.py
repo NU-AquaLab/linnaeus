@@ -1,4 +1,4 @@
-"""Machine learning models and data schemas for Linneaus."""
+"""Machine learning models and data schemas for Linnaeus."""
 
 # Legacy components (for backward compatibility)
 from .evaluation import ClassificationEvaluator, export_evaluation_report

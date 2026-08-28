@@ -93,7 +93,7 @@ The Two-Stage Hierarchical AS Classification Pipeline is a sophisticated machine
 ### Installation
 
 ```bash
-# Install the linneaus package
+# Install the linnaeus package
 pip install -e .
 
 # Set up environment variables
@@ -104,8 +104,8 @@ cp .env.example .env
 ### Basic Usage
 
 ```python
-from linneaus.models.two_stage import TwoStageHierarchicalPipeline
-from linneaus.config import load_config
+from linnaeus.models.two_stage import TwoStageHierarchicalPipeline
+from linnaeus.config import load_config
 
 # Load configuration
 config = load_config()
@@ -236,7 +236,7 @@ LOG_LEVEL=INFO
 ### Example 1: Single AS Classification
 
 ```python
-from linneaus.models.two_stage import TwoStageHierarchicalPipeline
+from linnaeus.models.two_stage import TwoStageHierarchicalPipeline
 
 pipeline = TwoStageHierarchicalPipeline()
 
@@ -261,8 +261,8 @@ print(f"\nOverall Confidence: {result.overall_confidence:.3f}")
 ### Example 2: Training Data Evaluation
 
 ```python
-from linneaus.data.two_stage_data import DataSplitManager
-from linneaus.models.two_stage.evaluation import HierarchicalEvaluator
+from linnaeus.data.two_stage_data import DataSplitManager
+from linnaeus.models.two_stage.evaluation import HierarchicalEvaluator
 
 # Load training data
 data_manager = DataSplitManager()
@@ -302,7 +302,7 @@ print("\nDetailed report saved to performance_report.txt")
 ### Example 3: Custom Error Handling
 
 ```python
-from linneaus.models.two_stage.error_handling import ErrorHandler, FallbackStrategy
+from linnaeus.models.two_stage.error_handling import ErrorHandler, FallbackStrategy
 
 # Initialize with custom error handling
 error_handler = ErrorHandler(
@@ -334,7 +334,7 @@ print(f"Recovery stats: {error_summary['recovery_stats']}")
 ```python
 import time
 import pandas as pd
-from linneaus.models.two_stage import TwoStageHierarchicalPipeline
+from linnaeus.models.two_stage import TwoStageHierarchicalPipeline
 
 pipeline = TwoStageHierarchicalPipeline()
 
@@ -575,7 +575,7 @@ config.two_stage_pipeline.error_handling.max_retry_attempts = 5
 **Solution**: Pipeline automatically creates minimal features for missing ASNs
 ```python
 # Check data coverage
-from linneaus.data.access import DataAccessLayer
+from linnaeus.data.access import DataAccessLayer
 data_access = DataAccessLayer()
 org_data = data_access.get_organization_data(asn)
 if not org_data:
@@ -612,7 +612,7 @@ two_stage_pipeline:
 #### 1. Enable Caching
 
 ```python
-from linneaus.config import load_config
+from linnaeus.config import load_config
 
 config = load_config()
 config.two_stage_pipeline.monitoring.cache_results = True
@@ -642,7 +642,7 @@ config.two_stage_pipeline.stage1.svm.feature_selection = True
 
 ```python
 from sklearn.svm import SVC
-from linneaus.models.two_stage import AssembledTopLevelClassifier
+from linnaeus.models.two_stage import AssembledTopLevelClassifier
 
 # Custom SVM configuration
 custom_svm_params = {
@@ -672,7 +672,7 @@ config.two_stage_pipeline.stage2.category_models = {
 ### Custom Evaluation Metrics
 
 ```python
-from linneaus.models.two_stage.evaluation import HierarchicalEvaluator
+from linnaeus.models.two_stage.evaluation import HierarchicalEvaluator
 
 class CustomEvaluator(HierarchicalEvaluator):
     def _evaluate_custom_metric(self, pred_data, true_data):
@@ -694,7 +694,7 @@ evaluator = CustomEvaluator()
 
 ```python
 from flask import Flask, request, jsonify
-from linneaus.models.two_stage import TwoStageHierarchicalPipeline
+from linnaeus.models.two_stage import TwoStageHierarchicalPipeline
 
 app = Flask(__name__)
 pipeline = TwoStageHierarchicalPipeline()

@@ -75,40 +75,40 @@ data/
 #### Fine-tune a Model
 ```bash
 # Complete fine-tuning pipeline (hierarchical)
-linneaus model fine-tune --approach hierarchical --model-suffix "v1"
+linnaeus model fine-tune --approach hierarchical --model-suffix "v1"
 
 # Flat classification without waiting
-linneaus model fine-tune --approach flat --no-wait
+linnaeus model fine-tune --approach flat --no-wait
 
 # Custom configuration
-linneaus model fine-tune --approach hierarchical --config custom_config.yaml
+linnaeus model fine-tune --approach hierarchical --config custom_config.yaml
 
 # Async fine-tuning for improved performance
-linneaus model fine-tune-async --approach hierarchical --model-suffix "v1-async"
+linnaeus model fine-tune-async --approach hierarchical --model-suffix "v1-async"
 
 # High-performance async processing
-linneaus model fine-tune-async --approach flat --max-concurrent 10
+linnaeus model fine-tune-async --approach flat --max-concurrent 10
 ```
 
 #### Prepare Training Data Only
 ```bash
 # Prepare data for hierarchical classification
-linneaus model prepare-data --approach hierarchical
+linnaeus model prepare-data --approach hierarchical
 
 # Specify custom output directory
-linneaus model prepare-data --approach flat --output-dir /path/to/output
+linnaeus model prepare-data --approach flat --output-dir /path/to/output
 ```
 
 #### Monitor Fine-tuning Jobs
 ```bash
 # List all jobs
-linneaus model list-jobs
+linnaeus model list-jobs
 
 # List only active jobs
-linneaus model list-jobs --active-only
+linnaeus model list-jobs --active-only
 
 # Monitor specific job
-linneaus model monitor-job ftjob-xxx
+linnaeus model monitor-job ftjob-xxx
 ```
 
 ### Programmatic API
@@ -116,7 +116,7 @@ linneaus model monitor-job ftjob-xxx
 #### Basic Usage
 ```python
 from pathlib import Path
-from linneaus.models.llm.training import LLMTrainingPipeline
+from linnaeus.models.llm.training import LLMTrainingPipeline
 
 # Initialize pipeline
 pipeline = LLMTrainingPipeline(
@@ -137,8 +137,8 @@ print(f"Accuracy: {results['evaluation']['metrics']['accuracy']:.3f}")
 
 #### Data Preparation Only
 ```python
-from linneaus.models.llm.data_preparation import LLMDataPreparation
-from linneaus.data.labeled_data import LabeledDataManager
+from linnaeus.models.llm.data_preparation import LLMDataPreparation
+from linnaeus.data.labeled_data import LabeledDataManager
 
 # Initialize components
 data_manager = LabeledDataManager(Path("data"))
@@ -169,7 +169,7 @@ train_path, val_path = prep.save_training_files(
 ```python
 import os
 from openai import OpenAI
-from linneaus.models.llm.fine_tuning import FineTuningManager
+from linnaeus.models.llm.fine_tuning import FineTuningManager
 
 # Initialize
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -190,8 +190,8 @@ print(f"Fine-tuned model: {result['fine_tuned_model']}")
 
 #### Batch Inference
 ```python
-from linneaus.models.llm.inference import BatchInferenceProcessor
-from linneaus.models.llm.schemas import BatchTaggingResponseHierarchical
+from linnaeus.models.llm.inference import BatchInferenceProcessor
+from linnaeus.models.llm.schemas import BatchTaggingResponseHierarchical
 
 # Initialize processor
 processor = BatchInferenceProcessor(
@@ -310,7 +310,7 @@ export OPENAI_API_KEY=sk-your-key-here
 #### "Fine-tuning job failed"
 - Check OpenAI account limits
 - Verify training data format
-- Review job logs using `linneaus model monitor-job`
+- Review job logs using `linnaeus model monitor-job`
 
 #### "Prediction errors"
 - Ensure the model exists and is accessible

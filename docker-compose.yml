@@ -1,11 +1,11 @@
 version: '3.8'
 
 services:
-  linneaus:
+  linnaeus:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: linneaus-app
+    container_name: linnaeus-app
     environment:
       - ENVIRONMENT=production
       - LOG_LEVEL=INFO
@@ -16,15 +16,15 @@ services:
     env_file:
       - .env
     restart: unless-stopped
-    command: ["linneaus", "data", "status"]
+    command: ["linnaeus", "data", "status"]
 
   # Development service with source code mounted
-  linneaus-dev:
+  linnaeus-dev:
     build:
       context: .
       dockerfile: Dockerfile
       target: builder
-    container_name: linneaus-dev
+    container_name: linnaeus-dev
     environment:
       - ENVIRONMENT=development
       - LOG_LEVEL=DEBUG
@@ -46,7 +46,7 @@ services:
       context: .
       dockerfile: Dockerfile
       target: builder
-    container_name: linneaus-jupyter
+    container_name: linnaeus-jupyter
     environment:
       - ENVIRONMENT=development
     volumes:

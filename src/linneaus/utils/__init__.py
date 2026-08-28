@@ -1,1 +1,1 @@
-"""Utility modules for Linneaus."""
+"""Utility modules for Linnaeus."""

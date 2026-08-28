@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 
 def setup_logging(
-    name: str = "Linneaus", level: int = logging.INFO, quiet_libs: bool = True
+    name: str = "Linnaeus", level: int = logging.INFO, quiet_libs: bool = True
 ) -> logging.Logger:
     """
     Set up a logger for use in Jupyter notebooks and silence noisy third-party libraries.

@@ -1,6 +1,6 @@
-# Contributing to Linneaus
+# Contributing to Linnaeus
 
-Thank you for your interest in contributing to Linneaus! This document provides guidelines and information for contributors.
+Thank you for your interest in contributing to Linnaeus! This document provides guidelines and information for contributors.
 
 ## Table of Contents
 
@@ -24,8 +24,8 @@ Thank you for your interest in contributing to Linneaus! This document provides 
 
 1. **Fork and clone the repository**:
    ```bash
-   git clone https://github.com/linneaus-project/linneaus.git
-   cd linneaus
+   git clone https://github.com/linnaeus-project/linnaeus.git
+   cd linnaeus
    ```
 
 2. **Set up development environment**:
@@ -49,7 +49,7 @@ Thank you for your interest in contributing to Linneaus! This document provides 
 
 4. **Verify setup**:
    ```bash
-   linneaus --version
+   linnaeus --version
    make test
    ```
 
@@ -255,7 +255,7 @@ test: add integration tests for CLI commands
 
 Use the bug report template and include:
 - Python version
-- Linneaus version
+- Linnaeus version
 - Operating system
 - Steps to reproduce
 - Expected vs actual behavior
@@ -323,4 +323,4 @@ Contributors will be recognized in:
 - Release notes
 - Package metadata
 
-Thank you for contributing to Linneaus! 🎉
+Thank you for contributing to Linnaeus! 🎉

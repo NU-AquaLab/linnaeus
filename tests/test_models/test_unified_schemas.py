@@ -7,7 +7,7 @@ from typing import List
 
 import pytest
 
-from linneaus.models.unified_schemas import (
+from linnaeus.models.unified_schemas import (
     BatchUnifiedClassificationResponse,
     ClassificationRequest,
     HierarchicalTags,

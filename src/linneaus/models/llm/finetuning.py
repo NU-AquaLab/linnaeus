@@ -3,7 +3,7 @@ LLM fine-tuning workflow: training data preparation, job execution, inference.
 
 This module contains the supported end-to-end fine-tuning path, promoted from
 the validated ``scripts/test_pipeline_e2e.py`` workflow. It is used by the
-``linneaus model fine-tune`` / ``linneaus model prepare-data`` CLI commands
+``linnaeus model fine-tune`` / ``linnaeus model prepare-data`` CLI commands
 and by the e2e test script.
 
 All functions accept an explicit ``tags`` list, so fine-tuning and inference
@@ -92,7 +92,7 @@ def prepare_training_jsonl(
 def run_fine_tuning(
     client: OpenAI,
     training_file: Path,
-    suffix: str = "linneaus",
+    suffix: str = "linnaeus",
     base_model: str = DEFAULT_FINE_TUNE_BASE_MODEL,
     poll_interval: int = 30,
 ) -> str:

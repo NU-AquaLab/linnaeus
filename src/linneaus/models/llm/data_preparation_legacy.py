@@ -13,8 +13,8 @@ from typing import Any, Dict, List, Tuple
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-from linneaus.data.labeled_data import LabeledDataManager
-from linneaus.models.unified_schemas import HierarchicalTags, TopLevelTags
+from linnaeus.data.labeled_data import LabeledDataManager
+from linnaeus.models.unified_schemas import HierarchicalTags, TopLevelTags
 
 logger = logging.getLogger(__name__)
 

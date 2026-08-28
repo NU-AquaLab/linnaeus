@@ -6,8 +6,8 @@ from unittest.mock import Mock, patch
 
 import pytest
 
-from linneaus.models.two_stage.pipeline import TwoStageHierarchicalPipeline
-from linneaus.models.two_stage_schemas import (
+from linnaeus.models.two_stage.pipeline import TwoStageHierarchicalPipeline
+from linnaeus.models.two_stage_schemas import (
     BatchTwoStageClassificationResponse,
     ConfidenceScore,
     ModelType,
@@ -71,7 +71,7 @@ class TestTwoStageHierarchicalPipeline:
     @pytest.fixture
     def pipeline(self, mock_stage1_classifier, mock_stage2_classifier, mock_config):
         """Create test pipeline instance."""
-        with patch("linneaus.models.two_stage.pipeline.DataAccessLayer"):
+        with patch("linnaeus.models.two_stage.pipeline.DataAccessLayer"):
             pipeline = TwoStageHierarchicalPipeline(
                 stage1_classifier=mock_stage1_classifier,
                 stage2_classifier=mock_stage2_classifier,

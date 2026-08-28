@@ -8,8 +8,8 @@ from unittest.mock import patch
 import pandas as pd
 import pytest
 
-from linneaus.data.access import DataAccessLayer
-from linneaus.models.schemas import (
+from linnaeus.data.access import DataAccessLayer
+from linnaeus.models.schemas import (
     ASPOPData,
     ASRankData,
     OrganizationData,
@@ -23,7 +23,7 @@ class TestDataAccessLayer:
     @pytest.fixture
     def data_layer(self, mock_config, temp_dir):
         """Create a data access layer with mocked config."""
-        with patch("linneaus.data.access.get_config", return_value=mock_config):
+        with patch("linnaeus.data.access.get_config", return_value=mock_config):
             return DataAccessLayer(temp_dir / "processed")
 
     @pytest.fixture

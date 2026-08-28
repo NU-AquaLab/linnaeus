@@ -41,20 +41,20 @@ import httpx
 import pandas as pd
 from openai import OpenAI
 
-from linneaus.data.alignment import CANONICAL_TOPLEVEL, AlignedDataset
-from linneaus.models.llm.finetuning import (
+from linnaeus.data.alignment import CANONICAL_TOPLEVEL, AlignedDataset
+from linnaeus.models.llm.finetuning import (
     DEFAULT_BATCH_SIZE,
     prepare_training_jsonl,
     run_fine_tuning,
     run_inference,
 )
-from linneaus.models.llm.schema_generation import (
+from linnaeus.models.llm.schema_generation import (
     filter_taxonomy,
     generate_developer_instructions,
     generate_schema,
     load_tags_descriptions,
 )
-from linneaus.models.utils.metrics import get_global_metrics, get_metrics
+from linnaeus.models.utils.metrics import get_global_metrics, get_metrics
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -120,7 +120,7 @@ def load_pipeline_data(
     # Features live in data/local/features/ (not in the released snapshot)
     if not FEATURES_PATH.exists():
         logger.error("Features file not found: %s", FEATURES_PATH)
-        logger.error("Run 'linneaus data download' or check data/local/features/.")
+        logger.error("Run 'linnaeus data download' or check data/local/features/.")
         sys.exit(1)
 
     features = pd.read_parquet(FEATURES_PATH)

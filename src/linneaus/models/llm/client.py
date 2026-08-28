@@ -12,7 +12,7 @@ from typing import TYPE_CHECKING, Optional
 from openai import AsyncOpenAI, OpenAI
 
 if TYPE_CHECKING:
-    from linneaus.config.settings import LLMConfig
+    from linnaeus.config.settings import LLMConfig
 
 
 def _resolve_api_key(api_key: Optional[str] = None) -> Optional[str]:

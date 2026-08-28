@@ -9,8 +9,8 @@ from unittest.mock import Mock, patch
 import pandas as pd
 import pytest
 
-from linneaus.config.settings import Config
-from linneaus.models.schemas import (
+from linnaeus.config.settings import Config
+from linnaeus.models.schemas import (
     ASClassification,
     ASPOPData,
     ASRankData,
@@ -48,7 +48,7 @@ def _isolate_env(monkeypatch):
         monkeypatch.delenv(var, raising=False)
     # Config.from_file calls load_dotenv(), which would re-import the repo's
     # .env into os.environ mid-test; disable it entirely during tests.
-    monkeypatch.setattr("linneaus.config.settings.load_dotenv", lambda *a, **k: None)
+    monkeypatch.setattr("linnaeus.config.settings.load_dotenv", lambda *a, **k: None)
 
 
 @pytest.fixture
@@ -93,7 +93,7 @@ def sample_config(temp_dir):
 @pytest.fixture
 def mock_config(sample_config):
     """Mock configuration for tests."""
-    with patch("linneaus.config.settings.get_config") as mock_get_config:
+    with patch("linnaeus.config.settings.get_config") as mock_get_config:
         config = Config(**sample_config)
         mock_get_config.return_value = config
         yield config
@@ -344,8 +344,8 @@ def mock_aiohttp_session():
 def reset_global_config():
     """Reset global configuration before each test."""
     # Clear the global config cache
-    import linneaus.config.settings
+    import linnaeus.config.settings
 
-    linneaus.config.settings._config = None
+    linnaeus.config.settings._config = None
     yield
-    linneaus.config.settings._config = None
+    linnaeus.config.settings._config = None

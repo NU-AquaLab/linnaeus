@@ -1,4 +1,4 @@
-"""Tests for linneaus.data.alignment module."""
+"""Tests for linnaeus.data.alignment module."""
 
 import json
 from pathlib import Path
@@ -6,7 +6,7 @@ from pathlib import Path
 import pandas as pd
 import pytest
 
-from linneaus.data.alignment import (
+from linnaeus.data.alignment import (
     CANONICAL_SUBLEVEL,
     CANONICAL_TOPLEVEL,
     COLUMNS_TO_DROP,
@@ -428,17 +428,17 @@ class TestAlignedDataset:
     def test_load_category_definitions_from_release(self, aligned_dir):
         """load_category_definitions() reads from release dir when file exists."""
         defs = {"Cat1": "Description 1", "Cat2": "Description 2"}
-        with open(aligned_dir / "linneaus_definitions.json", "w") as f:
+        with open(aligned_dir / "linnaeus_definitions.json", "w") as f:
             json.dump(defs, f)
 
         ds = AlignedDataset(aligned_dir)
-        result = ds.load_category_definitions("linneaus")
+        result = ds.load_category_definitions("linnaeus")
         assert result == defs
 
     def test_load_category_definitions_fallback(self, aligned_dir):
         """load_category_definitions() falls back to package resource."""
         ds = AlignedDataset(aligned_dir)
         result = ds.load_category_definitions()
-        # Should load the default linneaus taxonomy from package resources
+        # Should load the default linnaeus taxonomy from package resources
         assert "Access" in result
         assert "Transit" in result

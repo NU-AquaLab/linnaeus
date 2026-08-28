@@ -254,7 +254,7 @@ class LabeledDataManager:
             DataFrame with ASN and legacy tag columns.
         """
         if csv_path is None:
-            from linneaus.data.alignment import CURRENT_RELEASE
+            from linnaeus.data.alignment import CURRENT_RELEASE
 
             released_path = (
                 self.data_dir / "released" / CURRENT_RELEASE / "labels" / "sublevel.csv"

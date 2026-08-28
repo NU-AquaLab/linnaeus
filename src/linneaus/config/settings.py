@@ -1,5 +1,5 @@
 """
-Configuration management for Linneaus.
+Configuration management for Linnaeus.
 
 This module provides centralized configuration management using YAML files
 and environment variables.

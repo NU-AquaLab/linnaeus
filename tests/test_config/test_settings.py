@@ -8,7 +8,7 @@ from unittest.mock import patch
 
 import yaml
 
-from linneaus.config.settings import (
+from linnaeus.config.settings import (
     Config,
     DataConfig,
     LLMConfig,
@@ -146,9 +146,9 @@ class TestGetConfig:
             yaml.dump(config_data, f)
 
         # Clear global config cache
-        import linneaus.config.settings
+        import linnaeus.config.settings
 
-        linneaus.config.settings._config = None
+        linnaeus.config.settings._config = None
 
         config = get_config(config_file)
         assert config.environment == "custom"

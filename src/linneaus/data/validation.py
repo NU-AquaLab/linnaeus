@@ -1,5 +1,5 @@
 """
-Data validation and quality checks for Linneaus.
+Data validation and quality checks for Linnaeus.
 
 This module provides comprehensive validation for downloaded data,
 quality metrics calculation, and data integrity checks across all
@@ -63,7 +63,7 @@ class ValidationResult(BaseModel):
 
 class DataValidator:
     """
-    Main data validator for all Linneaus data sources.
+    Main data validator for all Linnaeus data sources.
 
     This class provides validation methods for each data source and
     calculates comprehensive quality metrics.

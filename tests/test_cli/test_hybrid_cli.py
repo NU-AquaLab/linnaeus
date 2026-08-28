@@ -1,7 +1,7 @@
 """
 Tests for hybrid model CLI functionality.
 
-Tests the actual CLI commands that exist in linneaus.cli.main:
+Tests the actual CLI commands that exist in linnaeus.cli.main:
 - model predict: Classify organizations using various approaches
 - benchmark: Benchmark multiple classification approaches
 - model train: Train a new classification model (stub)
@@ -16,8 +16,8 @@ import pandas as pd
 import pytest
 from click.testing import CliRunner
 
-from linneaus.cli.main import main
-from linneaus.models.unified_schemas import (
+from linnaeus.cli.main import main
+from linnaeus.models.unified_schemas import (
     HierarchicalTags,
     TopLevelTags,
     UnifiedASClassification,
@@ -82,7 +82,7 @@ class TestHybridCLI:
             mock_classifier.predict_unified.return_value = sample_unified_results
 
             with patch(
-                "linneaus.models.hybrid.stacking_classifier.HybridASClassifier",
+                "linnaeus.models.hybrid.stacking_classifier.HybridASClassifier",
                 return_value=mock_classifier,
             ) as mock_hybrid_class:
                 result = cli_runner.invoke(
@@ -124,7 +124,7 @@ class TestHybridCLI:
             mock_classifier.__class__ = type("SVMClassifier", (), {})
 
             with patch(
-                "linneaus.models.svm.svm_models.SVMClassifier",
+                "linnaeus.models.svm.svm_models.SVMClassifier",
                 return_value=mock_classifier,
             ):
                 result = cli_runner.invoke(
@@ -162,7 +162,7 @@ class TestHybridCLI:
             mock_classifier.predict_unified.return_value = sample_unified_results
 
             with patch(
-                "linneaus.models.hybrid.stacking_classifier.HybridASClassifier",
+                "linnaeus.models.hybrid.stacking_classifier.HybridASClassifier",
                 return_value=mock_classifier,
             ) as mock_hybrid_class:
                 result = cli_runner.invoke(
@@ -224,7 +224,7 @@ class TestHybridCLI:
             mock_classifier.predict_unified.return_value = sample_unified_results
 
             with patch(
-                "linneaus.models.hybrid.stacking_classifier.HybridASClassifier",
+                "linnaeus.models.hybrid.stacking_classifier.HybridASClassifier",
                 return_value=mock_classifier,
             ):
                 result = cli_runner.invoke(
@@ -274,7 +274,7 @@ class TestHybridCLI:
             mock_classifier.predict_unified.return_value = sample_unified_results
 
             with patch(
-                "linneaus.models.hybrid.stacking_classifier.HybridASClassifier",
+                "linnaeus.models.hybrid.stacking_classifier.HybridASClassifier",
                 return_value=mock_classifier,
             ):
                 result = cli_runner.invoke(
@@ -337,8 +337,8 @@ class TestHybridCLI:
             with patch.dict(
                 "sys.modules",
                 {
-                    "linneaus.models.hybrid": None,
-                    "linneaus.models.hybrid.stacking_classifier": None,
+                    "linnaeus.models.hybrid": None,
+                    "linnaeus.models.hybrid.stacking_classifier": None,
                 },
             ):
                 result = cli_runner.invoke(
@@ -399,11 +399,11 @@ class TestHybridCLI:
 
             with (
                 patch(
-                    "linneaus.models.hybrid.stacking_classifier.HybridASClassifier",
+                    "linnaeus.models.hybrid.stacking_classifier.HybridASClassifier",
                     return_value=mock_classifier,
                 ),
                 patch(
-                    "linneaus.models.svm.svm_models.SVMClassifier",
+                    "linnaeus.models.svm.svm_models.SVMClassifier",
                     return_value=mock_classifier,
                 ),
             ):
@@ -438,7 +438,7 @@ class TestHybridCLI:
             mock_classifier.predict_unified.return_value = []
 
             with patch(
-                "linneaus.models.hybrid.stacking_classifier.HybridASClassifier",
+                "linnaeus.models.hybrid.stacking_classifier.HybridASClassifier",
                 return_value=mock_classifier,
             ):
                 result = cli_runner.invoke(
@@ -493,7 +493,7 @@ class TestHybridCLI:
             mock_classifier.predict_unified.return_value = []
 
             with patch(
-                "linneaus.models.hybrid.stacking_classifier.HybridASClassifier",
+                "linnaeus.models.hybrid.stacking_classifier.HybridASClassifier",
                 return_value=mock_classifier,
             ):
                 result = cli_runner.invoke(
@@ -526,7 +526,7 @@ class TestHybridCLI:
         result = cli_runner.invoke(main, ["--help"])
         assert result.exit_code == 0
         assert (
-            "linneaus" in result.output.lower() or "autonomous" in result.output.lower()
+            "linnaeus" in result.output.lower() or "autonomous" in result.output.lower()
         )
 
     def test_model_group_help(self, cli_runner):

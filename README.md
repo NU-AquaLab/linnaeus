@@ -1,9 +1,9 @@
-# Linneaus: AI-Powered Autonomous Systems Classification
+# Linnaeus: AI-Powered Autonomous Systems Classification
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Linneaus is a comprehensive tool for automatically classifying Internet Autonomous Systems (AS) using machine learning and large language models. It provides end-to-end functionality for data collection, model training, and inference to categorize organizations that operate AS networks based on their primary functions and purposes.
+Linnaeus is a comprehensive tool for automatically classifying Internet Autonomous Systems (AS) using machine learning and large language models. It provides end-to-end functionality for data collection, model training, and inference to categorize organizations that operate AS networks based on their primary functions and purposes.
 
 ## Features
 
@@ -28,9 +28,9 @@ Linneaus is a comprehensive tool for automatically classifying Internet Autonomo
 # Install UV first
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
-# Clone and install Linneaus
-git clone https://github.com/linneaus-project/linneaus.git
-cd linneaus
+# Clone and install Linnaeus
+git clone https://github.com/linnaeus-project/linnaeus.git
+cd linnaeus
 uv sync
 
 # Activate the environment
@@ -41,8 +41,8 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 ```bash
 # Clone and install from source
-git clone https://github.com/linneaus-project/linneaus.git
-cd linneaus
+git clone https://github.com/linnaeus-project/linnaeus.git
+cd linnaeus
 pip install -e .
 ```
 
@@ -61,7 +61,7 @@ df.to_csv('sample_asns.csv', index=False)
 
 ```bash
 # Classify using two-stage approach (recommended)
-linneaus predict --input sample_asns.csv --output results.json --approach two-stage
+linnaeus predict --input sample_asns.csv --output results.json --approach two-stage
 
 # View results
 cat results.json
@@ -97,8 +97,8 @@ Expected output structure:
 ```python
 import numpy as np
 import pandas as pd
-from linneaus.models.two_stage.pipeline import TwoStageClassificationPipeline
-from linneaus.data.access import DataAccessLayer
+from linnaeus.models.two_stage.pipeline import TwoStageClassificationPipeline
+from linnaeus.data.access import DataAccessLayer
 
 # Initialize data access and pipeline
 data_access = DataAccessLayer()
@@ -124,8 +124,8 @@ for result in results:
 **LLM-Only Classification**
 
 ```python
-from linneaus.models.llm.inference import HierarchicalBatchInferenceProcessor
-from linneaus.data.access import DataAccessLayer
+from linnaeus.models.llm.inference import HierarchicalBatchInferenceProcessor
+from linnaeus.data.access import DataAccessLayer
 
 # Initialize LLM processor with a fine-tuned model
 processor = HierarchicalBatchInferenceProcessor(
@@ -155,7 +155,7 @@ print(f"Classified {len(results)} organizations")
 **Traditional ML with Feature Engineering**
 
 ```python
-from linneaus.models.svm import ASNFeatureEngineer, SVMClassifier
+from linnaeus.models.svm import ASNFeatureEngineer, SVMClassifier
 import pandas as pd
 
 # Extract features from network topology data
@@ -183,58 +183,58 @@ svm_clf = SVMClassifier(approach="flat")
 
 ```bash
 # Hybrid approach (combines SVM + LLM) - Recommended
-linneaus model predict --input asns.csv --output results.json --approach hybrid
+linnaeus model predict --input asns.csv --output results.json --approach hybrid
 
 # SVM-only approach (fast, works offline)
-linneaus model predict --input asns.csv --output results.csv --approach svm-only --format csv
+linnaeus model predict --input asns.csv --output results.csv --approach svm-only --format csv
 
 # LLM-only approach (requires API key, highest accuracy)
-linneaus model predict --input asns.csv --output results.xlsx --approach llm-only --format excel --model ft:gpt-4o-mini-your-model
+linnaeus model predict --input asns.csv --output results.xlsx --approach llm-only --format excel --model ft:gpt-4o-mini-your-model
 
 # Hierarchical classification (detailed subcategories)
-linneaus model predict --input asns.csv --output detailed_results.json --approach hierarchical
+linnaeus model predict --input asns.csv --output detailed_results.json --approach hierarchical
 
 # Flat classification (broad categories only)
-linneaus model predict --input asns.csv --output simple_results.json --approach flat
+linnaeus model predict --input asns.csv --output simple_results.json --approach flat
 ```
 
 **Benchmarking and Comparison**
 
 ```bash
 # Compare multiple approaches on test dataset
-linneaus benchmark --dataset test_asns.csv --models hybrid,svm-only,llm-only --output benchmark_results.json
+linnaeus benchmark --dataset test_asns.csv --models hybrid,svm-only,llm-only --output benchmark_results.json
 
 # Quick benchmark with specific sample size
-linneaus benchmark --dataset large_dataset.csv --sample-size 100 --models hybrid,hierarchical
+linnaeus benchmark --dataset large_dataset.csv --sample-size 100 --models hybrid,hierarchical
 
 # Benchmark specific models only
-linneaus benchmark --dataset validation_set.csv --models hybrid --output hybrid_performance.json
+linnaeus benchmark --dataset validation_set.csv --models hybrid --output hybrid_performance.json
 ```
 
 **Data Management**
 
 ```bash
 # Download fresh data from all sources
-linneaus data download --sources peeringdb,asrank,aspop
+linnaeus data download --sources peeringdb,asrank,aspop
 
 # Download specific data sources only
-linneaus data download --sources asrank,peeringdb --date 2024-01-01
+linnaeus data download --sources asrank,peeringdb --date 2024-01-01
 
 # Check current data status and freshness
-linneaus data status
+linnaeus data status
 
 # Force refresh cached data
-linneaus data download --sources peeringdb --force-refresh
+linnaeus data download --sources peeringdb --force-refresh
 ```
 
 **Complete Workflow Example**
 
 ```bash
 # 1. Download latest data
-linneaus data download --sources peeringdb,asrank,aspop
+linnaeus data download --sources peeringdb,asrank,aspop
 
 # 2. Check data availability
-linneaus data status
+linnaeus data status
 
 # 3. Create sample input file
 echo "asn" > example_asns.csv
@@ -245,7 +245,7 @@ echo "20940" >> example_asns.csv  # Akamai
 echo "13335" >> example_asns.csv  # Cloudflare
 
 # 4. Run hybrid classification
-linneaus model predict \
+linnaeus model predict \
     --input example_asns.csv \
     --output classifications.json \
     --approach hybrid \
@@ -255,7 +255,7 @@ linneaus model predict \
 cat classifications.json | jq '.[] | {asn: .asn, org: .organization_name, tags: .top_level_tags}'
 
 # 6. Benchmark different approaches
-linneaus benchmark \
+linnaeus benchmark \
     --dataset example_asns.csv \
     --models hybrid,svm-only,hierarchical \
     --output performance_comparison.json
@@ -267,7 +267,7 @@ cat performance_comparison.json | jq '.models'
 
 ## Classification Categories
 
-Linneaus supports both **flat** (20 top-level categories) and **hierarchical** (detailed subcategories) classification systems. For the complete taxonomy with detailed subcategories, see **[CATEGORIES.md](CATEGORIES.md)**.
+Linnaeus supports both **flat** (20 top-level categories) and **hierarchical** (detailed subcategories) classification systems. For the complete taxonomy with detailed subcategories, see **[CATEGORIES.md](CATEGORIES.md)**.
 
 ### Top-Level Categories (Flat System)
 
@@ -300,13 +300,13 @@ The following 20 categories provide broad classification suitable for most use c
 
 ### Taxonomy definition files
 
-Category definitions live in editable JSON files packaged with linneaus:
+Category definitions live in editable JSON files packaged with linnaeus:
 
 ```
-src/linneaus/resources/taxonomies/linneaus.json   # default: 20 top-level categories (+ subcategories)
-src/linneaus/resources/taxonomies/asdb.json       # Stanford ASdb taxonomy (17 categories)
-src/linneaus/resources/taxonomies/isic.json       # ISIC Rev.4 taxonomy (20 sections)
-src/linneaus/resources/prompts.yaml               # LLM prompt templates
+src/linnaeus/resources/taxonomies/linnaeus.json   # default: 20 top-level categories (+ subcategories)
+src/linnaeus/resources/taxonomies/asdb.json       # Stanford ASdb taxonomy (17 categories)
+src/linnaeus/resources/taxonomies/isic.json       # ISIC Rev.4 taxonomy (20 sections)
+src/linnaeus/resources/prompts.yaml               # LLM prompt templates
 ```
 
 Each taxonomy JSON maps a category name to a description (or to a dict of
@@ -320,16 +320,16 @@ wording. To write your own taxonomy, see
 
 ```bash
 # Classify with the ASdb reference taxonomy
-linneaus model predict --approach llm-only --taxonomy asdb \
+linnaeus model predict --approach llm-only --taxonomy asdb \
     --input asns.csv --output results.csv --format csv
 
 # Or with a custom taxonomy file and a custom model/provider
-linneaus model predict --approach llm-only --taxonomy-file my_taxonomy.json \
+linnaeus model predict --approach llm-only --taxonomy-file my_taxonomy.json \
     --model my-model --base-url http://localhost:11434/v1 \
     --input asns.csv --output results.csv --format csv
 
 # Evaluate predictions against ASdb ground truth
-linneaus model evaluate --taxonomy asdb \
+linnaeus model evaluate --taxonomy asdb \
     --predictions results.csv --labels data/released/202506/labels/asdb.csv
 
 # The standalone script accepts the same taxonomies
@@ -339,7 +339,7 @@ python scripts/classify.py -i asns.csv -o results.csv --taxonomy isic
 ### Benchmark labels (ASDB and ISIC)
 
 Manually curated benchmark labels — labels only, no model predictions — are
-released for comparing linneaus against other classification schemes:
+released for comparing linnaeus against other classification schemes:
 
 | File | ASNs | Categories | Scheme |
 |------|------|-----------|--------|
@@ -389,20 +389,20 @@ behavior.
   approaches instead.
 - `AssembledClassifier.predict_proba` derives pseudo-probabilities from hard
   predictions rather than LLM logprobs, so PR AUC is not reported.
-- `linneaus data process` (raw → features) is not yet implemented; use the
+- `linnaeus data process` (raw → features) is not yet implemented; use the
   prebuilt features in `data/local/features/` (see STUDENT_GUIDE.md).
 - The released split has only 3 `test` rows; the 601-row `val` split is the
   effective evaluation set.
 - Without an `organization_name` (or downloaded metadata), the two-stage
   pipeline falls back to `AS<asn>` as the organization name, which degrades
   quality.
-- The sub-level subcategory names in `taxonomies/linneaus.json` predate the
+- The sub-level subcategory names in `taxonomies/linnaeus.json` predate the
   canonical 48-column sub-level label schema and do not match it one-to-one;
   the top-level names are canonical.
 
 ## Architecture
 
-Linneaus implements a **two-stage hierarchical classification system** that combines the strengths of Large Language Models (LLMs) and traditional machine learning for high-accuracy AS classification.
+Linnaeus implements a **two-stage hierarchical classification system** that combines the strengths of Large Language Models (LLMs) and traditional machine learning for high-accuracy AS classification.
 
 ### 🏗️ System Overview
 
@@ -473,7 +473,7 @@ echo "16509,Amazon" >> cdn_analysis.csv
 echo "15169,Google" >> cdn_analysis.csv
 
 # Run hierarchical classification to get detailed subcategories
-linneaus model predict \
+linnaeus model predict \
     --input cdn_analysis.csv \
     --output cdn_results.json \
     --approach hierarchical \
@@ -505,7 +505,7 @@ Expected output:
 
 ```python
 import pandas as pd
-from linneaus.models import HybridASNClassifier
+from linnaeus.models import HybridASNClassifier
 
 # Analyze ISP landscape in a region
 regional_isps = pd.DataFrame({
@@ -551,7 +551,7 @@ Access (2 organizations):
 
 ```bash
 # Compare all approaches on a test dataset
-linneaus benchmark \
+linnaeus benchmark \
     --dataset test_dataset.csv \
     --models hybrid,svm-only,llm-only,hierarchical,flat \
     --sample-size 50 \
@@ -607,7 +607,7 @@ Expected benchmark output:
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
-from linneaus.models import HybridASNClassifier
+from linnaeus.models import HybridASNClassifier
 
 # Load ASN dataset
 asns_df = pd.read_csv('large_asn_dataset.csv')  # ASN, country, org_type columns
@@ -654,7 +654,7 @@ print(f"\nHigh-confidence predictions: {len(high_confidence)}/{len(results_df)} 
 ```python
 import asyncio
 from pathlib import Path
-from linneaus.models import TrainingPipeline
+from linnaeus.models import TrainingPipeline
 
 # Initialize training pipeline
 pipeline = TrainingPipeline()
@@ -677,8 +677,8 @@ print(f"New model trained: {model_id}")
 ### Batch Classification
 
 ```python
-from linneaus.models import ClassificationPipeline
-from linneaus.data import DataAccessLayer
+from linnaeus.models import ClassificationPipeline
+from linnaeus.data import DataAccessLayer
 
 # Load organization data
 data_layer = DataAccessLayer()
@@ -697,7 +697,7 @@ results = await pipeline.run_pipeline(
 ### Model Evaluation
 
 ```python
-from linneaus.models import ClassificationEvaluator
+from linnaeus.models import ClassificationEvaluator
 import pandas as pd
 
 # Load ground truth data
@@ -719,7 +719,7 @@ print(f"Macro F1-Score: {metrics['macro_f1']:.3f}")
 ### Feature Engineering
 
 ```python
-from linneaus.models import ASNDataTransformer
+from linnaeus.models import ASNDataTransformer
 from sklearn.ensemble import RandomForestClassifier
 
 # Transform ASNs to feature vectors
@@ -791,8 +791,8 @@ logging:
 
 ```bash
 # Clone the repository
-git clone https://github.com/linneaus-project/linneaus.git
-cd linneaus
+git clone https://github.com/linnaeus-project/linnaeus.git
+cd linnaeus
 
 # Install UV package manager
 curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -814,7 +814,7 @@ uv pip install -e ".[dev]"
 pytest
 
 # Run with coverage
-pytest --cov=linneaus --cov-report=html
+pytest --cov=linnaeus --cov-report=html
 
 # Run specific test categories
 pytest tests/test_models/
@@ -839,7 +839,7 @@ flake8 src/ tests/
 
 ## Data Sources
 
-Linneaus integrates data from several authoritative sources:
+Linnaeus integrates data from several authoritative sources:
 
 - **[ASRank](https://asrank.caida.org/)**: AS ranking and connectivity data from CAIDA
 - **[PeeringDB](https://www.peeringdb.com/)**: Network operator information and peering policies
@@ -898,14 +898,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Citation
 
-If you use Linneaus in your research, please cite:
+If you use Linnaeus in your research, please cite:
 
 ```bibtex
-@software{linneaus2026,
-  title={Linneaus: AI-Powered Autonomous Systems Classification},
+@software{linnaeus2026,
+  title={Linnaeus: AI-Powered Autonomous Systems Classification},
   author={M. Piotto, I. Schuemer, S.T. Torres, M.G. Beiró, E. Carisimo, F.E. Bustamante},
   year={2026},
-  url={https://github.com/linneaus-project/linneaus}
+  url={https://github.com/linnaeus-project/linnaeus}
 }
 ```
 
@@ -918,7 +918,7 @@ If you use Linneaus in your research, please cite:
 
 ## Support
 
-- 📖 [Documentation](https://linneaus.readthedocs.io/)
-- 🐛 [Issue Tracker](https://github.com/linneaus-project/linneaus/issues)
-- 💬 [Discussions](https://github.com/linneaus-project/linneaus/discussions)
-- 📧 Email: linneaus@example.com
+- 📖 [Documentation](https://linnaeus.readthedocs.io/)
+- 🐛 [Issue Tracker](https://github.com/linnaeus-project/linnaeus/issues)
+- 💬 [Discussions](https://github.com/linnaeus-project/linnaeus/discussions)
+- 📧 Email: linnaeus@example.com

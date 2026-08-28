@@ -1,5 +1,5 @@
 """
-Data access layer for Linneaus.
+Data access layer for Linnaeus.
 
 This module provides a unified interface for accessing data from multiple sources
 including ASRank, PeeringDB, ASPOP, IPinfo, and other Internet infrastructure datasets.

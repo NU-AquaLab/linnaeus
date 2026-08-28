@@ -1,8 +1,8 @@
 # AS Classification Categories
 
-This document describes the comprehensive taxonomy used by Linneaus for classifying Internet Autonomous Systems (AS). The system supports both flat (top-level) and hierarchical (detailed) classification approaches.
+This document describes the comprehensive taxonomy used by Linnaeus for classifying Internet Autonomous Systems (AS). The system supports both flat (top-level) and hierarchical (detailed) classification approaches.
 
-**Machine-readable definitions**: the authoritative category names and descriptions live in [src/linneaus/resources/taxonomies/linneaus.json](src/linneaus/resources/taxonomies/linneaus.json) — that file drives the LLM prompt and output schema, so keep this document in sync with it. Supplementary reference taxonomies are provided in the same directory: `asdb.json` (Stanford ASdb) and `isic.json` (ISIC Rev.4), with matching benchmark labels in `data/released/202506/labels/{asdb,isic}.csv`. To author your own taxonomy, see [docs/custom_taxonomies.md](docs/custom_taxonomies.md).
+**Machine-readable definitions**: the authoritative category names and descriptions live in [src/linnaeus/resources/taxonomies/linnaeus.json](src/linnaeus/resources/taxonomies/linnaeus.json) — that file drives the LLM prompt and output schema, so keep this document in sync with it. Supplementary reference taxonomies are provided in the same directory: `asdb.json` (Stanford ASdb) and `isic.json` (ISIC Rev.4), with matching benchmark labels in `data/released/202506/labels/{asdb,isic}.csv`. To author your own taxonomy, see [docs/custom_taxonomies.md](docs/custom_taxonomies.md).
 
 ## Top-Level Categories (Flat Classification)
 
@@ -129,7 +129,7 @@ Use top-level categories when you need:
 - Statistical analysis at high level
 
 ```python
-from linneaus.models import HybridASNClassifier
+from linnaeus.models import HybridASNClassifier
 
 # Use flat approach
 classifier = HybridASNClassifier(approach="flat")
@@ -143,7 +143,7 @@ Use hierarchical categories when you need:
 - Policy and regulatory compliance
 
 ```python
-from linneaus.models import HybridASNClassifier
+from linnaeus.models import HybridASNClassifier
 
 # Use hierarchical approach
 classifier = HybridASNClassifier(approach="hierarchical")
@@ -153,7 +153,7 @@ classifier = HybridASNClassifier(approach="hierarchical")
 Combine both approaches for maximum flexibility:
 
 ```python
-from linneaus.models import HybridASNClassifier
+from linnaeus.models import HybridASNClassifier
 
 # Use hybrid approach (default)
 classifier = HybridASNClassifier(approach="hybrid")

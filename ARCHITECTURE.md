@@ -1,4 +1,4 @@
-# Linneaus: Architecture Overview
+# Linnaeus: Architecture Overview
 
 > A comprehensive AI-powered system for classifying Internet Autonomous Systems using hybrid machine learning approaches
 
@@ -14,7 +14,7 @@
 
 ## 🔧 System Overview
 
-Linneaus implements a **two-stage hierarchical classification system** that combines the strengths of Large Language Models (LLMs) and traditional machine learning to classify Autonomous Systems (AS) organizations with high accuracy and reliability.
+Linnaeus implements a **two-stage hierarchical classification system** that combines the strengths of Large Language Models (LLMs) and traditional machine learning to classify Autonomous Systems (AS) organizations with high accuracy and reliability.
 
 ```mermaid
 graph TB

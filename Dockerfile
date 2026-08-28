@@ -1,4 +1,4 @@
-# Multi-stage build for Linneaus
+# Multi-stage build for Linnaeus
 FROM python:3.11-slim as builder
 
 # Install system dependencies
@@ -35,7 +35,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Create non-root user
-RUN groupadd -r linneaus && useradd -r -g linneaus linneaus
+RUN groupadd -r linnaeus && useradd -r -g linnaeus linnaeus
 
 # Install UV
 RUN pip install uv
@@ -53,13 +53,13 @@ RUN uv pip install *.whl
 
 # Create directories for data and logs
 RUN mkdir -p /app/data /app/logs && \
-    chown -R linneaus:linneaus /app
+    chown -R linnaeus:linnaeus /app
 
 # Copy default configuration
 COPY config.yaml /app/
 
 # Switch to non-root user
-USER linneaus
+USER linnaeus
 
 # Set environment variables
 ENV PYTHONPATH="/app"
@@ -67,16 +67,16 @@ ENV AMEGHINO_CONFIG="/app/config.yaml"
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD linneaus --version || exit 1
+    CMD linnaeus --version || exit 1
 
 # Default command
-CMD ["linneaus", "--help"]
+CMD ["linnaeus", "--help"]
 
 # Labels
-LABEL maintainer="Esteban <linneaus@example.com>"
+LABEL maintainer="Esteban <linnaeus@example.com>"
 LABEL version="0.1.0"
 LABEL description="AI-powered classification of Internet Autonomous Systems"
-LABEL org.opencontainers.image.source="https://github.com/linneaus-project/linneaus"
-LABEL org.opencontainers.image.title="Linneaus"
+LABEL org.opencontainers.image.source="https://github.com/linnaeus-project/linnaeus"
+LABEL org.opencontainers.image.title="Linnaeus"
 LABEL org.opencontainers.image.description="AI-powered classification of Internet Autonomous Systems"
 LABEL org.opencontainers.image.version="0.1.0"

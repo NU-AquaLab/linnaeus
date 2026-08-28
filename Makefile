@@ -1,9 +1,9 @@
-# Makefile for Linneaus Development
+# Makefile for Linnaeus Development
 # ========================================
-# Comprehensive development toolkit for the Linneaus autonomous systems classification project
+# Comprehensive development toolkit for the Linnaeus autonomous systems classification project
 
 # Configuration
-PACKAGE_NAME := linneaus
+PACKAGE_NAME := linnaeus
 SRC_DIR := src
 TESTS_DIR := tests
 DOCS_DIR := docs
@@ -30,7 +30,7 @@ endif
 .PHONY: help install install-dev clean test test-cov test-parallel lint format type-check security autoflake pydocstyle \
         docs docs-serve docs-clean build publish docker docker-dev docker-stop run-dev pre-commit ci-check \
         prepare-release version-bump changelog profile benchmark complexity outdated validate-config \
-        data-download data-validate cli-test linneaus-help clean-all
+        data-download data-validate cli-test linnaeus-help clean-all
 
 # =============================================================================
 # HELP & INFO
@@ -39,7 +39,7 @@ endif
 ## Show this help message
 help:
 	@echo ""
-	@echo "$(BLUE)Linneaus Development Makefile$(RESET)"
+	@echo "$(BLUE)Linnaeus Development Makefile$(RESET)"
 	@echo "============================="
 	@echo ""
 	@echo "$(GREEN)Installation:$(RESET)"
@@ -85,10 +85,10 @@ help:
 	@echo "  docker-stop     Stop Docker development environment"
 	@echo "  run-dev         Start complete development environment"
 	@echo ""
-	@echo "$(GREEN)Linneaus Specific:$(RESET)"
+	@echo "$(GREEN)Linnaeus Specific:$(RESET)"
 	@echo "  data-download   Download all data sources"
 	@echo "  data-validate   Validate downloaded data quality"
-	@echo "  linneaus-help   Show Linneaus CLI help"
+	@echo "  linnaeus-help   Show Linnaeus CLI help"
 	@echo "  validate-config Validate configuration files"
 	@echo ""
 	@echo "$(GREEN)Environment:$(RESET)"
@@ -270,7 +270,7 @@ docs:
 	@echo "$(BLUE)Generating documentation...$(RESET)"
 	@if [ ! -f "$(DOCS_DIR)/conf.py" ]; then \
 		echo "$(YELLOW)Creating Sphinx documentation structure...$(RESET)"; \
-		sphinx-quickstart -q -p "$(PACKAGE_NAME)" -a "Linneaus Team" --ext-autodoc --ext-viewcode --makefile --no-batchfile $(DOCS_DIR); \
+		sphinx-quickstart -q -p "$(PACKAGE_NAME)" -a "Linnaeus Team" --ext-autodoc --ext-viewcode --makefile --no-batchfile $(DOCS_DIR); \
 	fi
 	sphinx-build -b html $(DOCS_DIR) $(DOCS_DIR)/_build/html
 	@echo "$(GREEN)✓ Documentation generated$(RESET)"
@@ -361,7 +361,7 @@ run-dev: docker-dev
 	@echo ""
 	@echo "$(GREEN)🚀 Development environment ready!$(RESET)"
 	@echo "$(BLUE)Jupyter Lab:$(RESET) http://localhost:8888"
-	@echo "$(BLUE)Development container:$(RESET) docker exec -it linneaus-dev bash"
+	@echo "$(BLUE)Development container:$(RESET) docker exec -it linnaeus-dev bash"
 	@echo ""
 
 # =============================================================================
@@ -380,9 +380,9 @@ data-validate:
 	$(PACKAGE_NAME) data validate --all
 	@echo "$(GREEN)✓ Data validation completed$(RESET)"
 
-## Show Linneaus CLI help
-linneaus-help:
-	@echo "$(BLUE)Linneaus CLI Commands:$(RESET)"
+## Show Linnaeus CLI help
+linnaeus-help:
+	@echo "$(BLUE)Linnaeus CLI Commands:$(RESET)"
 	$(PACKAGE_NAME) --help
 
 ## Validate configuration files

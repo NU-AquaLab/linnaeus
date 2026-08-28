@@ -22,8 +22,8 @@ from pydantic import BaseModel, Field, create_model
 logger = logging.getLogger(__name__)
 
 #: Names of the taxonomies bundled with the package under
-#: ``linneaus/resources/taxonomies/``.
-BUILTIN_TAXONOMIES = ("linneaus", "asdb", "isic")
+#: ``linnaeus/resources/taxonomies/``.
+BUILTIN_TAXONOMIES = ("linnaeus", "asdb", "isic")
 
 
 def get_builtin_taxonomy_path(name: str) -> Path:
@@ -46,7 +46,7 @@ def get_builtin_taxonomy_path(name: str) -> Path:
             f"Available: {', '.join(BUILTIN_TAXONOMIES)}"
         )
     return Path(
-        str(resources.files("linneaus.resources") / "taxonomies" / f"{name}.json")
+        str(resources.files("linnaeus.resources") / "taxonomies" / f"{name}.json")
     )
 
 
@@ -54,15 +54,15 @@ def load_tags_descriptions(path: Optional[Union[str, Path]] = None) -> dict:
     """
     Load taxonomy tag descriptions from a JSON file.
 
-    *path* may be a builtin taxonomy name (``"linneaus"``, ``"asdb"``,
+    *path* may be a builtin taxonomy name (``"linnaeus"``, ``"asdb"``,
     ``"isic"``) or a path to a custom taxonomy JSON file.  If ``None``,
-    the default linneaus taxonomy bundled with the package is used.
+    the default linnaeus taxonomy bundled with the package is used.
 
     Parameters
     ----------
     path : str or Path, optional
         Builtin taxonomy name or explicit path to a taxonomy definitions
-        JSON file.  If ``None``, the default linneaus taxonomy is loaded
+        JSON file.  If ``None``, the default linnaeus taxonomy is loaded
         from the package resources.
 
     Returns
@@ -78,7 +78,7 @@ def load_tags_descriptions(path: Optional[Union[str, Path]] = None) -> dict:
         If the resolved file does not exist.
     """
     if path is None:
-        tags_path = get_builtin_taxonomy_path("linneaus")
+        tags_path = get_builtin_taxonomy_path("linnaeus")
     elif isinstance(path, str) and path in BUILTIN_TAXONOMIES:
         tags_path = get_builtin_taxonomy_path(path)
     else:
@@ -169,7 +169,7 @@ def load_prompt_templates() -> dict:
     """
     Load the LLM prompt templates bundled with the package.
 
-    The templates live in ``linneaus/resources/prompts.yaml`` and can be
+    The templates live in ``linnaeus/resources/prompts.yaml`` and can be
     edited there to customize the system prompts without touching code.
 
     Returns
@@ -180,7 +180,7 @@ def load_prompt_templates() -> dict:
     """
     import yaml
 
-    prompts_path = Path(str(resources.files("linneaus.resources") / "prompts.yaml"))
+    prompts_path = Path(str(resources.files("linnaeus.resources") / "prompts.yaml"))
     with open(prompts_path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 

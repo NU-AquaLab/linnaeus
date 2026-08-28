@@ -478,7 +478,7 @@ async def process_batches_async(
     """
     # Convert sync client to async if needed
     if not hasattr(client, "beta"):
-        from linneaus.models.llm.client import create_async_client
+        from linnaeus.models.llm.client import create_async_client
 
         async_client = create_async_client(
             api_key=client.api_key,
@@ -537,7 +537,7 @@ if __name__ == "__main__":
     async def main():
         from openai import AsyncOpenAI
 
-        from linneaus.models.llm.schemas import (
+        from linnaeus.models.llm.schemas import (
             BatchTaggingResponseFlat,
             BatchTaggingResponseHierarchical,
         )
@@ -560,12 +560,12 @@ if __name__ == "__main__":
         # Set up response format and tags
         if args.approach == "hierarchical":
             response_format = BatchTaggingResponseHierarchical
-            from linneaus.models.llm.schemas import HierarchicalTags
+            from linnaeus.models.llm.schemas import HierarchicalTags
 
             output_columns = [tag.value for tag in HierarchicalTags]
         else:
             response_format = BatchTaggingResponseFlat
-            from linneaus.models.llm.schemas import FlatTags
+            from linnaeus.models.llm.schemas import FlatTags
 
             output_columns = [tag.value for tag in FlatTags]
 
